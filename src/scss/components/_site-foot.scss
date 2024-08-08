@@ -44,6 +44,8 @@
 
 	// .site-foot__icon
 	&__icon {
+		display: inline-flex;
+
 		&:hover,
 		&:focus {
 			svg {
@@ -65,7 +67,7 @@
 		list-style: none;
 
 		li + li {
-			margin-left: 20px;
+			margin-left: 10px;
 		}
 	}
 }
