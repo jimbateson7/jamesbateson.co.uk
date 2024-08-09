@@ -64,3 +64,15 @@ This plugin is a collection of tools that effectively makes up an automated acce
 I'm going to give this one and install and try it out, as it looks like something that could be used to check and document many different accessibility features. All the communications and tools I've seen from Stark previously also suggestion they are passionate about accessibility tooling and always looking to improve and add extra support and improvements.
 
 ## Collaboration
+
+A major benefit I have found using the annotation kit and also saw with the other plugins Stéphanie showed, was the increased collaboration, accessibility awareness/considerations, shared language opportunities between design and development.
+
+Rather than designs being passed to development with accessibility issues, or difficult to build components and interfaces, decisions and documentation can be more agile and collaborative.
+
+Whilst some of the plugins may require developers to lead a session. There are many chances for collaborative learning and upskilling, that could then inform future design decisions.
+
+### Can't replace human interaction
+
+One point that resonated with me was that much like automated accessibility testing, these plugins do not replace having conversations with people about accessibility, other designers, developers etc.
+
+Whilst these tools provide helpful ways to consider accessibility. They could cause more confusion if not used correctly, or somebody misinterpreted an intention. Short huddles/conversations/pairing sessions and using the tools to lead the chat could save a lot of time and aid the collaboration and learning expereince.
