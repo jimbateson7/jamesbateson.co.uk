@@ -13,7 +13,7 @@ tags:
 ---
 Last month (July 10th) I attended an excellent online talk from Friends of Figma. The speaker was Stéphanie Walter, a UX and Product Designer, and the topic was plugins and annotation kits you can use in Figma to document accessibility in design mockups.
 
-A previous study from Deque found that 67% of accessibility issues originate in design, meaning that accessibility tooling, learning, and understanding are vitally important.
+A [previous study from Deque](https://www.deque.com/blog/auditing-design-systems-for-accessibility/#design-should-consider-accessibility) found that 67% of accessibility issues originate in design, meaning that accessibility tooling, learning, and understanding are vitally important.
 
 I'm not going to run through each plugin, please do read Stéphanie's accompanying article which contains a full list of the plugins a link to the talk slides, and a video of the talk. But I wanted to write a little about what I learned from the talk, highlight a couple of the plugins, and talk about how important doing this can be to design-developer collaboration.
 
