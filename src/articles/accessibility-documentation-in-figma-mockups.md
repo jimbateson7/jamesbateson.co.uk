@@ -22,10 +22,11 @@ I'm not going to run through each plugin, please do read Stéphanie's accompanyi
 I will start by just running through three of the plugins Stéphanie highlighted and demoed. Some of these I have used before, or wish I could have used more before when collaborating with designers, but some were also new to me.
 
 ### Annotation Kit
-Get the annotation kit.
+
+[Get the annotation kit](https://shop.stephaniewalter.design/b/accessibility-interactions-designer-checklist-annotation-kit).
 
 An accessibility annotation kit is a series of labels that can be used to identify accessibility considerations in a design.
-Landmarks, links, heading levels, alternative text, and more can be labeled and highlighted next to or within the mockup. The link above is to the one Stéphanie has curated and made available for purchase, there are other examples out there, for example, the Include—Accessibility Annotations kit.
+Landmarks, links, heading levels, alternative text, and more can be labeled and highlighted next to or within the mockup. The link above is to the one Stéphanie has curated and made available for purchase, there are other examples out there, for example, the [Include—Accessibility Annotations](https://www.figma.com/community/plugin/1208180794570801545/includeaccessibility-annotations) kit.
 
 When working at Code I tried to help get buy-in and encourage using a similar kit to this, as I think there are at least a couple of major benefits to making this part of the design-development workflow.
 
@@ -45,7 +46,7 @@ I think the annotation kit is an excellent way to make sure that when the develo
 
 ## Focus Order
 
-A11y - focus Order plugin from Microsoft
+[A11y - focus Order plugin from Microsoft](https://www.figma.com/community/plugin/731310036968334777/a11y-focus-order).
 
 When designing components with several interactive elements or potentially complex interactions, focus/tab order issues can often arise when it comes to development.
 
@@ -55,7 +56,7 @@ Interactive elements that have styling applied to lay them out and change the vi
 
 ## Stark in Figma
 
-Stark - Contrast & Accessibility Checker
+[Stark - Contrast & Accessibility Checker](https://www.figma.com/community/plugin/732603254453395948/stark-contrast-accessibility-checker).
 
 Stark is a plugin that I have read a lot about and seen news about awesome features added, but have heard from designers that a lot of the features were premium-only, so it was nice to see it being used in a demo. Having looked at their pricing plan page afterward, it does seem like on the free starter plan you get by creating an account, you get all of the accessibility checking tools, just not the sidekick ones which help automatically fix issues (not sure if I'd want that anyway!).
 
@@ -64,6 +65,7 @@ This plugin is a collection of tools that effectively make up an automated acces
 I'm going to give this one and install and try it out, as it looks like something that could be used to check and document many different accessibility features. All the communications and tools I've seen from Stark previously also suggest they are passionate about accessibility tooling and always looking to improve and add extra support and improvements.
 
 ## Collaboration
+
 A major benefit I have found using the annotation kit and also saw with the other plugins Stéphanie showed, was the increased collaboration, accessibility awareness/considerations, and shared language opportunities between design and development.
 
 Rather than designs being passed to development with accessibility issues, or difficult-to-build components and interfaces, decisions and documentation can be more agile and collaborative.
