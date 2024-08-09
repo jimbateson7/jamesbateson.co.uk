@@ -11,7 +11,7 @@ tags:
   - Design
   - Figma
 ---
-Last week (July 10th) I attended an excellent online talk from Friends of Figma. The speaker was Stéphanie Walter, a UX and Product Designer and the topic was plugins and annotation kits you can use in Figma to document accessibility in design mockups.
+Last month (July 10th) I attended an excellent online talk from Friends of Figma. The speaker was Stéphanie Walter, a UX and Product Designer and the topic was plugins and annotation kits you can use in Figma to document accessibility in design mockups.
 
 A [previous study from Deque](https://www.deque.com/blog/auditing-design-systems-for-accessibility/#design-should-consider-accessibility) found that 67% of accessibility issues originate in design, meaning that accessibility tooling, learning and understanding is vitally important.
 
