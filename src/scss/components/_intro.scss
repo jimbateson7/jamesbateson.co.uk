@@ -93,12 +93,6 @@
 
 @include media-query('md') {
 	.intro {
-		// .intro__heading
-		&__heading {
-			max-width: 60vw;
-			min-width: 45vw;
-		}
-
 		// .intro__contact
 		&__contact {
 			li + li {
