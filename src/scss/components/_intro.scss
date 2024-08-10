@@ -8,6 +8,8 @@
 
 	// .intro__heading
 	&__heading {
+		text-wrap: balance;
+
 		// .intro__heading--compact
 		&--compact {
 			max-width: 40vw;
