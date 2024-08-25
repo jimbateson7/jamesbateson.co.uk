@@ -1,7 +1,7 @@
 ---
 title: James Bateson Résumé
 layout: layouts/resume.njk
-metaTitle: James Bateson | CV
+metaTitle: CV - James Bateson
 metaDesc: The CV of James Bateson. A UI Developer and Digital Accessibility
   Specialist from the North West
 socialImage: /images/social-share-default.jpg

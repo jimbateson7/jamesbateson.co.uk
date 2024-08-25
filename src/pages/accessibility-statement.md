@@ -5,7 +5,7 @@ bannerSummary: I care about making this site as accessible to as many people as 
 bannerImage: ""
 bannerImageClass: ""
 permalink: /accessibility-statement/
-metaTitle: James Bateson / Accessibility Statement
+metaTitle: ""
 metaDesc: I care about making this site as accessible to as many people as
   possible and here's how.
 socialImage: /images/social-share-default.jpg
