@@ -12,4 +12,4 @@ The idea was suggested many months ago, and I'm so glad we saw it through.\
 \
 One thing I took for the experince and that I am thankful for is that with looking for job and then having the double whammy of having to look for a new place to live, is that it doesn't matter.\
 \
-This might sound
+This might sound wild, and I still have these problems after the weekend away. But for this weekend I forgot about this, I went back to my childhood self, embraced and enjoyed the expreince.
