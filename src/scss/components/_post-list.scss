@@ -2,27 +2,13 @@
 	background-color: var(--color-dark-alt);
 	color: var(--color-white);
 
-	&:nth-child(odd) {
-		background-color: var(--color-white);
-		color: var(--color-text);
-
-		.post-list__archive {
-			text-decoration-color: var(--color-accent);
-
-			&:hover,
-			&:focus {
-				color: var(--color-accent);
-			}
-		}
-	}
-
 	&:nth-child(even) {
 		.section-intro {
 			a {
 				text-decoration-color: var(--color-accent-alt);
 
 				&:hover,
-				&:focus {
+				&:focus-visible {
 					color: var(--color-accent-alt);
 				}
 			}
@@ -59,7 +45,7 @@
 		text-decoration-thickness: 2px;
 
 		&:hover,
-		&:focus {
+		&:focus-visible {
 			color: var(--color-accent-alt);
 		}
 	}

@@ -52,17 +52,16 @@ a:not([class]) {
 }
 
 .link-hover {
-	background-image: linear-gradient(var(--color-accent-alt), var(--color-accent-alt));
-	background-position: 0 100%;
-	background-repeat: no-repeat;
-	background-size: 0 3px;
 	text-decoration: none;
-	transition: background-size 0.3s cubic-bezier(0.365, 0.005, 0.355, 1);
 
-	&:hover,
-	&:focus {
-		background-size: 100% 3px;
-		text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+		text-decoration-color: var(--color-accent-alt);
+	}
+
+	&:focus-visible {
+		outline-offset: 4px;
+		outline-width: 4px;
 	}
 }
 
@@ -89,6 +88,7 @@ a:not([class]) {
 @import 'components/site-foot';
 @import 'components/skip-link';
 @import 'components/syntax-highlighting';
+@import 'components/talks-list';
 @import 'components/video-player';
 
 // Print (mainly for resume)
