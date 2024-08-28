@@ -8,7 +8,7 @@ date: 2024-08-28T07:19:40.009Z
 tags:
   - Collaboration
 ---
-Pair programming is a useful way to create an open and collaborative feedback and learning development environment. Finding the right workflow and most effective pairing can vary from person to person and team to team.
+Pair programming is a useful way to create an open and collaborative feedback and learning development environment. Finding the right workflow and most effective and comfortable pairing technique can vary from person to person and team to team.
 
 One technique I've always enjoyed and a brilliant article I often go back to and reference to others is from [Katie Raby: Pomodoro Pairing - a pair programming technique](https://www.katieraby.com/blog/pomodoro-pairing).
 
