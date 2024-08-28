@@ -16,8 +16,6 @@ From the article:
 
 > ## The pomodoro steps
 >
-> ## <br>
->
 > 1. Decide on a task
 > 2. Set the pomodoro timer (25 mins, adapt to suit)
 > 3. Work on the task
