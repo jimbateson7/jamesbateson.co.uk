@@ -13,6 +13,12 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 ---
 ## Professional Experience
 
+### Front End Developer at [Soap Media](https://www.soapmedia.co.uk/)
+
+#### September 2024 - Present
+
+##### Remote/Manchester, UK
+
 ### Front End Engineer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 
 #### April 2021 - July 2024
