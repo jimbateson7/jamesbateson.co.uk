@@ -43,7 +43,9 @@ hr {
 
 a:not([class]) {
 	color: var(--color-text);
-	text-decoration: underline var(--color-accent) 2px;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+	text-decoration-color: var(--color-accent);
 
 	&:hover,
 	&:focus {
