@@ -13,7 +13,7 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 ---
 ## Professional Experience
 
-### Front End Developer at [Soap Media](https://www.soapmedia.co.uk/)
+### Front End Developer at [Soap Media](https://www.soapmedia.co.uk/)![ Soap Media logo](/images/avatars/twitter/soap-media.webp)
 
 #### September 2024 - Present
 
