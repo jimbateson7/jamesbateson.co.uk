@@ -15,7 +15,7 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 
 ### Front End Developer at ![Soap Media logo](/images/avatars/twitter/soap-media.webp) [Soap Media](https://www.soapmedia.co.uk/)
 
-#### September 2024 - Present
+#### September 2024 - February 2025
 
 ##### Remote/Manchester, UK
 
