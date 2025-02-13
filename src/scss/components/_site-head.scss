@@ -18,13 +18,21 @@
 	}
 }
 
+.site-head__site-name {
+	&:focus-visible {
+		outline-color: var(--color-accent-alt);
+		outline-offset: -2px;
+		outline-width: 4px;
+	}
+}
+
 .site-logo {
 	fill: var(--color-white);
 	transition: fill .3s;
 	width: 60px;
 
 	&:hover,
-	&:focus {
+	&:focus-visible {
 		fill: var(--color-accent-alt);
 	}
 }
