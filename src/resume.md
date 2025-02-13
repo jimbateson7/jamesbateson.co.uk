@@ -23,7 +23,7 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 * Proficiently utilized Advanced Custom Fields (ACF) to architect and implement complete WordPress solutions, from initial design to full functionality
 * Conducted comprehensive accessibility audits across multiple client sites, employing a combination of automated testing tools and meticulous manual evaluation to identify and address potential barriers
 * Generated detailed accessibility audit reports outlining identified issues, prioritized recommendations for remediation, and actionable guidance for developers
-* Championed the adoption of accessible and performant coding practices, ensuring optimal user experiences and adherence to web standards. (This demonstrates your commitment to quality and best practices)
+* Championed the adoption of accessible and performant coding practices, ensuring optimal user experiences and adherence to web standards
 
 
 ### Front End Engineer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
