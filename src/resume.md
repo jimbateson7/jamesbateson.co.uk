@@ -19,11 +19,11 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 
 ##### Remote/Manchester, UK
 
-*﻿ Used internal framework to build custom Gutenberg blocks, giving clients the ability to build flexible page templates
-*﻿ Experience using plugins such as Advanced Custom Fields to build a site from start to finish
-*﻿ Conducted several accessibility reviews on client sites, conducting testing using a combination of automated and manual tools
-*﻿ Created accessibility review reports from testing findings. Providing details of any issues found and making priority recommendations for remediation
-*﻿ Advocated for accessible and performant coding solutions
+* Developed custom Gutenberg blocks leveraging the platform's block editor framework, empowering clients with flexible page layout capabilities and a streamlined content management experience
+* Proficiently utilized Advanced Custom Fields (ACF) to architect and implement complete WordPress solutions, from initial design to full functionality
+* Conducted comprehensive accessibility audits across multiple client sites, employing a combination of automated testing tools and meticulous manual evaluation to identify and address potential barriers
+* Generated detailed accessibility audit reports outlining identified issues, prioritized recommendations for remediation, and actionable guidance for developers
+* Championed the adoption of accessible and performant coding practices, ensuring optimal user experiences and adherence to web standards. (This demonstrates your commitment to quality and best practices)
 
 
 ### Front End Engineer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
