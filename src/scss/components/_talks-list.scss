@@ -6,20 +6,11 @@
 		gap: get-size(600);
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
-
-		li {
-			&:nth-child(even) {
-				h3 {
-					transform: rotate(1deg);
-				}
-			}
-		}
 	}
 
 	h3 {
 		line-height: 1.25;
 		display: block;
-		transform: rotate(-1deg);
 
 		span {
 			box-decoration-break: clone;
