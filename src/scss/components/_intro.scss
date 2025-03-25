@@ -17,6 +17,7 @@
 	// .intro__summary
 	&__summary {
 		--flow-space: #{get-size(500)};
+		padding-top: 2rem;
 		font-weight: 550;
 		line-height: 1.4;
 
@@ -26,7 +27,7 @@
 
 			&:hover,
 			&:focus {
-				color: var(--color-accent-alt);
+				color: var(--color-accent);
 			}
 		}
 	}
@@ -123,11 +124,5 @@
 
 	.section-intro {
 		max-width: 65ch;
-	}
-}
-
-@include media-query('lg') {
-	.intro {
-		padding-bottom: 8rem;
 	}
 }

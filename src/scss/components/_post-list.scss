@@ -2,15 +2,13 @@
 	background-color: var(--color-dark-alt);
 	color: var(--color-white);
 
-	&:nth-child(even) {
-		.section-intro {
-			a {
-				text-decoration-color: var(--color-accent-alt);
+	.section-intro {
+		a {
+			text-decoration-color: var(--color-accent-alt);
 
-				&:hover,
-				&:focus-visible {
-					color: var(--color-accent-alt);
-				}
+			&:hover,
+			&:focus-visible {
+				color: var(--color-accent-alt);
 			}
 		}
 	}
