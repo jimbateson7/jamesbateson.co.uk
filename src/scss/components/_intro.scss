@@ -1,10 +1,8 @@
 .intro {
-	background-color: var(--color-accent-alt);
 	color: var(--color-dark);
 	padding-top: 1rem;
 	padding-bottom: 4rem;
 	position: relative;
-	transition: background-color 300ms ease-in-out 0s, color 300ms ease-in-out 0s;
 
 	// .intro__heading
 	&__heading {
