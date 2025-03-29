@@ -1,12 +1,15 @@
 .talks-list {
-	background-color: var(--color-accent-alt);
-
 	ul {
 		list-style: none;
 		gap: get-size(600);
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
 		margin-block-start: 1.5rem;
+	}
+
+	li > * + * {
+		display: inline-block;
+		margin-block-start: 1rem;
 	}
 
 	h3 {
@@ -20,10 +23,6 @@
 			color: white;
 			padding-inline: 5px;
 		}
-	}
-
-	a {
-		display: inline-block;
 	}
 
 	> div > p {
