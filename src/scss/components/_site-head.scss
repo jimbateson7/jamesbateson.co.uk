@@ -29,6 +29,10 @@
 	transition: fill .3s;
 	width: 60px;
 
+	> path {
+		stroke: light-dark(var(--color-text), var(--color-bg));
+	}
+
 	&:hover,
 	&:focus-visible {
 		fill: var(--color-accent-alt);

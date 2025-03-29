@@ -37,21 +37,19 @@
 
 		&.active {
 			a {
-				color: var(--color-dark);
 				text-decoration: underline;
 				text-decoration-thickness: 2px;
 			}
 		}
 
 		a {
-			color: var(--color-dark);
 			font-size: get-size(500);
 			font-weight: 600;
 			padding: .3rem;
 			text-decoration: none;
 
 			&:focus-visible {
-				outline: 4px solid var(--color-dark);
+				outline: 4px solid light-dark(var(--color-accent), var(--color-accent-alt));
 			}
 
 			&:hover {

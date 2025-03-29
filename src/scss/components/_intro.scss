@@ -22,13 +22,7 @@
 		font-size: 1.75rem;
 
 		a {
-			color: currentcolor;
 			text-decoration: underline;
-
-			&:hover,
-			&:focus {
-				color: var(--color-accent);
-			}
 		}
 	}
 
