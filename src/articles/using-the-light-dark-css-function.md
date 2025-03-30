@@ -28,7 +28,6 @@ body {
   background-color: light-dark(#fff, #000);
   color: light-dark(#000, #fff);
 }
-
 ```
 
 ## Support
@@ -41,3 +40,4 @@ N﻿iya highlighted A number of ways that supported both light and dark colour s
 
 * A﻿ccessibility
 * S﻿ustainability
+* P﻿refernce support
