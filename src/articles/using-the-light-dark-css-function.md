@@ -1,6 +1,9 @@
 ---
 layout: layouts/post.njk
 title: Using the light-dark() CSS function
+metaTitle: Using the light-dark() CSS function
+metaDesc: Using the light-dark() CSS function as a modern way to support light
+  and dark colour scheme preferences.
 socialImage: /images/social-share-default.jpg
 date: 2025-03-30T08:37:52.592Z
 tags:
