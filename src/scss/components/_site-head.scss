@@ -20,6 +20,19 @@
 .site-head__site-name {
 	display: block;
 
+	&:hover {
+		svg {
+			> path {
+				transition: fill .3s, stroke .3s;
+
+				&:last-of-type {
+					fill: light-dark(var(--color-accent), var(--color-accent-alt));
+					stroke: light-dark(var(--color-accent), var(--color-accent-alt));
+				}
+			}
+		}
+	}
+
 	&:focus-visible {
 		outline-color: light-dark(var(--color-accent), var(--color-accent-alt));
 		outline-width: 4px;
