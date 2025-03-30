@@ -29,4 +29,4 @@ body {
 
 ## Considerations
 
-T﻿he `light-dark()` color function is still relatively new. Therefore consideration for older browser versions may be needed if you support this.
+T﻿he `light-dark()` color function is still relatively new. Therefore consideration for older browser versions may be needed if you support this. You can find the [support list on the caniuse site](https://caniuse.com/mdn-css_types_color_light-dark).
