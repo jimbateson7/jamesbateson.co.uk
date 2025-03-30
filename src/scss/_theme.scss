@@ -26,7 +26,7 @@
 
 body {
 	background-color: light-dark(var(--color-bg), var(--color-text));
-	color: light-dark((--color-text), var(--color-bg));
+	color: light-dark(var(--color-text), var(--color-bg));
 }
 
 main {

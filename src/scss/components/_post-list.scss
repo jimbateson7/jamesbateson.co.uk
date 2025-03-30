@@ -1,15 +1,4 @@
 .post-list {
-	.section-intro {
-		a {
-			text-decoration-color: var(--color-accent-alt);
-
-			&:hover,
-			&:focus-visible {
-				color: var(--color-accent-alt);
-			}
-		}
-	}
-
 	.wrapper {
 		position: relative;
 
@@ -28,20 +17,22 @@
 	// .post-list__link
 	&__link {
 		color: currentcolor;
+
+		&:hover {
+			color: light-dark(var(--color-accent), var(--color-accent-alt));
+		}
 	}
 
 	// .post-list__archive
 	&__archive {
-		color: currentcolor;
+		color: currentColor;
 		display: block;
 		margin-top: 2.2rem;
 		text-decoration: underline;
-		text-decoration-color: var(--color-accent-alt);
 		text-decoration-thickness: 2px;
 
-		&:hover,
-		&:focus-visible {
-			color: var(--color-accent-alt);
+		&:hover {
+			color: light-dark(var(--color-accent), var(--color-accent-alt));
 		}
 	}
 }

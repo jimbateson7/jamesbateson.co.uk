@@ -10,11 +10,12 @@
 body {
 	@include apply-utility('font', 'base');
 	font-weight: 400;
-	line-height: 1.6;
+	line-height: 1.5;
 }
 
 h1 {
-	font-weight: 800;
+	font-weight: 900;
+	line-height: 1.25;
 }
 
 h2,

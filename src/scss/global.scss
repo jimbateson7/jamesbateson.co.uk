@@ -38,6 +38,10 @@ hr {
 	max-width: 500px;
 }
 
+h1, h2, h3 {
+	text-wrap: balance;
+}
+
 // Links
 
 a:not([class]) {
@@ -53,11 +57,8 @@ a:not([class]) {
 }
 
 .link-hover {
-	text-decoration: none;
-
 	&:hover {
-		text-decoration: underline;
-		text-decoration-color: var(--color-accent-alt);
+		text-decoration-color: light-dark(var(--color-accent)), var(--color-accent-alt);
 	}
 
 	&:focus-visible {
@@ -76,10 +77,7 @@ a:not([class]) {
 @import 'utilities/wrapper';
 
 // Components
-@import 'components/activity-list';
-@import 'components/heading-permalink';
 @import 'components/intro';
-@import 'components/light-dark-toggle';
 @import 'components/nav';
 @import 'components/pagination';
 @import 'components/post';
