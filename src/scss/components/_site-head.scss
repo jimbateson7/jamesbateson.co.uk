@@ -18,8 +18,10 @@
 }
 
 .site-head__site-name {
+	display: block;
+
 	&:focus-visible {
-		outline-color: var(--color-dark);
+		outline-color: light-dark(var(--color-accent), var(--color-accent-alt));
 		outline-width: 4px;
 	}
 }
