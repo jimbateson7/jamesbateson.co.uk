@@ -9,17 +9,10 @@
 			line-height: 1.8;
 
 			&:nth-child(n + 2):before {
-				color: var(--color-link-text);
-				content: '/';
+				color: light-dark(var(--color-accent), var(--color-accent-alt));
+				content: '|';
 				display: inline-block;
 				margin: 0 .4rem;
-			}
-		}
-
-		a {
-			&:hover,
-			&:focus {
-				color: var(--color-link-text);
 			}
 		}
 	}
@@ -49,12 +42,12 @@
 		&:hover,
 		&:focus {
 			svg {
-				fill: var(--color-accent);
+				fill: light-dark(var(--color-accent), var(--color-accent-alt));
 			}
 		}
 
 		svg {
-			fill: var(--color-text);
+			fill: light-dark(var(--color-text), var(--color-bg));
 			height: 35px;
 			width: 35px;
 		}
