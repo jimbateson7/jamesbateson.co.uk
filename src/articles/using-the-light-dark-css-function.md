@@ -40,7 +40,7 @@ N﻿iya highlighted A number of ways that supported both light and dark colour s
 
 * A﻿ccessibility
 * S﻿ustainability
-* P﻿refernce support
+* P﻿reference consideration/adaption
 
 ## F﻿urther reading
 
