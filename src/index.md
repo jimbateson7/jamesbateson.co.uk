@@ -15,8 +15,8 @@ about: >-
 metaTitle: James Bateson - UI Developer and Digital Accessibility Specialist
 metaDesc: North West based UI Developer and Digital Accessibility Specialist.
 socialImage: ""
-title: Hi I'm James — a UI Developer and Digital Accessibility Specialist based
-  in the North West.
+title: I'm James — a UI Developer and Digital Accessibility Specialist based in
+  the North West.
 bannerSummary: Welcome to my digital space. Somewhere I can post the occasional
   thought or learning, and a place to practice my writing. I'm very much '<a
   href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/">front-of-the-front-end</a>'
