@@ -25,8 +25,16 @@ body {
   background-color: light-dark(#fff, #000);
   color: light-dark(#000, #fff);
 }
+
 ```
 
-## Considerations
+## Support
 
 T﻿he `light-dark()` color function is still relatively new. Therefore consideration for older browser versions may be needed if you support this. You can find the [support list on the caniuse site](https://caniuse.com/mdn-css_types_color_light-dark).
+
+## Advantages
+
+N﻿iya highlighted A number of ways that supported both light and dark colour schemes could help:
+
+* A﻿ccessibility
+* S﻿ustainability
