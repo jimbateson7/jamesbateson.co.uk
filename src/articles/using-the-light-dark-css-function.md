@@ -20,4 +20,9 @@ F﻿irstly support for the function must be added. This is typically done on the
 :root {
   color-scheme: light dark;
 }
+
+body {
+  background-color: light-dark(#fff, #000);
+  color: light-dark(#000, #fff);
+}
 ```
