@@ -2,7 +2,7 @@
 	max-width: none;
 
 	+ .project-list__item {
-		border-top: 2px dotted var(--color-accent-alt);
+		border-top: 2px dotted light-dark(var(--color-accent), var(--color-accent-alt));
 		margin-top: var(--flow-space);
 		padding-top: var(--flow-space);
 	}
