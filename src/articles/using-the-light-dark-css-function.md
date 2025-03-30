@@ -14,12 +14,10 @@ I﻿n the past I've had a toggle on this site for it. This used a toggle button 
 
 ## Implementation
 
-F﻿irstly support for the function must be added. This is typically done on the `:root`.
+F﻿irstly support for the function must be added. This is typically done on the `:root`. The `light-dark()` color function then requires two comma separated values; the color when the theme is light and then color when it's dark.
 
 ```css
 :root {
   color-scheme: light dark;
 }
 ```
-
-`light-dark` takes two values. The colour for light theme and dark theme separated by a comma.
