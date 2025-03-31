@@ -1,20 +1,26 @@
 {
-	"items": [
-		{
-			"text": "About",
-			"url": "/about/"
-		},
-		{
-			"text": "Articles",
-			"url": "/articles/"
-		},
-		{
-			"text": "Projects",
-			"url": "/projects/"
-		},
-		{
-			"text": "Journal",
-			"url": "/journal/"
-		}
-	]
+  "items": [
+    {
+      "text": "About",
+      "url": "/about/"
+    },
+    {
+      "text": "CV",
+      "url": "/cv/",
+      "mobile": true
+    },
+    {
+      "text": "Articles",
+      "url": "/articles/"
+    },
+    {
+      "text": "Projects",
+      "url": "/projects/"
+    },
+    {
+      "text": "Journal",
+      "url": "/journal/",
+      "mobile": false
+    }
+  ]
 }
