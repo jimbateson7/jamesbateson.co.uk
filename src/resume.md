@@ -1,16 +1,17 @@
 ---
-title: James Bateson Résumé
+title: James Bateson CV
 layout: layouts/resume.njk
 metaTitle: CV - James Bateson
 metaDesc: The CV of James Bateson. A UI Developer and Digital Accessibility
-  Specialist from the North West
+    Specialist from the North West
 socialImage: /images/social-share-default.jpg
 bannerSummary: Hi I'm James — a passionate UI Developer and Digital
-  Accessibility Specialist with over a decade of experience. I'm empathetic,
-  hard-working, reliable and always keen to learn new things. I care about the
-  craft and I care about people. I love making services accessible to as many
-  people as possible and being part of a culture that supports this.
+    Accessibility Specialist with over a decade of experience. I'm empathetic,
+    hard-working, reliable and always keen to learn new things. I care about the
+    craft and I care about people. I love making services accessible to as many
+    people as possible and being part of a culture that supports this.
 ---
+
 ## Professional Experience
 
 ### Front End Developer at ![Soap Media logo](/images/avatars/twitter/soap-media.webp) [Soap Media](https://www.soapmedia.co.uk/)
@@ -19,13 +20,12 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 
 ##### Remote/Manchester, UK
 
-* Developed custom Gutenberg blocks leveraging the platform's block editor framework, empowering clients with flexible page layout capabilities and a streamlined content management experience
-* Proficiently utilised Advanced Custom Fields (ACF) to architect and implement complete WordPress solutions, from initial design to full functionality
-* Leveraged Tailwind CSS to rapidly prototype and develop responsive user interfaces, ensuring consistent design language and optimised performance across devices
-* Conducted comprehensive accessibility audits across multiple client sites, employing a combination of automated testing tools and meticulous manual evaluation to identify and address potential barriers
-* Generated detailed accessibility audit reports outlining identified issues, prioritised recommendations for remediation, and actionable guidance for developers
-* Championed the adoption of accessible and performant coding practices, ensuring optimal user experiences and adherence to web standards
-
+- Developed custom Gutenberg blocks leveraging the platform's block editor framework, empowering clients with flexible page layout capabilities and a streamlined content management experience
+- Proficiently utilised Advanced Custom Fields (ACF) to architect and implement complete WordPress solutions, from initial design to full functionality
+- Leveraged Tailwind CSS to rapidly prototype and develop responsive user interfaces, ensuring consistent design language and optimised performance across devices
+- Conducted comprehensive accessibility audits across multiple client sites, employing a combination of automated testing tools and meticulous manual evaluation to identify and address potential barriers
+- Generated detailed accessibility audit reports outlining identified issues, prioritised recommendations for remediation, and actionable guidance for developers
+- Championed the adoption of accessible and performant coding practices, ensuring optimal user experiences and adherence to web standards
 
 ### Front End Engineer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 
@@ -33,18 +33,18 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 
 ##### Manchester, UK
 
-* Formed and ran the accessibility champions network. Helping bring together people from multiple disciplines with a passion for accessibility to collaborate and make change
-* Contributed to the successful rollout of interactive design annotation workshops using Figma to improve accessibility awareness and feedback loops between designers and developers
-* Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
-* Bridged the gap between accessibility best practices and diverse tech stacks (MVC, React) by seamlessly integrating inclusive features and bug fixes into existing product codebases and at the start of new projects
-* Led the implementation of several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver and NVDA. Championing for this to be part of ticket writing in the process
-* Ran a series of multidisciplinary accessibility skillshares in various interactive and presentational formats
-* Leveraged my passion for accessibility to deliver engaging talks at [QA Beginners Club](https://www.youtube.com/watch?v=cyGSVHi-J4A) (Testing Accessibility), [Manchester Tech Festival](https://www.manchestertechfestival.co.uk/neurodiversity-di/) (Accessibility Champions: Creating an Accessibility Culture), and HCD Manchester, influencing attendees to embrace inclusive practices
-* Contributed my voice to the accessibility conversation, authoring informative blog posts on semantic HTML elements ([HTMHell](https://www.htmhell.dev/adventcalendar/2022/16/) and [The A11y Project](https://github.com/a11yproject/a11yproject.com/pull/1472)—currently in review), [WCAG 2.2 intro](https://www.codecomputerlove.com/blog/wcag-2-2-guide), and [fostering an inclusive company culture through accessibility](https://www.codecomputerlove.com/blog/how-to-create-an-accessibility-culture)
-* Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to internal colleagues and client partners in technical and non-technical roles
-* Collaborated across product teams, leveraging diverse tech stacks which gave me knowledge of working with frameworks and languages including React, TypeScript, C#, and HTML templating languages
-* Implemented robust development workflows using linters, task runners, and continuous integration pipelines.
-* Designed and developed accessible, responsive, semantic, and robust UI components and features. Using Figma to collaborate effectively with design teams.
+- Formed and ran the accessibility champions network. Helping bring together people from multiple disciplines with a passion for accessibility to collaborate and make change
+- Contributed to the successful rollout of interactive design annotation workshops using Figma to improve accessibility awareness and feedback loops between designers and developers
+- Advocated for more understanding and use of semantic HTML over custom JavaScript solutions
+- Bridged the gap between accessibility best practices and diverse tech stacks (MVC, React) by seamlessly integrating inclusive features and bug fixes into existing product codebases and at the start of new projects
+- Led the implementation of several automated and manual accessibility testing practices. Including axe DevTools, WAVE, keyboard-only, VoiceOver and NVDA. Championing for this to be part of ticket writing in the process
+- Ran a series of multidisciplinary accessibility skillshares in various interactive and presentational formats
+- Leveraged my passion for accessibility to deliver engaging talks at [QA Beginners Club](https://www.youtube.com/watch?v=cyGSVHi-J4A) (Testing Accessibility), [Manchester Tech Festival](https://www.manchestertechfestival.co.uk/neurodiversity-di/) (Accessibility Champions: Creating an Accessibility Culture), and HCD Manchester, influencing attendees to embrace inclusive practices
+- Contributed my voice to the accessibility conversation, authoring informative blog posts on semantic HTML elements ([HTMHell](https://www.htmhell.dev/adventcalendar/2022/16/) and [The A11y Project](https://github.com/a11yproject/a11yproject.com/pull/1472)—currently in review), [WCAG 2.2 intro](https://www.codecomputerlove.com/blog/wcag-2-2-guide), and [fostering an inclusive company culture through accessibility](https://www.codecomputerlove.com/blog/how-to-create-an-accessibility-culture)
+- Performed accessibility reviews of components and pages on various products. Highlighting priority issues and actions to internal colleagues and client partners in technical and non-technical roles
+- Collaborated across product teams, leveraging diverse tech stacks which gave me knowledge of working with frameworks and languages including React, TypeScript, C#, and HTML templating languages
+- Implemented robust development workflows using linters, task runners, and continuous integration pipelines.
+- Designed and developed accessible, responsive, semantic, and robust UI components and features. Using Figma to collaborate effectively with design teams.
 
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
@@ -52,12 +52,12 @@ bannerSummary: Hi I'm James — a passionate UI Developer and Digital
 
 ##### Lancaster, UK
 
-* Taking flat designs and transforming them into responsive, accessible, resilient, and performant static websites/components
-* Integrating static templates into dynamic CMS-based templating files (MVC, PHP, Twig)
-* Contributor and maintainer of the company front-end framework
-* Responsible for quoting projects and jobs
-* Ran a series of lunchtime learning sessions
-* Worked on projects using both waterfall and agile philosophies
+- Taking flat designs and transforming them into responsive, accessible, resilient, and performant static websites/components
+- Integrating static templates into dynamic CMS-based templating files (MVC, PHP, Twig)
+- Contributor and maintainer of the company front-end framework
+- Responsible for quoting projects and jobs
+- Ran a series of lunchtime learning sessions
+- Worked on projects using both waterfall and agile philosophies
 
 ## Skills
 
@@ -65,25 +65,25 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 
 ### Core
 
-* HTML
-* CSS
-* Presentational JavaScript
-* Git
-* Accessibility - including good knowledge of WCAG 2.1/2.2
-* Performance/site-speed optimisations
-* Problem solving
-* Ability to effectively communicate technical issues and solutions across different disciplines
+- HTML
+- CSS
+- Presentational JavaScript
+- Git
+- Accessibility - including good knowledge of WCAG 2.1/2.2
+- Performance/site-speed optimisations
+- Problem solving
+- Ability to effectively communicate technical issues and solutions across different disciplines
 
 ### Experience with
 
-* React
-* Vue
-* HTML templating languages (Nunjucks, liquid)
-* Figma
-* Zeplin
-* Component libraries
-* Design systems
-* Testing libraries (TDD)
+- React
+- Vue
+- HTML templating languages (Nunjucks, liquid)
+- Figma
+- Zeplin
+- Component libraries
+- Design systems
+- Testing libraries (TDD)
 
 ## Education
 
@@ -93,7 +93,7 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 
 ##### Leeds, UK
 
-* Graduated with a second-class honours degree (2:1)
-* Gained experience in a variety of media disciplines. Web design & development and graphic design, audio & video recording/editing.
+- Graduated with a second-class honours degree (2:1)
+- Gained experience in a variety of media disciplines. Web design & development and graphic design, audio & video recording/editing.
 
 <div class="post-note post-note--resume"><h3>Note</h3><p>This CV should print nicely if that's your kind of thing.<p></div>
