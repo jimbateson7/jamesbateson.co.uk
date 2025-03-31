@@ -17,6 +17,14 @@
 	}
 }
 
+.site-head__job {
+    background-color: light-dark(var(--color-accent), var(--color-accent-alt));
+    color: light-dark(var(--color-bg), var(--color-text));
+    font-weight: 600;
+    padding-block: .5rem;
+	text-align: center;
+}
+
 .site-head__site-name {
 	display: block;
 
