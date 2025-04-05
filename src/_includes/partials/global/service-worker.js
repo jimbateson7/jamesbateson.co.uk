@@ -53,38 +53,48 @@ self.addEventListener('activate', (evt) => {
 });
 
 self.addEventListener('fetch', (evt) => {
-	const {hostname} = new URL(evt.request.url);
+	const { hostname } = new URL(evt.request.url);
 
-	// Check we don't want to ignore this host
-	if (IGNORED_HOSTS.indexOf(hostname) >= 0) {
+	if (IGNORED_HOSTS.includes(hostname)) {
 		return;
 	}
 
-	// Check we don't want to ignore this URL
-	if (EXCLUDED_URLS.some((page) => evt.request.url.indexOf(page) > -1)) {
+	if (EXCLUDED_URLS.some((page) => evt.request.url.includes(page))) {
 		return;
 	}
 
 	evt.respondWith(
 		caches.match(evt.request).then((cachedResponse) => {
-			// Item found in cache so return
 			if (cachedResponse) {
 				return cachedResponse;
 			}
 
-			// Nothing found so load up the request from the network
-			return caches.open(CACHE_KEYS.RUNTIME).then((cache) => {
-				return fetch(evt.request)
-					.then((response) => {
-						// Put the new response in cache and return it
-						return cache.put(evt.request, response.clone()).then(() => {
-							return response;
-						});
-					})
-					.catch((ex) => {
-						return;
+			return fetch(evt.request)
+				.then((response) => {
+					// Only cache valid responses (status is 200 and type is basic or opaque)
+					if (
+						!response ||
+						response.status !== 200 ||
+						response.type !== 'basic'
+					) {
+						return response;
+					}
+
+					const responseClone = response.clone();
+
+					caches.open(CACHE_KEYS.RUNTIME).then((cache) => {
+						cache.put(evt.request, responseClone);
 					});
-			});
+
+					return response;
+				})
+				.catch(() => {
+					// Optionally, return a fallback page here if desired
+					return new Response('Network error occurred', {
+						status: 408,
+						statusText: 'Network Timeout',
+					});
+				});
 		})
 	);
 });
