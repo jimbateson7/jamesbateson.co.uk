@@ -26,6 +26,13 @@
 			}
 		}
 
+		ul,
+		ol {
+			::marker {
+				font-size: 1rem;
+			}
+		}
+
 		&.text-500 p,
 		&.text-500 li {
 			font-size: .85rem;
@@ -38,28 +45,24 @@
 	// }
 
 	.site-head,
-	.site-foot {
-		display: none;
-	}
-
-	.heading-permalink {
+	.site-foot,
+	.site-head__job {
 		display: none;
 	}
 
 	.intro {
-		padding-bottom: 2.75rem;
 		color: var(--color-dark);
+		padding-block: .5rem;
 
 		// .intro__heading
 		&__heading {
 			font-size: 2.25rem;
-			margin-bottom: 1rem;
 			margin-top: 0;
 		}
 
 		// .intro__summary
 		&__summary {
-			&.md\:text-600 {
+			&.text-600 {
 				font-size: 1rem;
 			}
 		}
