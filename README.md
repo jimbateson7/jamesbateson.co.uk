@@ -2,11 +2,4 @@
 
 # jamesbateson.co.uk
 
-The personal website of James Bateson. A Front End Engineer based in Lancaster.
-
-## Roadmap
-
-- [x] ~~Lazyload~~
-- [x] ~~Dark mode toggle~~
-- [ ] Responsive image solution
-- [ ] Font loading solution
+I'm James — a passionate UI Developer and Digital Accessibility Specialist with over a decade of experience. I'm empathetic, hard-working, reliable and always keen to learn new things. I care about the craft and I care about people. I love making services accessible to as many people as possible and being part of a culture that supports this.
