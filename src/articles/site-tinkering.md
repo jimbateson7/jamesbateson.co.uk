@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-title: Site tinkering
+title: Personal site tinkering
 metaTitle: Site tinkering
 metaDesc: I've been making some changes to this site that it probably didn't need.
 socialImage: /images/social-share-default.jpg
@@ -36,7 +36,7 @@ N﻿ow I'm using system fonts, that flash of default font no longer happens, as 
 
 ### B﻿randing inconsistency
 
-
+F﻿rom a design point of view, one thing that using the system defaults does mean is that I don't truly have a distinctive brand font that I can associate with my style guide. 
 
 ## L﻿ight/dark theme
 
