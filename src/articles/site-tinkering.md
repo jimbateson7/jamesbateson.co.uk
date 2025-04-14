@@ -53,3 +53,5 @@ A﻿gain just another couple of minor improvements/itch scratches I'd had on my 
 I﻿'d noticed that the Netlify CMS script was loading on all pages. Although once cached it was very small, it's a request that is not needed for users, I only need this to fire on the admin pages when I'm editing content.
 
 A﻿fter a little bit of searching to remember where I had done this (and why). I found that I'd added it to the script injection functionality that Netlify provides. I removed this rule and checked everything still works, all good as I have a separate template for the admin that I can just call this script on. Be gone JavaScript!
+
+M﻿y other slight tweak was to make a minor change to my service worker script. One of the promise returns in it was playing up and cusing console errors, that seemed to be stopping some Chrome extensions from opening (Wave for example). I admit I had to get AI to help me with this one, but it seems to have done the trick. Looks like I needed to handle a specific request code return.
