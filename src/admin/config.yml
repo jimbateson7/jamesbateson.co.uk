@@ -26,10 +26,10 @@ collections:
                 - {label: 'Post Feed Summary', name: 'postsSummary', widget: 'string'}
                 - {label: 'Journal Feed Heading', name: 'journalHeading', widget: 'string', default: 'Latest thoughts'}
                 - {label: 'Journal Feed Summary', name: 'journalSummary', widget: 'string'}
-          - name: 'resume'
-            label: 'Résumé'
+          - name: 'cv'
+            label: 'CV'
             delete: false
-            file: 'src/resume.md'
+            file: 'src/cv.md'
             slug: '{{slug}}'
             create: false
             fields:
