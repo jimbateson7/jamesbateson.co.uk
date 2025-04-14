@@ -1,7 +1,7 @@
 .talks-list {
 	ul {
 		list-style: none;
-		gap: get-size(600);
+		gap: get-size(900) get-size(600);
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(285px, 1fr));
 		margin-block-start: 1.5rem;
@@ -13,7 +13,7 @@
 	}
 
 	h3 {
-		line-height: 1.25;
+		line-height: 1.35;
 		display: block;
 
 		span {
@@ -21,7 +21,7 @@
 			-webkit-box-decoration-break: clone;
 			background-color: black;
 			color: white;
-			padding-inline: 5px;
+			padding: 3px 10px;
 		}
 	}
 }

@@ -1,0 +1,14 @@
+.now-list {
+	p {
+		max-width: 75ch;
+		font-size: get-size(500);
+	}
+
+	h3 {
+		padding-block-end: get-size(400);
+	}
+
+	ul {
+		padding: get-size(400);
+	}
+}
