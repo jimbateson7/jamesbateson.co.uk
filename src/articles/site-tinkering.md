@@ -47,3 +47,9 @@ T﻿his is something I have previously had on the site, but as a toggle button i
 [I've written an article about the light-dark function](https://jamesbateson.co.uk/articles/using-the-light-dark-css-function/) so won't go into the same stuff here, but TLDR; the site now respects the OS light/dark colour scheme the user has chosen.
 
 ## S﻿cripts
+
+A﻿gain just another couple of minor improvements/itch scratches I'd had on my list for yonks here.
+
+I﻿'d noticed that the Netlify CMS script was loading on all pages. Although once cached it was very small, it's a request that is not needed for users, I only need this to fire on the admin pages when I'm editing content.
+
+A﻿fter a little bit of searching to remember where I had done this (and why). I found that I'd added it to the script injection functionality that Netlify provides. I removed this rule and checked everything still works, all good as I have a separate template for the admin that I can just call this script on. Be gone JavaScript!
