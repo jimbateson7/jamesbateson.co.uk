@@ -44,6 +44,6 @@ D﻿epending on the OS the user is viewing the site on, the font will be differe
 
 T﻿his is something I have previously had on the site, but as a toggle button implemented with JavaScript. After watching a brilliant talk from State of the Browser 2025, I learned all about the `light-dark()` CSS function.
 
-I﻿'ve written an article about this so won't go into the same stuff here, but TLDR; the site now respects the OS light/dark colour scheme the user has chosen.
+[I've written an article about the light-dark function](https://jamesbateson.co.uk/articles/using-the-light-dark-css-function/) so won't go into the same stuff here, but TLDR; the site now respects the OS light/dark colour scheme the user has chosen.
 
 ## S﻿cripts
