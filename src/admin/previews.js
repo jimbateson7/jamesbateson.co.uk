@@ -76,10 +76,10 @@ const Project = ({ entry }) => (
 	/>
 );
 
-const Resume = ({ entry }) => (
+const CV = ({ entry }) => (
 	<Preview
 		entry={entry}
-		path="layouts/resume.njk"
+		path="layouts/cv.njk"
 		context={({ title, date, body }) => ({
 			title,
 			date,
@@ -129,7 +129,7 @@ CMS.registerPreviewTemplate('home', Home);
 CMS.registerPreviewTemplate('articles', Article);
 CMS.registerPreviewTemplate('journal', Journal);
 CMS.registerPreviewTemplate('project', Project);
-CMS.registerPreviewTemplate('resume', Resume);
+CMS.registerPreviewTemplate('cv', CV);
 CMS.registerPreviewTemplate('generic_pages', Page);
 CMS.registerPreviewTemplate('site_data', SiteData);
 CMS.registerPreviewTemplate('nav', Nav);
