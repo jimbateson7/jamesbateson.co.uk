@@ -41,7 +41,7 @@ async function fetch(name) {
 	let twitterUsernames = new Set();
 
 	// Twitter
-	let resume = require("./src/_data/resume.json").map(entry => entry.twitter);
+	let resume = require("./src/_data/cv.json").map(entry => entry.twitter);
 	for(let twitter of resume) {
 		twitterUsernames.add(cleanName(twitter).toLowerCase());
 	}
