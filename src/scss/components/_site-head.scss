@@ -18,7 +18,7 @@
 }
 
 .site-head__job {
-    color: var(--color-text);
+    color: light-dark(var(--color-text), var(--color-bg));
 	border-bottom: 1px solid light-dark(var(--color-accent), var(--color-accent-alt));
     font-weight: 600;
     padding-block: .5rem;
