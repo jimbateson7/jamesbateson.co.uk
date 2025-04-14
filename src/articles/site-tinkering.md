@@ -36,7 +36,9 @@ N﻿ow I'm using system fonts, that flash of default font no longer happens, as 
 
 ### B﻿randing inconsistency
 
-F﻿rom a design point of view, one thing that using the system defaults does mean is that I don't truly have a distinctive brand font that I can associate with my style guide. 
+F﻿rom a design point of view, one thing that using the system defaults does mean is that I don't truly have a distinctive brand font that I can associate with my style guide.
+
+D﻿epending on the OS the user is viewing the site on, the font will be different, not some much of an issue, but it does leave the site open to a bit of risk if the user has managed to change their default OS font and it doesn't work well with my design and content.
 
 ## L﻿ight/dark theme
 
