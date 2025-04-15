@@ -22,6 +22,22 @@ H﻿aving worked almost fully remote in my previous role, I'm keen for my next o
 
 One of the things I'm enjoying about having moved back with my parents to Kirkby, is how much stunning countryside there is around. This is great for me getting back into my walking and running, and even the 2km ish walk to Herdwork is beautiful.
 
-I﻿ found it such a nice start and end to the day. Time to think and appreciate the day as well as some fresh air and excercise away from the screen.
+I﻿ found it such a nice start and end to the day. Time to think and appreciate the day as well as some fresh air and exercise away from the screen.
 
 ![Landscape photo of a green field with a stream running through the middle. There are some trees in the background with a moody looking grey, but bright sky.](/images/img_1821-medium.jpeg)
+
+### C﻿ommunity
+
+W﻿orking and job-searching remotely can be a very lonely experience, so just being around other creative folk and having those 'water-cooler' type chats in the kitchen area is very important to me at the moment. People asking how your weekend was and such, that social and engagement aspect is something that I have missed.
+
+I﻿'m hoping that there could be an outside chance it may lead to opportunities as well. Of course, I'll first have to pluck up the courage to speak to anyone, but it may well be that somebody there might, or might know of somebody with a work opportunity etc!
+
+T﻿he people I have shared the space with so far have all been very friendly and welcoming which makes a big difference when you feel part of and included in a welcoming space.
+
+![Photo taken from the hotdesk I chose at Herdwork. There are a number of desks, long tables and sofas to sit on. The decor is very clean and light and is a smartly converted barn. There is a kitchen area towards the back of the room.](/images/img_1824-medium.jpeg)
+
+## Pricing
+
+W﻿hilst I find my next opportunity, and as long as budget allows, I'm looking forward to going in to work from here. The pricing isn't too steep, inline with the kind of rates I've seen and paid in Manchester. £25 for the day, £220 per month for daily access or £275 per month for daily access with a fixed desk.
+
+T﻿here also space you can book up to 1 hour for zoom calls that may be more confidential etc, and meeting rooms that can be booked for a cost.
