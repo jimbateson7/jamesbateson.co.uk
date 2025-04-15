@@ -45,6 +45,11 @@
 			margin-right: 0;
 		}
 
+		img {
+			border-radius: 8px;
+			box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+		}
+
 		blockquote {
 			background-color: var(--color-grey-alt);
 			border-left: 10px solid light-dark(var(--color-accent), var(--color-accent-alt));
