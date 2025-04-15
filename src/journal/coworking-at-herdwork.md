@@ -24,7 +24,7 @@ One of the things I'm enjoying about having moved back with my parents to Kirkby
 
 I﻿ found it such a nice start and end to the day. Time to think and appreciate the day as well as some fresh air and exercise away from the screen.
 
-![Landscape photo of a green field with a stream running through the middle. There are some trees in the background with a moody looking grey, but bright sky.](/images/img_1821-medium.jpeg)
+![Landscape photo of a green field with a stream running through the middle. There are some trees in the background with a moody looking grey, but bright sky.](/images/img_1821-large.jpeg)
 
 ### C﻿ommunity
 
@@ -34,7 +34,7 @@ I﻿'m hoping that there could be an outside chance it may lead to opportunities
 
 T﻿he people I have shared the space with so far have all been very friendly and welcoming which makes a big difference when you feel part of and included in a welcoming space.
 
-![Photo taken from the hotdesk I chose at Herdwork. There are a number of desks, long tables and sofas to sit on. The decor is very clean and light and is a smartly converted barn. There is a kitchen area towards the back of the room.](/images/img_1824-medium.jpeg)
+![Photo taken from the hotdesk I chose at Herdwork. There are a number of desks, long tables and sofas to sit on. The decor is very clean and light and is a smartly converted barn. There is a kitchen area towards the back of the room.](/images/img_1824-large.jpeg)
 
 ## Pricing
 
