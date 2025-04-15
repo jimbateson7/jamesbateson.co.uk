@@ -16,7 +16,7 @@ T﻿his is true, but I just wanted to write about the benefits and reasons I'll 
 
 T﻿he first benefit is that it keeps me in a routine. When searching for a job it can be easy to fall into a bad patterns, so having somewhere I can go and do some focused job searching, writing and personal development.
 
-H﻿aving worked almost fully remote in my previous role, I'm keen for my next one to involve some time in an office space with colleagues, so getting up and ready and coming into an office style environment is great for me to adjust to that routine as well.
+H﻿aving worked almost fully remote in my previous role, I'm keen for my next one to involve some time in an office space with colleagues, so getting up and ready and coming into an office style environment is great for me to adjust to that routine as well. Even if my next role is fully remote again, this is somewhere I know will work for me.
 
 ### T﻿he walk in
 
