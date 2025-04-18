@@ -48,7 +48,7 @@ F﻿or me, it would have made sense to also have that functionality on desktop a
 
 M﻿aking the draggable component work with keyboard does not satisfy 2.5.7, as it's not a single pointer event. People may be using desktop touch screen devices with no access to a physical keyboard with arrows etc.
 
-I﻿ did like the idea of the instructions they provided for how to use the functionality with keyboard alone though, and it did (sort of seem to work). Using the space bar when focus was on a list item and then the up and down arrow keys, did allow me to reorder it. However, actually getting keyboard focus to all of the items did not seem doable. I could only focus on two of the items.
+I﻿ did like the idea of the instructions they provided for how to use the functionality with keyboard alone though, and it did (sort of seem to work). Using the space bar when focus was on a list item and then the up and down arrow keys, did allow me to reorder it. However, actually getting keyboard focus to all of the items did not initiall seem doable. A quick inspection or the code, shows each item is a div with some tabindex switching. I eventually figured out that to switch focus you needed to use the up and down arrow key to change the tabindex value (no visual indication of this) then use tab or shift tab to focus that one. This isn't something that was easy to figure out, or would I have been able to without inspecting.
 
 #### S﻿creen reader
 
@@ -67,3 +67,11 @@ O﻿verall a fairly poor experience trying to use this component without the abi
 The ability to switch item focus is quite confusing and not explained or a pattern I have come across before, however, I've not had to build a component like this, so could just be one I'm not experienced with.
 
 ### C﻿SS overflow list
+
+T﻿his one is interesting as it actually 2.5.7 doesn't actually apply to this overflow dragging technique.
+
+> ﻿ This criterion does not apply to scrolling enabled by the user-agent. Scrolling a page is not in scope, nor is using a technique such as CSS overflow to make a section of content scrollable.
+
+H﻿owever, I did notice a feature to aid people using the keyboard to navigate the content.
+
+T﻿he component consisted of a list of product cards that overflowed the container. With a mouse you can drag horizontally to moved the cards along, or use the browser scrollbar.
