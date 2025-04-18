@@ -51,3 +51,19 @@ M﻿aking the draggable component work with keyboard does not satisfy 2.5.7, as 
 I﻿ did like the idea of the instructions they provided for how to use the functionality with keyboard alone though, and it did (sort of seem to work). Using the space bar when focus was on a list item and then the up and down arrow keys, did allow me to reorder it. However, actually getting keyboard focus to all of the items did not seem doable. I could only focus on two of the items.
 
 #### S﻿creen reader
+
+I﻿t's worth noting that I'm not an advanced screen reader user, but wanted to try the experience using one. As on a Mac, I used VoiceOver with Safari.
+
+A﻿s good keyboard functionality is important to a good screen reader experience, the fact that it doesn't seem possible to focus on each list item, again makes this very difficult to use. 
+
+W﻿hen focusing onto the first list item (that you can) there was no announcement that the item was sortable. Just that it was clickable and selectable text. Not massively helpful. As the keyboard helper text is at the bottom of the content, it could be easy to miss and come too late.
+
+A﻿s I knew the key controls to use, I tried reordering an item, and the item text and it's new position in the list was announced.
+
+#### I﻿n summary
+
+O﻿verall a fairly poor experience trying to use this component without the ability to drag items with a mouse. By using the mobile reordering functionality on desktop however, it would be much better.
+
+The ability to switch item focus is quite confusing and not explained or a pattern I have come across before, however, I've not had to build a component like this, so could just be one I'm not experienced with.
+
+### C﻿SS overflow list
