@@ -68,7 +68,7 @@ The ability to switch item focus is quite confusing and not explained or a patte
 
 ### C﻿SS overflow list
 
-T﻿his one is interesting as it actually 2.5.7 doesn't actually apply to this overflow dragging technique.
+T﻿his one is interesting as 2.5.7 doesn't actually apply to this overflow dragging technique.
 
 > ﻿ This criterion does not apply to scrolling enabled by the user-agent. Scrolling a page is not in scope, nor is using a technique such as CSS overflow to make a section of content scrollable.
 
@@ -97,4 +97,4 @@ T﻿he sortable list was especially frustrating and very much had me empathising
 * U[﻿nderstanding WCAG 2.2 - 2.5.7 Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html)
 * [﻿S﻿creen readers and drag and drop](https://www.darins.page/articles/screen-readers-drag-drop-1)
 * The first part of  [a road to accessible drag and drop series from TGPi](https://www.tpgi.com/the-road-to-accessible-drag-and-drop-part-1/) (the other parts are linked within there)
-*﻿ [4 major patterns for accessible drag and drop](https://medium.com/salesforce-ux/4-major-patterns-for-accessible-drag-and-drop-1d43f64ebf09) (on Medium)
+  *﻿ [4 major patterns for accessible drag and drop](https://medium.com/salesforce-ux/4-major-patterns-for-accessible-drag-and-drop-1d43f64ebf09) (on Medium)
