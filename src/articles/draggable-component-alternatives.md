@@ -75,3 +75,26 @@ T﻿his one is interesting as it actually 2.5.7 doesn't actually apply to this o
 H﻿owever, I did notice a feature to aid people using the keyboard to navigate the content.
 
 T﻿he component consisted of a list of product cards that overflowed the container. With a mouse you can drag horizontally to moved the cards along, or use the browser scrollbar.
+
+![](/images/screenshot-2025-04-18-at-15.40.56.png)
+
+A﻿s with the sortable list, there was little bit of component UX helper text below, to encourage people to scroll left and right to show more product cards.
+
+W﻿hen navigating with keyboard, I noticed that when the component received focus, this messaging changed to be more relevant to the keyboard controls you might use to navigate along the list. Although not strictly needed as could tab along the product names (linked), I thought it was a nice touch, and could be especially useful for more complex components.
+
+![](/images/screenshot-2025-04-18-at-15.44.59.png)
+
+## S﻿ummary
+
+T﻿his article probably isn't of much use to anyone, and more of my scribbling some things down I have learned from having a dig around in some components I found interesting.
+
+B﻿ut it is something that I will refer to in the future if I have to build any components that require dragging, or specific keyboard functionality even.
+
+T﻿he sortable list was especially frustrating and very much had me empathising with people who may rely on assistive technology to use this kind of component when these considerations haven't been taken into account. This was only a 'fun' ranking type thing, however, if it was important functionality, it would be a barrier. 
+
+## F﻿urther Reading
+
+* U[﻿nderstanding WCAG 2.2 - 2.5.7 Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html)
+* [﻿S﻿creen readers and drag and drop](https://www.darins.page/articles/screen-readers-drag-drop-1)
+* The first part of  [a road to accessible drag and drop series from TGPi](https://www.tpgi.com/the-road-to-accessible-drag-and-drop-part-1/) (the other parts are linked within there)
+*﻿ [4 major patterns for accessible drag and drop](https://medium.com/salesforce-ux/4-major-patterns-for-accessible-drag-and-drop-1d43f64ebf09) (on Medium)
