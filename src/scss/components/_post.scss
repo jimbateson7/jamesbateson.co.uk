@@ -48,8 +48,7 @@
 		img {
 			border-radius: 8px;
 			box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
-			aspect-ratio: 4 / 3;
-			object-fit: cover;
+			margin-inline: auto;
 		}
 
 		blockquote {
