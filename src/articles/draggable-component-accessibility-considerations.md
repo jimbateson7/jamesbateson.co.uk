@@ -12,9 +12,9 @@ Over the last couple of days I've seen examples of providing alternative ways of
 
 WCAG 2.2 introduced a success criteria that specifically deals with components that require dragging movements to work. There are a few types of component that could fall under this, probably most common are things like sortable lists and drag and drop features.
 
-Here's what [WCAG 2.2 - 2.5.7](https://www.w3.org/TR/WCAG22/#dragging-movements) states: 
+Here's what [WCAG 2.2 - 2.5.7 Dragging Movements](https://www.w3.org/TR/WCAG22/#dragging-movements) states:
 
-> Level AA\
+> (Level AA)
 > \
 > All [functionality](https://www.w3.org/TR/WCAG22/#dfn-functionality "processes and outcomes achievable through user action") that uses a [dragging movement](https://www.w3.org/TR/WCAG22/#dfn-dragging-movements "New") for operation can be achieved by a [single pointer](https://www.w3.org/TR/WCAG22/#dfn-single-pointer "an input modality that only targets a single point on the page/screen at a time – such as a mouse, single finger on a touch screen, or stylus.") without dragging, unless dragging is [essential](https://www.w3.org/TR/WCAG22/#dfn-essential "if removed, would fundamentally change the information or functionality of the content, and information and functionality cannot be achieved in another way that would conform") or the functionality is determined by the [user agent](https://www.w3.org/TR/WCAG22/#dfn-user-agents "any software that retrieves and presents web content for users") and not modified by the author.
 
