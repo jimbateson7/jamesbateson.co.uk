@@ -42,23 +42,25 @@ Interestingly when I opened the same page on my phone, it seemed more useable wi
 
 ![](/images/img_1930.png)
 
-For me, it would have made sense to also have that functionality on desktop as well, that would have satisfied the success criteria. On mobile I also noticed it was too easy to accidentally reorder the list when swiping down the page as well.
+For me, it would make more sense to also have that functionality on desktop, that would have satisfied the success criteria. On mobile I also noticed it was too easy to accidentally reorder the list when swiping down the page as well.
 
 #### Keyboard
 
 Making the draggable component work with keyboard does not satisfy 2.5.7, as it's not a single pointer event. People may be using desktop touch screen devices with no access to a physical keyboard with arrows etc.
 
-I did like the idea of the instructions they provided for how to use the functionality with keyboard alone though, and it did (sort of seem to work). Using the space bar when focus was on a list item and then the up and down arrow keys, did allow me to reorder it. However, actually getting keyboard focus to all of the items did not initiall seem doable. A quick inspection or the code, shows each item is a div with some tabindex switching. I eventually figured out that to switch focus you needed to use the up and down arrow key to change the tabindex value (no visual indication of this) then use tab or shift tab to focus that one. This isn't something that was easy to figure out, or would I have been able to without inspecting.
+I did like the idea of the instructions they provided for how to use the functionality with keyboard alone though, and it did (sort of seem to work). Using the space bar when focus was on a list item and then the up and down arrow keys, did allow me to reorder it.
+
+However, actually getting keyboard focus to all of the items did not initial seem doable. A quick inspection or the code, shows each item is a div with some tabindex switching. I eventually figured out that to switch focus you needed to use the up and down arrow key to change the tabindex value (no visual indication of this) then use tab or shift tab to focus that one. This isn't something that was easy to figure out, or would I have been able to without inspecting.
 
 #### Screen reader
 
 It's worth noting that I'm not an advanced screen reader user, but wanted to try the experience using one. As on a Mac, I used VoiceOver with Safari.
 
-As good keyboard functionality is important to a good screen reader experience, the fact that it doesn't seem possible to focus on each list item, again makes this very difficult to use. 
+As good keyboard functionality is important to a good screen reader experience, the complexity of getting the focus states to the right item, made it difficult to use.
 
-When focusing onto the first list item (that you can) there was no announcement that the item was sortable. Just that it was clickable and selectable text. Not massively helpful. As the keyboard helper text is at the bottom of the content, it could be easy to miss and come too late.
+When focusing onto the first list item there was no announcement that the item was sortable. Just that it was clickable and selectable text. Not massively helpful. As the keyboard control helper text is at the bottom of the content, it could be easy to miss and come too late.
 
-As I knew the key controls to use, I tried reordering an item, and the item text and it's new position in the list was announced.
+As I knew the key controls to use, I tried reordering an item, and the item text and it's new position in the list was announced helpfully.
 
 #### In summary
 
@@ -90,11 +92,11 @@ This article probably isn't of much use to anyone, and more of my scribbling som
 
 But it is something that I will refer to in the future if I have to build any components that require dragging, or specific keyboard functionality even.
 
-The sortable list was especially frustrating and very much had me empathising with people who may rely on assistive technology to use this kind of component when these considerations haven't been taken into account. This was only a 'fun' ranking type thing, however, if it was important functionality, it would be a barrier. 
+The sortable list was especially frustrating and very much had me empathising with people who rely on assistive technology to use this kind of component when these considerations haven't been taken into account. This was only a 'fun' ranking type thing, however, if it was important functionality, it would be a barrier. 
 
 ## Further Reading
 
-* U[nderstanding WCAG 2.2 - 2.5.7 Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html)
+* [Understanding WCAG 2.2 - 2.5.7 Dragging Movements](https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html)
 * [Screen readers and drag and drop](https://www.darins.page/articles/screen-readers-drag-drop-1)
 * The first part of  [a road to accessible drag and drop series from TGPi](https://www.tpgi.com/the-road-to-accessible-drag-and-drop-part-1/) (the other parts are linked within there)
 * [4 major patterns for accessible drag and drop](https://medium.com/salesforce-ux/4-major-patterns-for-accessible-drag-and-drop-1d43f64ebf09) (on Medium)
