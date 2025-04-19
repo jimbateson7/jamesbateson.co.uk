@@ -8,7 +8,7 @@ metaDesc: A look at a couple of examples I've seen recently for providing
 socialImage: /images/social-share-default.jpg
 date: 2025-04-18T09:15:51.474Z
 ---
-Over the last couple of days I've seen examples of providing alternative ways of interacting with components that primary rely on dragging functionality that I thought were interesting. I decided to take a look into them and also learn a bit more about how the WCAG (Web Content Accessibility Guidelines) define success within the criteria they have that covers this functionality.
+Over the last couple of days I've seen examples of providing alternative ways of interacting with components that primary rely on dragging functionality. I thought these were interesting so decided to take a look into them and also learn a bit more about how the WCAG (Web Content Accessibility Guidelines) define success within the criteria they have that covers this functionality.
 
 WCAG 2.2 introduced a success criteria that specifically deals with components that require dragging movements to work. There are a few types of component that could fall under this, probably most common are things like sortable lists and drag and drop features.
 
