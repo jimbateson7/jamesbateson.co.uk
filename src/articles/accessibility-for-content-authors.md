@@ -44,9 +44,9 @@ F﻿ixing these types of issues, is fairly low-hanging and high impact for peopl
 
 A great place to start can be to signpost people in the direction of resources that can help them learn more about why accessibility is so important and to learn what responsibilities they may have to ensure standards are met and barriers not unintentionally created.
 
-As part of the accessibility champions network at Code Computerlove, we encourge new starters and people wanting to learn more to take the free [W3C digital accessibility foundations course](https://www.w3.org/WAI/courses/foundations-course/). This is a course is non-technical and suitable for a variety of disciplines, including content authors. This could be an ideal resource to get people understanding accessibility. It contains information and expereinces from people with disabilities that use asstive technology everyday, including practocal examples, excerices and quizzes that can be undertaken. 
+As part of the accessibility champions network at Code Computerlove, we encourge new starters and people wanting to learn more to take the free [W3C digital accessibility foundations course](https://www.w3.org/WAI/courses/foundations-course/). This is a course is non-technical and suitable for a variety of disciplines, including content authors. This could be an ideal resource to get people understanding accessibility. It contains information and expereinces from people with disabilities that use assistive technology everyday, including practical examples, exercises and quizzes that can be undertaken.
 
-Another way at Code we have engaged external teams with the importance of accessibility is to deliver an accessibility fundementals skillshare. Like the W3C course, this can introduce people from different disciplines to why accessibility is so important. It's again chance to pass on exterpise and passion around the subject in a face-to-face session, a mix of educational slides and facts mixed with some hands-on interactive exercies, such as, mouse-free browsing tasks can really help deliver the message and put people in the position of their users and the barriers they may face.
+Another way at Code we have engaged external teams with the importance of accessibility is to deliver an accessibility fundamentals skillshare. Like the W3C course, this can introduce people from different disciplines to why accessibility is so important. It's again chance to pass on expertise and passion around the subject in a face-to-face session, a mix of educational slides and facts mixed with some hands-on interactive exercises, such as, mouse-free browsing tasks can really help deliver the message and put people in the position of their users and the barriers they may face.
 
 ## Training
 
@@ -76,16 +76,16 @@ However, this isn't usually the case when it comes to content authors. We might 
 
 ### Descriptions/tooltips
 
-When creating the CMS interface for a page/component a great way to remind people of accessibility considerations and responsibilites for the content they add to them can be to add relevant accessibility descriptions or tooltips. Especially on fields where we might expect common issues to surface. For example:
+When creating the CMS interface for a page/component a great way to remind people of accessibility considerations and responsibilities for the content they add, can be to add relevant accessibility descriptions or tooltips. Especially on fields where we might expect common issues to surface. For example:
 
-* Image uploads-remind about alt text if and when it's needed
-* Media uploads-consider captions and transcripts
-* Colour pickers-check that contrast against the background it will sit on passes requirements
-* WYSIWYG-remind about use of italics, to add suitable link text and reading age
-* Headings-mention heading order/structure
-* Tables-make people aware of how important creating accessible data tables is to people using assitive technology
+* Image uploads - remind about alt text if and when it's needed
+* Media uploads - consider captions and transcripts
+* Colour pickers - check that contrast against the background it will sit on passes requirements
+* WYSIWYG - remind about use of italics, to add suitable link text and reading age
+* Headings - mention heading order/structure
+* Tables - make people aware of how important creating accessible data tables structure is to people using assistive technology
 
-This is something low-hanging, high-impact that many people already do, and several out-of-the-box content management systems also provide the ability to do. A helpful field description or tooltip can make a massive difference in remiding people of things to consider when entering content. Of course they could be ignored, but it's a good way to keep the accessibility awareness and messaging visible day-to-day. Eventually these practices in suggestions will lead to good habbits. It could also benefit new team members onboarding, having this useful information and reminders as they learn the system.
+This is something low-hanging, high-impact that many people already do, and several out-of-the-box content management systems also provide the ability to do. A helpful field description or tooltip can make a massive difference in reminding people of things to consider when entering content. Of course they could be ignored, but it's a good way to keep the accessibility awareness and messaging visible day-to-day. Eventually these practices in suggestions will lead to good habits. It could also benefit new team members onboarding, having this useful information and reminders as they learn the system.
 
 #### A note on WSYIWYG editors
 
