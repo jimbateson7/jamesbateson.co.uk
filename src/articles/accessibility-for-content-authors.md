@@ -2,8 +2,9 @@
 layout: layouts/post.njk
 title: Accessibility for content authors
 metaTitle: Accessibility for content authors
-metaDesc: How can we ensure that accessibility requirements and good
-  practices   are understood and passed onto content authors.
+metaDesc: How can we ensure that accessibility requirements, expectations,
+  responsibilities and good practices are understood and passed onto content
+  authors.
 socialImage: /images/social-share-default.jpg
 date: 2024-08-12T19:40:13.465Z
 tags:
