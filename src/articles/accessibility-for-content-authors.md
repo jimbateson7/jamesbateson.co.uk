@@ -18,7 +18,7 @@ Something that I've been experiencing more often is that when handing over a pro
 
 ## Not a blame game
 
-First off, this is certinaly not a finger pointing excerise at content authors. They often have lots of content to create, add and edit on a daily basis. It may be that the tools they have to do this are not suitable, or training on these tools has not been sufficient.
+First off, and importantly, this is not a finger pointing exercise at content authors. They often have lots of content to create, add and edit on a daily basis, deadlines to meet and with little or no support. It may be that the tools they have to do this are not suitable, or training on these tools has not been sufficient.
 
 There are also many content authors out there that are following accessibility best practices and upholding these standards across their teams.
 
@@ -26,13 +26,19 @@ The aim of this article is to look at ways we can better assist content authors 
 
 ## Common issues
 
-- Alt text
-- Captions/transcripts
-- Colour contrast
-- Link text
-- Headings structure
-- Reading level
-- Text formatting (italics, size etc)
+W﻿hen creating and editing content, there are a number of common areas that done incorrectly and gone unchecked, could create barriers for people wanting to consume the content:
+
+* Alt text
+* Captions/transcripts
+* Colour contrast
+* Link text
+* Headings structure
+* Reading level
+* Text formatting (italics, size etc)
+
+W﻿hen content is added on a regular basis, the number of these issues can build and build, and content authors may not be aware, passing them on to other team members, new starters etc. It may only be if somebody raises an issue, or an audit picks them up that they realise.
+
+F﻿ixing these types of issues, is fairly low-hanging and high impact for people consuming the content. But educating and making content authors aware before they arise would cut the risk of them making published content.
 
 ## Education
 
@@ -83,20 +89,20 @@ This is something low-hanging, high-impact that many people already do, and seve
 
 #### A note on WSYIWYG editors
 
-- Only give options absolutely needed
-- Can allow people that know enough to be dangerous introduce issues
+* Only give options absolutely needed
+* Can allow people that know enough to be dangerous introduce issues
 
 ### Content style guides
 
-- Good examples
-- Can adapt and grow
-- Easy to access
-- Could be in document format or a website/page
+* Good examples
+* Can adapt and grow
+* Easy to access
+* Could be in document format or a website/page
 
 ### Reference documents
 
-- Can arrange an in-person/call delivery
-- Can adapt and grow
+* Can arrange an in-person/call delivery
+* Can adapt and grow
 
 ## In summary
 
