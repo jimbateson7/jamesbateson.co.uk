@@ -50,6 +50,10 @@ Another way at Code we have engaged external teams with the importance of access
 
 ## Training
 
+\-﻿ Build on education
+
+\-﻿ Training documents
+
 ## Why and how not just the doing
 
 One of the most valuable ways to pass on accessibility knowledge, habits and more importantly, the **why** of the importance of accessibility and the barriers it can create if not considered can be to involve people that will be editing content when reviewing, identifiying and fixing accessibility issues.
@@ -60,7 +64,7 @@ Whilst investigating a cross-section of these pages to find the common issues an
 
 ### WAVE
 
-We wanted to demonstrate a tool that would be easy for people with little to no technical knowledge to understand and use. The [WAVE tool from WebAIM](https://wave.webaim.org/) felt like the ideal option. It's a tool that I'll often start with when investigating accessibility of a site/component. It adds icons to the page so people can see where the errors and warnings have occured. It also offers explainations of issues it find in easier ways to understand than official documentation, and in ways that might make more sense to add to ticket/rely to collegues. If WCAG guidelines are something that are understood and required, it also links off to the success criteria that issues relate to.
+We wanted to demonstrate a tool that would be easy for people with little to no technical knowledge to understand and use. The [WAVE tool from WebAIM](https://wave.webaim.org/) felt like the ideal option. It's a tool that I'll often start with when investigating accessibility of a site/component. It adds icons to the page so people can see where the errors and warnings have occurred. It also offers explanations of issues it find in easier ways to understand than official documentation, and in ways that might make more sense to add to ticket/rely to colleagues. If WCAG guidelines are something that are understood and required, it also links off to the success criteria that issues relate to.
 
 Wave also has inbuilt tools to check colour contrast and crucially for content editors a content structure visualiser.
 
@@ -70,7 +74,7 @@ Showing the content editors what these tools were, how to use them and what to l
 
 ## Handovers
 
-When we hand over code, designs and processes we tend to document things. Whether this be API documentation, a digital document or a call demo. These things ensure that the person picking up the project or peice of work can effieciently pick it up and know what the origial author was thinking and planning.
+When we hand over code, designs and processes we tend to document things. Whether this be API documentation, a digital document or a call demo. These things ensure that the person picking up the project or piece of work can efficiently pick it up and know what the original author was thinking and planning.
 
 However, this isn't usually the case when it comes to content authors. We might show them the basics of the content management system, where to find things and how to add things etc, but I feel we could be documenting/helping with why the actual content best practices are so important.
 
@@ -103,6 +107,14 @@ This is something low-hanging, high-impact that many people already do, and seve
 
 * Can arrange an in-person/call delivery
 * Can adapt and grow
+
+### A﻿ccessibility annotations
+
+\-﻿ Lots of publically available ones in tools such as figma
+
+\-﻿ Encourages communication between disciplines 
+
+\-﻿ Educational
 
 ## In summary
 
