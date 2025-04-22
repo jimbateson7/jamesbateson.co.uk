@@ -107,3 +107,5 @@ This is something low-hanging, high-impact that many people already do, and seve
 ## In summary
 
 ## Further reading
+
+* A﻿ little bit of a self-plug here sorry, but I touched upon this subject in an [article I wrote for the HTMHell advent calendar](https://www.htmhell.dev/adventcalendar/2022/16/) a couple of years back. Some feedback from it inspired me to write this article
