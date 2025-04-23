@@ -118,11 +118,7 @@ H﻿aving it as a page on a site means it could also be adapted and grow as need
 I﻿'ve seen a couple of nice examples of this:
 
 * [T﻿he A11y project content style guide](https://www.a11yproject.com/content-style-guide/)
-
-### Reference documents
-
-* Can arrange an in-person/call delivery
-* Can adapt and grow
+* ﻿[N﻿HS digital content creation guide](https://digital.nhs.uk/about-nhs-digital/corporate-information-and-documents/our-style-guidelines/conide/creating-content#usability-and-accessibility) - linked to their accessibility and usability section
 
 ### A﻿ccessibility annotations
 
