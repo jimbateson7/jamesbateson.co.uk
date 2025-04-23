@@ -58,7 +58,7 @@ H﻿owever, if the content team is external, accessibility training could come f
 
 O﻿ne way I've been exploring the potential to do this is with a short document that provides guidance on the common areas issues can be introduced as mentioned earlier in the article. This could be a do/don't example for each area. It would then be easy to make this part of all handovers, a default part of handing over, that would give the content team a reminder and resource for checking and sharing.
 
-F﻿or example it could give a good example of alt text to write if the image contains text, or is an image of a graph/chart etc, and also remind that the alt text doesn't need to start with "Image of...". With links for further reading such as the alt text decision tree. Again, signposting for further reading and education.
+F﻿or example it could give a good example of alt text to write if the image contains text, or is an image of a graph/chart etc, and also remind that the alt text doesn't need to start with "Image of...". With links for further reading such as the [alt text decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/). Again, signposting for further reading and education.
 
 ## Why and how not just the doing
 
