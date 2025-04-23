@@ -58,7 +58,7 @@ H﻿owever, if the content team is external, accessibility training could come f
 
 O﻿ne way I've been exploring the potential to do this is with a short document that provides guidance on the common areas issues can be introduced as mentioned earlier in the article. This could be a do/don't example for each area. It would then be easy to make this part of all handovers, a default part of handing over, that would give the content team a reminder and resource for checking and sharing.
 
-F﻿or example it could give a good example of alt text to write if the image contains text, or is an image of a graph/chart etc, and also remind that the alt text doesn't need to start with "Image of...". With links for further reading such as the alt text decision tree. Again, signposting for further reading and education.
+F﻿or example it could give a good example of alt text to write if the image contains text, or is an image of a graph/chart etc, and also remind that the alt text doesn't need to start with "Image of...". With links for further reading such as the [alt text decision tree](https://www.w3.org/WAI/tutorials/images/decision-tree/). Again, signposting for further reading and education.
 
 ## Why and how not just the doing
 
@@ -72,7 +72,7 @@ Whilst investigating a cross-section of these pages to find the common issues an
 
 We wanted to demonstrate a tool that would be easy for people with little to no technical knowledge to understand and use. The [WAVE tool from WebAIM](https://wave.webaim.org/) felt like the ideal option. It's a tool that I'll often start with when investigating accessibility of a site/component. It adds icons to the page so people can see where the errors and warnings have occurred. It also offers explanations of issues it find in easier ways to understand than official documentation, and in ways that might make more sense to add to ticket/rely to colleagues. If WCAG guidelines are something that are understood and required, it also links off to the success criteria that issues relate to.
 
-Wave also has inbuilt tools to check colour contrast and crucially for content editors a content structure visualiser.
+Wave also has inbuilt tools to check colour contrast, focus order and crucially for content editors a content structure visualiser.
 
 We demo'd Wave on a call with the content editors and went through these features and helped them get it installed in their browsers.
 
@@ -141,3 +141,4 @@ G﻿ood content is vital for accessibility, ensure that your content team is inc
 ## Further reading
 
 * A﻿ little bit of a self-plug here sorry, but I touched upon this subject in an [article I wrote for the HTMHell advent calendar](https://www.htmhell.dev/adventcalendar/2022/16/) a couple of years back. Some feedback from it inspired me to write this article
+* [A﻿lt text guidance from Pope Tech](https://blog.pope.tech/2022/04/05/alternative-text-alt-text/)
