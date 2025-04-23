@@ -109,10 +109,15 @@ S﻿omething that can help with this is to limit what formatting options you all
 
 ### Content style guides
 
-* Good examples
-* Can adapt and grow
-* Easy to access
-* Could be in document format or a website/page
+M﻿any companies and brands have a content style guide, this helps them set a consistent tone-of-voice when people are creating new content and can help onboard new starters and contributors.
+
+T﻿his could be an excellent place to set accessibility considerations for content authoring. It could be a page added to the website during build. This would put the considerations and expectations in an easy-to-access place for content authors and contributors and also in a public place for people to see the commitment and consideration  company has for accessible content.
+
+H﻿aving it as a page on a site means it could also be adapted and grow as needed a little easier than having to re-edit/reproduce a physical document/PDF etc. It could however, also be exported or saved as a document if needed.
+
+I﻿'ve seen a couple of nice examples of this:
+
+* [T﻿he A11y project content style guide](https://www.a11yproject.com/content-style-guide/)
 
 ### Reference documents
 
