@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: "AI upskilling moral predicament "
-metaTitle: "AI upskilling moral predicament "
+metaTitle: AI usage predicaments
 metaDesc: I'm using AI more day-to-day at the moment as I upskill between jobs.
   However, I'm still torn by its impact.
 socialImage: /images/social-share-default.jpg
@@ -16,6 +16,8 @@ D﻿ay-to-day I currently use AI in the following ways (that I'm aware of)
 * G﻿oogle search summary
 * G﻿ithub copilot code autocompletion/suggestions/chat
 * C﻿hatGPT 'pairing', feedback and suggestions
+
+## S﻿tarting point
 
 ## F﻿reelance benefits
 
@@ -38,3 +40,11 @@ H﻿aving the explanations and seeing examples from the courses applied to the c
 ## B﻿ut I have niggling concerns
 
 W﻿hilst I'm finding the increased usage is improving my workflow, productivity and understanding, there are a few downsides that I just can't help shake and are at the back of my mind when I use it.
+
+### E﻿nvironmental impact
+
+
+
+### P﻿oor output
+
+### I﻿ndividuality
