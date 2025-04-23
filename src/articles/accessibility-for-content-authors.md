@@ -128,7 +128,7 @@ I﻿f a CMS allows content authors to build up pages using a set of components o
 
 I﻿t's also another opportunity for accessibility awareness, responsibility, education and collaboration as well between disciplines.
 
-T﻿here are [many publicly available annotation kits](https://www.figma.com/community/file/953682768192596304) available for tools such as Figma.
+T﻿here are [many publicly available annotation kits](https://www.figma.com/community/file/953682768192596304) for tools such as Figma.
 
 ## In summary
 
