@@ -6,13 +6,13 @@ metaDesc: How can we ensure that accessibility requirements, expectations,
   responsibilities and good practices are understood and passed onto content
   authors.
 socialImage: /images/social-share-default.jpg
-date: 2024-08-12T19:40:13.465Z
+date: 2025-04-23T10:38:16.439Z
 tags:
   - Accessibility
 ---
 ## Accessibility is everybody's responsibility
 
-During a product lifecycle, our aim is to move accessibility considerations and conversations earlier in the process (sometimes referred to as 'shifting left'). This involves cross-discipline teams collaborating and considering peoples expereinces at each stage from the start of the process. However, once you ship a product, what happens if the content editors that will manage the site going forwards are external, unaware of accessibility requirements and not technically proficient. How can we ensure that our hard work in making a product accessible is not undone, or falls into a cycle of having to constantly remedy the same problems.
+During a product lifecycle, our aim is to move accessibility considerations and conversations earlier in the process (sometimes referred to as 'shifting left'). This involves cross-discipline teams collaborating and considering peoples experiences at each stage from the start of the process. However, once you ship a product, what happens if the content editors that will manage the site going forwards are external, unaware of accessibility requirements and not technically proficient. How can we ensure that our hard work in making a product accessible is not undone, or falls into a cycle of having to constantly remedy the same problems.
 
 Something that I've been experiencing more often is that when handing over a product to an external team, accessibility is just being chucked over the wall with no training or support for day-to-day content authoring. How can we do better?
 
@@ -124,7 +124,7 @@ I﻿'ve seen a couple of nice examples of this:
 
 I﻿'ve previously written about some ways that [accessibility decisions and considerations can be documented at the design stage](https://jamesbateson.co.uk/articles/accessibility-documentation-in-figma-mockups/), increasing collaboration and education between design and development disciplines. But there is no reason that this type of documentation could also be surfaced to and benefit content authors.
 
-I﻿f a CMS allows content authors to build up pages using a set of components or elements, add heading levels, images etc the accessibility annotations done at the design stage could be a useful resource for them. It may provide some hints about what heading level certain content should be, certian colours that should or should not be used, types of images that should have alt text.
+I﻿f a CMS allows content authors to build up pages using a set of components or elements, add heading levels, images etc the accessibility annotations done at the design stage could be a useful resource for them. It may provide some hints about what heading level certain content should be, certain colours that should or should not be used, types of images that should have alt text.
 
 I﻿t's also another opportunity for accessibility awareness, responsibility, education and collaboration as well between disciplines.
 
