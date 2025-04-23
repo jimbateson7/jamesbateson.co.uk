@@ -44,19 +44,25 @@ F﻿ixing these types of issues, is fairly low-hanging and high impact for peopl
 
 A great place to start can be to signpost people in the direction of resources that can help them learn more about why accessibility is so important and to learn what responsibilities they may have to ensure standards are met and barriers not unintentionally created.
 
-As part of the accessibility champions network at Code Computerlove, we encouraged new starters and people wanting to learn more to take the free [W3C digital accessibility foundations course](https://www.w3.org/WAI/courses/foundations-course/). This is a course is non-technical and suitable for a variety of disciplines, including content authors. This could be an ideal resource to get people understanding accessibility. It contains information and expereinces from people with disabilities that use assistive technology everyday, including practical examples, exercises and quizzes that can be undertaken.
+As part of the accessibility champions network at Code Computerlove, we encouraged new starters and people wanting to learn more to take the free [W3C digital accessibility foundations course](https://www.w3.org/WAI/courses/foundations-course/). This is a course is non-technical and suitable for a variety of disciplines, including content authors. This could be an ideal resource to get people understanding accessibility. It contains information and experiences from people with disabilities that use assistive technology everyday, including practical examples, exercises and quizzes that can be undertaken.
 
-Another potential way to engage external teams with the importance of accessibility is to deliver an accessibility fundamentals skillshare. Like the W3C course, this can introduce people from different disciplines to why accessibility is so important. It's again chance to pass on expertise and passion around the subject in a face-to-face or digital session, a mix of educational slides and facts mixed with some hands-on interactive exercises, such as, mouse-free browsing tasks can really help deliver the message and put people in the position of their users and the barriers they may face.
+Another potential way to engage external teams with the importance of accessibility is to deliver an accessibility fundamentals skillshare. Similar to the W3C course, this can introduce people from different disciplines to why accessibility is so important. It's again chance to pass on expertise and passion around the subject in a face-to-face or digital session, a mix of educational slides and facts mixed with some hands-on interactive exercises, such as, mouse-free browsing tasks can really help deliver the message and put people in the position of their users and the barriers they may face.
 
 ## Training
 
-\-﻿ Build on education
+Once there is some awareness around accessibility important and how it could affect users, a good way to build upon this might be to provide either a training path, or training materials.
 
-\-﻿ Training documents
+I﻿f the content author team is internal, having an training path in place for the business would be great in terms of allowing content to also follow this should they wish. It could be suggested courses to take, recourses they might be able to use training budget for etc.
+
+H﻿owever, if the content team is external, accessibility training could come from the team handing over the product.
+
+O﻿ne way I've been exploring the potential to do this is with a short document that provides guidance on the common areas issues can be introduced as mentioned earlier in the article. This could be a do/don't example for each area. It would then be easy to make this part of all handovers, a default part of handing over, that would give the content team a reminder and resource for checking and sharing.
+
+F﻿or example it could give a good example of alt text to write if the image contains text, or is an image of a graph/chart etc, and also remind that the alt text doesn't need to start with "Image of...". With links for further reading such as the alt text decision tree. Again, signposting for further reading and education.
 
 ## Why and how not just the doing
 
-One of the most valuable ways to pass on accessibility knowledge, habits and more importantly, the **why** of the importance of accessibility and the barriers it can create if not considered can be to involve people that will be editing content when reviewing, identifiying and fixing accessibility issues.
+One of the most valuable ways to pass on accessibility knowledge, habits and more importantly, the **why** of the importance of accessibility and the barriers it can create if not considered can be to involve people that will be editing content when reviewing, identifying and fixing accessibility issues.
 
 A legacy client project that I worked on received an accessibility audit, it flagged many issues, some that we could remedy in the codebase and a result of some bad ARIA useage (that's another article). However, a large percentage of them, were from pages/templates that were populated with content via the CMS (static page templates, news articles etc).
 
