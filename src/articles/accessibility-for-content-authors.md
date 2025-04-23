@@ -101,6 +101,12 @@ This is something low-hanging, high-impact that many people already do, and seve
 
 A﻿ common field type that content authors will use is a WYSIWYG (What You See Is What You Get) editors. These allow people to add blocks of content and format text, add images, quotes etc. However, they can allow people who know just enough to be dangerous.
 
+I﻿t can result in an eclectic mix of font sizes, styles, weights, headings in random places, large blocks of italics. All this can have a negative effect on accessibility, from a readability point of view and consuming content through assistive technologies such as screen readers.
+
+S﻿omething that can help with this is to limit what formatting options you allow in these editors (most allow you to only show certain features). This not only improves the UX for the editor as they only have the options they need, but also means they can't unintentionally create something that may exclude people from consuming the content.
+
+**Note**: I'd also suggest looking into a way to handle parsing pasted in copy as well, for example pasting in a formatted word document can result in a lot of formatting issues. This could be part of the handover training document.
+
 ### Content style guides
 
 * Good examples
