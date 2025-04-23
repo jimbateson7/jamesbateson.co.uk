@@ -122,11 +122,13 @@ I﻿'ve seen a couple of nice examples of this:
 
 ### A﻿ccessibility annotations
 
-\-﻿ Lots of publically available ones in tools such as figma
+I﻿'ve previously written about some ways that [accessibility decisions and considerations can be documented at the design stage](https://jamesbateson.co.uk/articles/accessibility-documentation-in-figma-mockups/), increasing collaboration and education between design and development disciplines. But there is no reason that this type of documentation could also be surfaced to and benefit content authors.
 
-\-﻿ Encourages communication between disciplines 
+I﻿f a CMS allows content authors to build up pages using a set of components or elements, add heading levels, images etc the accessibility annotations done at the design stage could be a useful resource for them. It may provide some hints about what heading level certain content should be, certian colours that should or should not be used, types of images that should have alt text.
 
-\-﻿ Educational
+I﻿t's also another opportunity for accessibility awareness, responsibility, education and collaboration as well between disciplines.
+
+T﻿here are [many publicly available annotation kits](https://www.figma.com/community/file/953682768192596304) available for tools such as Figma.
 
 ## In summary
 
