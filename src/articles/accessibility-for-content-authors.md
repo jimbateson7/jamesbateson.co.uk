@@ -132,6 +132,12 @@ T﻿here are [many publicly available annotation kits](https://www.figma.com/com
 
 ## In summary
 
+O﻿nce a product has been built and launched, it's likely that content authors, whether internal, external, part of a team, solo, technically proficient or not, will be making the most frequent changes to it.
+
+I﻿f they are unaware of why, and how content needs to be made accessible, it can result in barriers being created for people trying to access the content. This article has covered some ways that we can help raise awareness and educate around accessibility rather than just basic CMS usage and then leaving them to it.
+
+G﻿ood content is vital for accessibility, ensure that your content team is included in your accessibility work.
+
 ## Further reading
 
 * A﻿ little bit of a self-plug here sorry, but I touched upon this subject in an [article I wrote for the HTMHell advent calendar](https://www.htmhell.dev/adventcalendar/2022/16/) a couple of years back. Some feedback from it inspired me to write this article
