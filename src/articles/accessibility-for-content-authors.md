@@ -64,7 +64,7 @@ F﻿or example it could give a good example of alt text to write if the image co
 
 One of the most valuable ways to pass on accessibility knowledge, habits and more importantly, the **why** of the importance of accessibility and the barriers it can create if not considered can be to involve people that will be editing content when reviewing, identifying and fixing accessibility issues.
 
-A legacy client project that I worked on received an accessibility audit, it flagged many issues, some that we could remedy in the codebase and a result of some bad ARIA useage (that's another article). However, a large percentage of them, were from pages/templates that were populated with content via the CMS (static page templates, news articles etc).
+A legacy client project that I worked on received an accessibility audit, it flagged many issues, some that we could remedy in the codebase and a result of some bad ARIA usage (that's another article). However, a large percentage of them, were from pages/templates that were populated with content via the CMS (static page templates, news articles etc).
 
 Whilst investigating a cross-section of these pages to find the common issues and the ones raised in the audit, we introduced the main content authors to one of the tools we were using to do this.
 
@@ -97,10 +97,9 @@ When creating the CMS interface for a page/component a great way to remind peopl
 
 This is something low-hanging, high-impact that many people already do, and several out-of-the-box content management systems also provide the ability to do. A helpful field description or tooltip can make a massive difference in reminding people of things to consider when entering content. Of course they could be ignored, but it's a good way to keep the accessibility awareness and messaging visible day-to-day. Eventually these practices in suggestions will lead to good habits. It could also benefit new team members onboarding, having this useful information and reminders as they learn the system.
 
-#### A note on WSYIWYG editors
+#### A note on WYSIWYG editors
 
-* Only give options absolutely needed
-* Can allow people that know enough to be dangerous introduce issues
+A﻿ common field type that content authors will use is a WYSIWYG (What You See Is What You Get) editors. These allow people to add blocks of content and format text, add images, quotes etc. However, they can allow people who know just enough to be dangerous.
 
 ### Content style guides
 
