@@ -28,3 +28,13 @@ W﻿ith none of this available and doing some bits and bobs freelance, I've foun
 I﻿'ve very much appreciated the free tier Copilot has introduced (recently?). Previously it was paid-for and I had only had access when being added to the github for agency roles. However, now with my own account I'm realising how powerful it can be. I use it a lot for 'megaautocomplete', writing example functions based on what I start typing and in context of the file I'm in, adding repeating/similar blocks just using the tab key, it just keeps the flow a lot when writing code.
 
 I﻿ like the chat feature as well (using ChatGPT under the hood I \_think\_), as you can provide the context you want it to answer question from, file, folder, solution etc. And it can then apply the fix it suggests which you can easily undo or ask for a different one. Very similar to just using ChatGPT but slightly less prompts to establish the structure of the code and project you're working in, and direct fixes in you file.
+
+## U﻿pskilling
+
+I﻿'m currently doing some upskilling in TypeScript and React, due to industry demand in the roles I'm looking at. I'm going through some courses for these, but also with doing some freelance project work using ChatGPT to help with some of the bits that my skillset doesn't extend to is very helpful. I especially like how you can coax more information, better solutions and explanations and how and why the code does what it does.
+
+H﻿aving the explanations and seeing examples from the courses applied to the code I'm working on has been great for assisting with my learning and recognition of the patterns.
+
+## B﻿ut I have niggling concerns
+
+W﻿hilst I'm finding the increased usage is improving my workflow, productivity and understanding, there are a few downsides that I just can't help shake and are at the back of my mind when I use it.
