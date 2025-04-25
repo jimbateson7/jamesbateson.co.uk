@@ -43,7 +43,7 @@ W﻿hilst I'm finding the increased usage is improving my workflow, productivity
 
 ### E﻿nvironmental impact
 
-
+[T﻿he negative impact AI has on the environment is well known and documented](https://rootwebdesign.studio/articles/the-environmental-impact-of-ai/#h-statistics-on-the-environmental-impact-of-ai). As somebody who cares about the environment,
 
 ### P﻿oor output
 
