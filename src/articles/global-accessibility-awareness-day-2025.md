@@ -23,3 +23,7 @@ I﻿'ve also encouraged people who contribute to socials to post a little about 
 I﻿'m going to have another look through the events nearer to the time, but I quite like the sound of this [Intro to assistive technology webinar](https://workday.zoom.us/webinar/register/WN_tEn7Pla9Sy-V9b89dqy6iA#/registration) from WorkDay.
 
 T﻿ake a look through the events, mark the day in your calendar, and do a little to get people talking about accessibility.
+
+## F﻿urther Reading
+
+* S﻿haun Conner has an excellent article on [ideas for global accessibility day](https://sconner.net/blog/ideas-for-gaad/)
