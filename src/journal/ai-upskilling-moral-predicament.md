@@ -27,7 +27,7 @@ W﻿ith none of this available and doing some bits and bobs freelance, I've foun
 
 ## P﻿roductivity
 
-I﻿'ve very much appreciated the free tier Copilot has introduced (recently?). Previously it was paid-for and I had only had access when being added to the github for agency roles. However, now with my own account I'm realising how powerful it can be. I use it a lot for 'megaautocomplete', writing example functions based on what I start typing and in context of the file I'm in, adding repeating/similar blocks just using the tab key, it just keeps the flow a lot when writing code.
+I﻿'ve very much appreciated the free tier Copilot has introduced (recently?). Previously it was paid-for and I had only had access when being added to the github for agency roles. However, now with my own account I'm realising how powerful it can be. I use it a lot for 'mega-autocomplete', writing example functions based on what I start typing and in context of the file I'm in, adding repeating/similar blocks just using the tab key, it just keeps the flow a lot when writing code.
 
 I﻿ like the chat feature as well (using ChatGPT under the hood I \_think\_), as you can provide the context you want it to answer question from, file, folder, solution etc. And it can then apply the fix it suggests which you can easily undo or ask for a different one. Very similar to just using ChatGPT but slightly less prompts to establish the structure of the code and project you're working in, and direct fixes in you file.
 
