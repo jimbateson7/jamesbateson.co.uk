@@ -17,6 +17,8 @@ D﻿ay-to-day I currently use AI in the following ways, that I'm aware of, as th
 * G﻿ithub copilot code autocompletion/suggestions/chat
 * C﻿hatGPT 'pairing', feedback and suggestions (using AI chat via responses to prompts)
 
+<div class="post-note"><h3 id="heading-further-reading">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3><p>These are only my views on AI usage. I absolutely see the value in it and everybody is free to make their own choices and decisions on suitable usage.</p></div>
+
 ## F﻿reelance benefits
 
 I﻿'ve noticed that now I'm out of work, my usage has increased, especially with regards to ChatGPT. When working within a product/discipline team at previous roles, my first reaction has always been to reach out to team members for help. Whether this be a pairing session, a huddle or just a Slack chat.
@@ -49,9 +51,17 @@ S﻿omething I've felt since first using AI is that it will always need human ex
 
 > ﻿ A former colleague once described AI as a "confident bullshitter"
 
-
+I﻿'ve seen plenty of div soup output when using it as a starting point for components. Especially with copilot. the issue being that it's not always the best examples and such the models learn from. You can usually get better output with a couple more prompts or a better written one to start with, but it would be nice if it could do this to start with.
 
 ### I﻿ndividuality
+
+W﻿hilst looking for new roles, I've seen a lot of advice around using AI to rewrite posts/articles/CV bits, and a lot of tools and software we use now have AI assistants and chats built in (I've even seen them on a greetings card site - nothing says personal like an AI message, hey).
+
+M﻿y issue with replying on AI to rewrite things, is that yes, it might sound a bit more professional, it might structure some sentences and paragraphs a little better, but it stops sounding personal, like me.
+
+I﻿t becomes easy to spot when a body of text has come from AI, such as using z instead of s in words if writing for English Uk audience, and heavy uses of the em dash (—).
+
+D﻿uring the application process for civil service positions, there is now included a guidance page on [what is acceptable use of AI in GOV UK job applications](https://www.civil-service-careers.gov.uk/artificial-intelligence-in-recruitment/).
 
 ### Copyright and value
 
