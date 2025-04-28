@@ -49,6 +49,12 @@ W﻿hilst I'm finding the increased usage is improving my workflow, productivity
 
 S﻿omething I've felt since first using AI is that it will always need human experience and review to ensure the best output. A former colleague once described AI as a "confident bullshitter". 
 
->﻿ A former colleague once described AI as a "confident bullshitter"
+> ﻿ A former colleague once described AI as a "confident bullshitter"
 
 ### I﻿ndividuality
+
+### Copyright and value
+
+## Further reading
+
+* I﻿'ve had this post in my drafts for a while now as I tweak how I wanted to frame it and word things. I read a brilliant article last week by [Hidde de Vries: Is "ethical AI" an oxymoron?](https://hidde.blog/ethical-ai/), which had my nodding a lot during reading. It's basically everything I wanted to say!
