@@ -17,8 +17,6 @@ D﻿ay-to-day I currently use AI in the following ways, that I'm aware of, as th
 * G﻿ithub copilot code autocompletion/suggestions/chat
 * C﻿hatGPT 'pairing', feedback and suggestions (using AI chat via responses to prompts)
 
-## S﻿tarting point
-
 ## F﻿reelance benefits
 
 I﻿'ve noticed that now I'm out of work, my usage has increased, especially with regards to ChatGPT. When working within a product/discipline team at previous roles, my first reaction has always been to reach out to team members for help. Whether this be a pairing session, a huddle or just a Slack chat.
