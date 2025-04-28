@@ -43,8 +43,12 @@ W﻿hilst I'm finding the increased usage is improving my workflow, productivity
 
 ### E﻿nvironmental impact
 
-[T﻿he negative impact AI has on the environment is well known and documented](https://rootwebdesign.studio/articles/the-environmental-impact-of-ai/#h-statistics-on-the-environmental-impact-of-ai). As somebody who cares about the environment,
+[T﻿he negative impact AI has on the environment is well known and documented](https://rootwebdesign.studio/articles/the-environmental-impact-of-ai/#h-statistics-on-the-environmental-impact-of-ai). As somebody who cares about the environment, this is something that plays on my mind when prompting AI, especially if I'm using it for pairing and needing it to go into more detail and try and optimise and clarify solutions.
 
 ### P﻿oor output
+
+S﻿omething I've felt since first using AI is that it will always need human experience and review to ensure the best output. A former colleague once described AI as a "confident bullshitter". 
+
+>﻿ A former colleague once described AI as a "confident bullshitter"
 
 ### I﻿ndividuality
