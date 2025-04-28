@@ -59,4 +59,4 @@ S﻿omething I've felt since first using AI is that it will always need human ex
 
 ## Further reading
 
-* I﻿'ve had this post in my drafts for a while now as I tweak how I wanted to frame it and word things. I read a brilliant article last week by [Hidde de Vries: Is "ethical AI" an oxymoron?](https://hidde.blog/ethical-ai/), which had my nodding a lot during reading. It's basically everything I wanted to say!
+* I﻿'ve had this post in my drafts for a while now as I tweak how I want to frame it and word things. I read a brilliant article last week by [Hidde de Vries: Is "ethical AI" an oxymoron?](https://hidde.blog/ethical-ai/), which had my nodding a lot during reading. It's basically everything I wanted to say!
