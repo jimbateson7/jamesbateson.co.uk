@@ -11,11 +11,11 @@ date: 2025-04-23T11:12:16.962Z
 
 ## H﻿ow am I using AI currently?
 
-D﻿ay-to-day I currently use AI in the following ways (that I'm aware of)
+D﻿ay-to-day I currently use AI in the following ways, that I'm aware of, as there's is probably a lot of secondary consumptions of it I'm unaware of (translations etc)
 
 * G﻿oogle search summary
 * G﻿ithub copilot code autocompletion/suggestions/chat
-* C﻿hatGPT 'pairing', feedback and suggestions
+* C﻿hatGPT 'pairing', feedback and suggestions (using AI chat via responses to prompts)
 
 ## S﻿tarting point
 
