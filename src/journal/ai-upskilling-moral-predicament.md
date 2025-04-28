@@ -7,7 +7,7 @@ metaDesc: I'm using AI more day-to-day at the moment as I upskill between jobs.
 socialImage: /images/social-share-default.jpg
 date: 2025-04-23T11:12:16.962Z
 ---
-### I'll admit that I've always been a little skeptical about using AI in my development process, it's not something I was early onboard with. Seeing examples of poor, non-semantic and accessible code scared me off a little. However, recently when looking for a new role, I've been using it more as a way of upskilling and filling knowledge gaps. It's left me with a few random thoughts on it. Writing about these here, to look back on at the end of the year to see how my approach and view might change. 
+### I've always been a little skeptical about using AI in my development process, it's not something I was early onboard with. Seeing examples of poor, non-semantic and accessible code scared me off a little. However, recently when looking for a new role, I've been using it more as a way of upskilling and filling knowledge gaps. It's left me with a few random thoughts on it. Writing about these here, to look back on at the end of the year to see how my approach and view might change. 
 
 ## H﻿ow am I using AI currently?
 
@@ -50,6 +50,8 @@ W﻿hilst I'm finding the increased usage is improving my workflow, productivity
 S﻿omething I've felt since first using AI is that it will always need human experience and review to ensure the best output. A former colleague once described AI as a "confident bullshitter". 
 
 > ﻿ A former colleague once described AI as a "confident bullshitter"
+
+
 
 ### I﻿ndividuality
 
