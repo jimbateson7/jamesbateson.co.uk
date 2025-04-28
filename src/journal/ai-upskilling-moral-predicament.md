@@ -65,6 +65,10 @@ D﻿uring the application process for civil service positions, there is now incl
 
 ### Copyright and value
 
+T﻿he large language models need a lot of data to train on so they can give suitable and in-depth responses. [Some of the information they consume can be copyrighted and pirated](https://www.theatlantic.com/technology/archive/2025/03/libgen-meta-openai/682093/).
+
+
+
 ### Just because you can
 
 ## Further reading
