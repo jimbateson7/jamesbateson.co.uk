@@ -24,5 +24,5 @@ bannerSummary: Welcome to my digital space. Somewhere I can post the occasional
   Outside of work I love to run, hike, and cook.
 postsHeading: Recent Articles
 postsSummary: A mix of development related articles, thoughts and notes.
-journalSummary: Articles on being active, mental wellbeing, life, and more.
+journalSummary: Articles on being active, wellbeing, life, and more.
 ---
