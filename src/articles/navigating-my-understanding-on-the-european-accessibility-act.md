@@ -34,7 +34,7 @@ T﻿he European Accessibility Act (EAA) is a directive that comes into effect on
   </dd>
 </dl>
 
-## U﻿seful resources/further reading
+## Useful resources/further reading{#link-sf .btn-read-more}
 
 * https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/
 *
