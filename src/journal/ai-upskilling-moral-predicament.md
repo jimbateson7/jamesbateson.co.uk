@@ -7,7 +7,7 @@ metaDesc: I'm using AI more day-to-day at the moment as I upskill between jobs.
 socialImage: /images/social-share-default.jpg
 date: 2025-04-23T11:12:16.962Z
 ---
-### I've always been a little skeptical about using AI in my development process, it's not something I was early onboard with. Seeing examples of poor, non-semantic and accessible code scared me off a little. However, recently when looking for a new role, I've been using it more as a way of upskilling and filling knowledge gaps. It's left me with a few random thoughts on it. Writing about these here, to look back on at the end of the year to see how my approach and view might change. 
+### I've always been a little skeptical about using AI in my development process, it's not something I was early onboard with. Seeing examples of poor, non-semantic and accessible code scared me off a little. However, recently when looking for a new role, I've been using it more as a way of upskilling and filling knowledge gaps. It's left me with a few random thoughts on it. Writing about these here, to look back on at the end of the year to see how my approach and view might change.
 
 ## H﻿ow am I using AI currently?
 
@@ -67,10 +67,11 @@ D﻿uring the application process for civil service positions, there is now incl
 
 T﻿he large language models need a lot of data to train on so they can give suitable and in-depth responses. [Some of the information they consume can be copyrighted and pirated](https://www.theatlantic.com/technology/archive/2025/03/libgen-meta-openai/682093/).
 
-
+### Joy
 
 ### Just because you can
 
 ## Further reading
 
 * I﻿'ve had this post in my drafts for a while now as I tweak how I want to frame it and word things. I read a brilliant article last week by [Hidde de Vries: Is "ethical AI" an oxymoron?](https://hidde.blog/ethical-ai/), which had my nodding a lot during reading. It's basically everything I wanted to say!
+* [T﻿he hidden cost of AI coding](https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/)
