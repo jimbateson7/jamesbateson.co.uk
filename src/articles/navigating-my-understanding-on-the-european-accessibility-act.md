@@ -14,6 +14,26 @@ T﻿he European Accessibility Act (EAA) is a directive that comes into effect on
 
 <div class="post-note"><h3 id="heading-further-reading">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3><p>This just my understanding and my learnings I'm jotting down. Don't necessarily take these as legally correct and such. I'm still navigating the directive and learning as well.</p><br/><p>You can skip my ramblings and <a href="#">jump to the resources I have found useful</a>.</p></div>
 
+## T﻿erminology
+
+<dl>
+  <dt>EN 301 549</dt>
+  <dd>
+    Parent element for the individual <code>tab</code> role items. Must be present.
+  </dd>
+
+  <dt>tab role, tablist item</dt>
+  <dd>
+    The individual tabs that reveal their related <code>tabpanel</code> content.
+    They should be direct children of an element with the <code>tablist</code> role set.
+  </dd>
+
+  <dt>tabpanel</dt>
+  <dd>
+    The content related to a tab, shown when the tablist item is active.
+  </dd>
+</dl>
+
 ## U﻿seful resources/further reading
 
 * https://tetralogical.com/blog/2025/03/19/understanding-the-eaa/
