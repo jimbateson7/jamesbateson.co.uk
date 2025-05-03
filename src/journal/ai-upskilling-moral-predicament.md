@@ -75,3 +75,4 @@ T﻿he large language models need a lot of data to train on so they can give sui
 
 * I﻿'ve had this post in my drafts for a while now as I tweak how I want to frame it and word things. I read a brilliant article last week by [Hidde de Vries: Is "ethical AI" an oxymoron?](https://hidde.blog/ethical-ai/), which had my nodding a lot during reading. It's basically everything I wanted to say!
 * [T﻿he hidden cost of AI coding](https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/)
+* [A﻿I Environmental Impact Report article from Michelle Barke](https://css-irl.info/ai-environmental-impact-report/)r (includes a link to read the report at the bottom)
