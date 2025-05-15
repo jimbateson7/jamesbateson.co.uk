@@ -13,7 +13,9 @@ S﻿omething I've been interested by lately has been the increase in accessibili
 
 O﻿ne thing I've noticed is that accessibility settings and features seem to be presented from the very start of the game. Whereas in the past it tended to be brightness and screen sizing. You can now toggle an arrya of settings for vision, motor and cognitive preferences. I love that they are being presented upfront, rather than either not there at all, or hidden in UIs that might only be discovered once playing.
 
-T﻿here's a good chunk of older games now getting "Remastered" as well, mainly popular games on older consoles or released many years ago, getting a refresh using more modern gaming engines and sometimes features/UI changes that reflect modern gaming expectations. Many of these are also adding accessibility features, for example the recent release of The Elder Scrolls: Oblivion, lists accessibility features as one of the improvements from the original. It's brilliant that this may allow a new set of players to experince these games they may have been prevented from playing on original release.
+T﻿here's a good chunk of older games now getting "Remastered" as well, mainly popular games on older consoles or released many years ago, getting a refresh using more modern gaming engines and sometimes features/UI changes that reflect modern gaming expectations. Many of these are also adding accessibility features, for example the recent release of The Elder Scrolls: Oblivion, lists accessibility features as one of the improvements from the original. It's brilliant that this may allow a new set of players to experience these games they may have been prevented from playing on original release.
+
+I﻿ recently attended an excellent [online panel discussion hosted by Clearleft: Is neurodiversity the next frontier of accessibility in UX design? YouTube](https://www.youtube.com/watch?v=33t7TCT_iT8&ab_channel=Clearleft). Accessibility in games was briefly touched upon by Jamie Knight, and it was interesting to hear his thoughts on why it might be more prominent. His thoughts were that as the bosses of these large gaming studios age with industry, their accessibility needs in games surface, therefore thy want to include them in the games as they want to be able to test and play their own games!
 
 ## A﻿ccessibility hardware
 
@@ -27,12 +29,16 @@ Creating inclusive and accessible games and customisable preferences can benefit
 * F﻿ont size adjustments
 * C﻿ontrast adjustments
 * H﻿aptic feedback adjustments
-* L﻿ong/hard/intense battle checkpoints
+* L﻿ong/hard/intense battle checkpoints (found in God of War: Ragnarok)
 * A﻿udio descriptions
 * D﻿isplay options (such as animations)
 * M﻿obility sensitivity
 
 ## G﻿aming emotion
+
+G﻿ames can create emotions for people whether that be joy, nostalgia, sadness (or anything else, realise they are not the only emotions). When looking at things like WCAG, there is nothing about emotion in there, and I feel that making gaming more accessible, removing barriers and allowing people to experience these emotions and enjoy playing is extremely powerful.
+
+I﻿ have the relative privilege of being able to play most games without much support, however, features in newer games have helped me from an low vision in one eye and cognitive difficulties, enjoy the playing much more.
 
 ## F﻿urther reading
 
