@@ -44,3 +44,5 @@ I﻿ have the relative privilege of being able to play most games without much s
 
 * [A﻿ccessibility in gaming report from Scope](https://www.scope.org.uk/campaigns/research-policy/accessibility-in-gaming)
 * [A﻿ccessibility gaming advocacy and reviewing from Brandon Cole](https://www.brandoncole.net/)
+* [C﻿an I Play That?](https://caniplaythat.com/)
+* [Y﻿ouTube accessibility game review videos from Steve Saylor ](https://www.youtube.com/@SteveSaylor)
