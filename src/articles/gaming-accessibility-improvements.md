@@ -19,7 +19,7 @@ I﻿ recently attended an excellent [online panel discussion hosted by Clearleft
 
 ## A﻿ccessibility hardware
 
-T﻿here are now a number of adaptive accessories available for PC and console gaming. For example [the Xbox adaptive joystick](https://wwww.microsoft.com/en-gb/d/Xbox-Adaptive-Joystick/8mzbmmcjzqs4) and the [PS5 Access Controller](https://www.playstation.com/en-gb/accessories/access-controller/). Both excellend examples of well thought through, researched and tested devices that can remove barriers for people playing games and be adapted to suit their specific setup needs.
+T﻿here are now a number of adaptive accessories available for PC and console gaming. For example [the Xbox adaptive joystick](https://www.microsoft.com/en-gb/d/Xbox-Adaptive-Joystick/8mzbmmcjzqs4) and the [PS5 Access Controller](https://www.playstation.com/en-gb/accessories/access-controller/). Both excellent examples of well thought through, researched and tested devices that can remove barriers for people playing games and be adapted to suit their specific setup needs.
 
 ## A﻿ccessibility features
 
@@ -43,3 +43,4 @@ I﻿ have the relative privilege of being able to play most games without much s
 ## F﻿urther reading
 
 * [A﻿ccessibility in gaming report from Scope](https://www.scope.org.uk/campaigns/research-policy/accessibility-in-gaming)
+* [A﻿ccessibility gaming advocacy and reviewing from Brandon Cole](https://www.brandoncole.net/)
