@@ -26,4 +26,19 @@ A﻿fter installing, when returning to the `Extensions` menu, you can now launch
 
 ![Screenshot of the Grackle Slides accessibility checker sidebar open in a Google Slides deck.](/images/screenshot-2025-05-28-at-10.26.54.png)
 
-<div class="post-note"><h3 id="heading-further-reading">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3><p>As it's a third party add-on installed through the Google Workplace Marketplace, it does mean that you have to grant it certian permissions to read content etc. So may be something to bear in mind for more confidential documents.</p></div>
+<div class="post-note"><h3 id="heading-further-reading">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3><p>As it's a third party add-on installed through the Google Workplace Marketplace, it does mean that you have to grant it certain permissions to read content etc. So may be something to bear in mind for more confidential documents. </p><br><p>Once installed it's relatively simple to remove the add-on though if you so wish.</p></div>
+
+T﻿he checks, information and feedback Grackle gave me were exactly what I was looking for, and very similar to the ones the Microsoft Office checker performs. It checked my deck for:
+
+* T﻿itles and document language set
+* S﻿lides have titles are unqiue and not empty
+* A﻿ny tables used are accessible
+* S﻿lide content elements are accessible e.g. image alt text, colour contrast, empty text boxes, lists not broken, etc.
+
+I﻿t also seems to offer export to PDF and PDF checking as well. As far as I can tell this add-on seems to be free, however, it looks like if you want to start utilising the PDF features, you might only get around 6 uses of this for free.
+
+T﻿here is also another tab in the sidebar UI that will show the structure of your slides and content. This is useful for ensuring you have suitable titles and nothing empty, and a meaningful reading order that will help people consuming your slides using assistive technology such as screen readers.
+
+![Screenshot of the Grackle sidebar UI open in a Google Slide deck. The "Slides Structure" tab is open and displaying a structure of the deck slides content.](/images/screenshot-2025-05-28-at-10.27.34.png)
+
+A﻿s with web accessibility testing, it's import to manually check that your content is accessible in documents as well, however this is a useful tool that I will be using for future presentations.
