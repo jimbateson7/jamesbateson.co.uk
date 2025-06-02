@@ -97,7 +97,7 @@
 
 		h2 {
 			border-bottom: 1px dotted var(--color-dark);
-			font-size: 1.25rem;
+			font-size: 1.35rem;
 		}
 
 		h3,
@@ -124,6 +124,12 @@
 				page-break-inside: avoid;
 				break-inside: avoid;
 			}
+		}
+
+		.cv-heading {
+			display: flex;
+			align-items: start;
+			justify-content: space-between;
 		}
 	}
 
