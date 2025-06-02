@@ -39,11 +39,6 @@
 		}
 	}
 
-	// a,
-	// a:not([class]) {
-	// 	text-decoration: none;
-	// }
-
 	.site-head,
 	.site-foot,
 	.site-head__job {
@@ -52,23 +47,26 @@
 
 	.intro {
 		color: var(--color-dark);
-		padding-block: .5rem;
 
 		// .intro__heading
 		&__heading {
-			font-size: 2.25rem;
+			font-size: 1.75rem;
 			margin-top: 0;
 		}
 
 		// .intro__summary
 		&__summary {
-			&.text-600 {
-				font-size: 1rem;
+			padding-top: .85rem;
+
+			&.text-500 {
+				font-size: .85rem;
 			}
 		}
 
 		// .intro__contact
 		&__contact {
+			margin-top: 10px;
+
 			li {
 				display: inline-block;
 
@@ -94,12 +92,24 @@
 	}
 
 	.post__body--resume {
-		h3 img {
-			display: none;
-		}
+		padding-top: 0;
 
 		h2 {
 			border-bottom: 1px dotted var(--color-dark);
+			font-size: 1.25rem;
+		}
+
+		h3,
+		.h3 {
+			font-size: 1rem;
+
+			img {
+				display: none;
+			}
+		}
+
+		h4 {
+			font-size: .85rem;
 		}
 
 		ol,
