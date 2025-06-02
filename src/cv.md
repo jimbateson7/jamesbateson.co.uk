@@ -17,8 +17,6 @@ bannerSummary: I'm James — a passionate UI Developer and Digital Accessibility
 
 #### September 2024 - February 2025
 
-##### Remote/Manchester, UK
-
 * Developed custom Gutenberg blocks leveraging the platform's block editor framework, empowering clients with flexible page layout capabilities and a streamlined content management experience
 * Proficiently utilised Advanced Custom Fields (ACF) to architect and implement complete WordPress solutions, from initial design to full functionality
 * Leveraged Tailwind CSS to rapidly prototype and develop responsive user interfaces, ensuring consistent design language and optimised performance across devices
@@ -29,8 +27,6 @@ bannerSummary: I'm James — a passionate UI Developer and Digital Accessibility
 ### Front End Engineer and Accessibility Specialist at ![Code Computerlove logo](/images/avatars/twitter/963dc030-90.webp) [Code Computerlove](https://www.codecomputerlove.com/)
 
 #### April 2021 - July 2024
-
-##### Manchester, UK
 
 * Formed and ran the accessibility champions network. Helping bring together people from multiple disciplines with a passion for accessibility to collaborate and make change
 * Contributed to the successful rollout of interactive design annotation workshops using Figma to improve accessibility awareness and feedback loops between designers and developers
@@ -48,8 +44,6 @@ bannerSummary: I'm James — a passionate UI Developer and Digital Accessibility
 ### Front End Developer at ![Fat Media logo](/images/avatars/twitter/34f7590a-90.webp) [Fat Media](https://www.fatmedia.co.uk/)
 
 #### September 2013 - March 2021
-
-##### Lancaster, UK
 
 * Taking flat designs and transforming them into responsive, accessible, resilient, and performant static websites/components
 * Integrating static templates into dynamic CMS-based templating files (MVC, PHP, Twig)
