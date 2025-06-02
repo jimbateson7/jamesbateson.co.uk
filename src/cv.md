@@ -88,3 +88,4 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 
 * Graduated with a second-class honours degree (2:1)
 * Gained experience in a variety of media disciplines. Web design & development and graphic design, audio & video recording/editing.
+*﻿ Specialised in web design and development
