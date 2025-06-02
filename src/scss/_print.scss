@@ -57,6 +57,7 @@
 		// .intro__summary
 		&__summary {
 			padding-top: .85rem;
+			text-wrap: pretty;
 
 			&.text-500 {
 				font-size: .85rem;
@@ -116,6 +117,12 @@
 		ul {
 			::marker {
 				color: var(--color-dark);
+			}
+
+			li {
+				-webkit-column-break-inside: avoid;
+				page-break-inside: avoid;
+				break-inside: avoid;
 			}
 		}
 	}
