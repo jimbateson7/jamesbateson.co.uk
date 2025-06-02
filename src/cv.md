@@ -92,9 +92,5 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 
 ### Multimedia Technology at ![Leeds Beckett logo](/images/avatars/twitter/b5feb6c-90.webp) Leeds Metropolitan University
 
-#### September 2009 - June 2012
-
-##### Leeds, UK
-
 * Graduated with a second-class honours degree (2:1)
 * Gained experience in a variety of media disciplines. Web design & development and graphic design, audio & video recording/editing.
