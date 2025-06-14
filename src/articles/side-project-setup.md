@@ -40,6 +40,6 @@ I use Nunjucks as my templating language. There are other HTML templating langua
 
 I like to start by writing semantic, accessible HTML, then build upon that with styles and finally any interactivity needed with presentational JavaScript. With templating languages, I feel like you're always putting the HTML first, and then writing logic around that, opposed to something like React, which has always, for me, felt like the opposite somehow, that HTML is an afterthought. This is just my opinion.
 
-With Eleventy I can logically structure my projects as I need and Nunjucks allows me to work in \`.html\` files but use things like loops and partials. Front matter gives me the dynamic data I need to populate the HTML, which is populated by content from the CMS.
+With Eleventy I can logically structure my projects as I need and Nunjucks allows me to work in `.html` files but use things like loops and partials. Front matter gives me the dynamic data I need to populate the HTML, which is populated by content from the CMS.
 
 I love how free the approach is, my front and back end are completely decoupled and I could switch things around if I so wished. 11ty provides support for many different languages should that need to change as well, and the whole process just feels logical to me and that I can concentrate on shipping less, and building up an accessible, performant and solid project.
