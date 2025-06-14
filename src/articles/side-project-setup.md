@@ -16,6 +16,6 @@ First off it's worth noting that the side projects I do are small-scale, normall
 4. Netlify/Decap CMS\*\*
 5. Netlify
 
-*Tailwind is something I've used recently, previously I used sass and vanilla CSS
+\* Tailwind is something I've used recently, previously I used sass and vanilla CSS
 
-**This site uses Netlify CMS, however, Netlify no longer maintain the project, it is now known as Decap CMS. The setup and documentation and genrally how it works seem to have stayed the same though
+\*\* This site uses Netlify CMS, however, Netlify no longer maintain the project, it is now known as Decap CMS. The setup and documentation and genrally how it works seem to have stayed the same though
