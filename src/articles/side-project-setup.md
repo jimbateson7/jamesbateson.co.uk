@@ -33,3 +33,13 @@ Using Figma is a great opportunity for me to practice what I preach when working
 I think it's also worth noting that I'm not a designer and don't claim to be. My practices are not likely as efficient and clean as people in this profession. However, I've always considered myself having an eye from design, and I love using Figma and collaborating with design.
 
 ## Eleventy (11ty)
+
+I've switched between using 11ty and Astro for my side projects. I love both, the documentation, setup experience, ease-of-use and communities make them a joy to work with. However, I find myself having a real affinity with 11ty. 
+
+I use Nunjucks as my templating language. There are other HTML templating languages out there such as Twig and Liquid that are also great, Nunjucks is just my go-to preference, can't really give many reasons beyond that. using templating languages fits in well with how I like to approach my development. Do it, do it right, do it better. 
+
+I like to start by writing semantic, accessible HTML, then build upon that with styles and finally any interactivity needed with presentational JavaScript. With templating languages, I feel like you're always putting the HTML first, and then writing logic around that, opposed to something like React, which has always, for me, felt like the opposite somehow, that HTML is an afterthought. This is just my opinion.
+
+With Eleventy I can logically structure my projects as I need and Nunjucks allows me to work in \`.html\` files but use things like loops and partials. Front matter gives me the dynamic data I need to populate the HTML, which is populated by content from the CMS.
+
+I love how free the approach is, my front and back end are completely decoupled and I could switch things around if I so wished. 11ty provides support for many different languages should that need to change as well, and the whole process just feels logical to me and that I can concentrate on shipping less, and building up an accessible, performant and solid project.
