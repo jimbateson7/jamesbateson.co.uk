@@ -22,10 +22,12 @@ First off it's worth noting that the side projects I do are small-scale, normall
 
 ## Figma
 
-Figma isn't always my starting point for side projects. If it's just a personal project and I have a clear vision in mind, I'll often combining pen and paper with design in the browser. However, when working on a project for other people, mocking up wireframes and designs in Figma can save a lot of time and makes collaboration early on easier.
+Figma isn't always my starting point for side projects. If it's just a personal project and I have a clear vision in mind, I'll often combine pen and paper with design in the browser. However, when working on a project for other people, mocking up wireframes and designs in Figma can save a lot of time and makes collaboration early on easier.
 
 As primarily a developer, I find it very useful to gain more experience working within Figma, to help me better understand the process of designers and design teams.
 
 As I don't have a paid Figma account, I don't use dev mode for my side projects, however, I find it very useful to setup design tokens in Figma and start thinking ahead as if I were doing a design/dev handover. I'll often setup tokens I can use in development for this such as fonts, spacing and colours. Along with using components in Figma to think about how I might then split up my development build.
 
 Using Figma is a great opportunity for me to practice what I preach when working in teams and advocating for shifting left in regards to accessibility and in particular not designing potential barriers into products. I use  plugins such as Stark and accessibility annotation kits to aid my self-handover to development.
+
+I think it's also worth noting that I'm not a designer and don't claim to be. My practices are not likely as efficient and clean as people in this profession.
