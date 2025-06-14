@@ -30,4 +30,4 @@ As I don't have a paid Figma account, I don't use dev mode for my side projects,
 
 Using Figma is a great opportunity for me to practice what I preach when working in teams and advocating for shifting left in regards to accessibility and in particular not designing potential barriers into products. I use  plugins such as Stark and accessibility annotation kits to aid my self-handover to development.
 
-I think it's also worth noting that I'm not a designer and don't claim to be. My practices are not likely as efficient and clean as people in this profession.
+I think it's also worth noting that I'm not a designer and don't claim to be. My practices are not likely as efficient and clean as people in this profession. However, I've always considered myself having an eye from design, and I love using Figma and collaborating with design.
