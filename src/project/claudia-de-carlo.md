@@ -72,5 +72,9 @@ I used an Eleventy, Tailwind and NetlifyCMS starter as the base for the project.
 
 * Update Elevently to latest version (3.1.1 stable at time of writing) and then any Eleventy dependencies that needed to be bumped as a result of this
 * Swap the Netlify CMS scripts and setup for Decap
-* Update Tailwind to use version 4
+* Update Tailwind to use version 4 (changing config to CSS as per new setup)
 * Installed any Eleventy dependencies I knew I would need, such as eleventy-img
+
+I use Nunjucks with Eleventy, inside of HTML files, this allows me to put HTML first and then build upon that solid semantic base with logic when needed. It also allows me to use partials, so i can build things up in a component structured way, keep things manageable and reusable.
+
+This workflow, along with using Tailwind was great to work with! I found myself enjoying the development experience and moving through my task list at a nice pace.
