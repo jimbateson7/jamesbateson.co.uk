@@ -62,4 +62,15 @@ Normally when building side projects for myself I'll just design in the browser,
 
 I designed 4 different templates. Homepage, a static page, a service page and an archive (listing) page. I really enjoy using Figma, and feel my dev experience is a benefit when thinking about how I would build what I'm designing, how to make things accessible and thinking about semantics. 
 
-I made use of variables (tokens) and components within Figma to ensure that my own design to dev handover was smooth and my dev setup - Tailwind for this project - was easy to do.
+I made use of variables (tokens) and components within Figma to ensure that my own design to dev handover was smooth and my dev setup - Tailwind for this project - was easy to do. One thing I didn't do, which was a bit naughty, and only because I knew I was building the site myself, was do mobile designs. I kept in mind how things would work on mobile, and there were no complex components on the site. It is something that should always be done though.
+
+### Into build
+
+Once the designs were signed off (apart from a few things we wanted to try out during build) I moved into the development phase. 
+
+I used an Eleventy, Tailwind and NetlifyCMS starter as the base for the project. It was exactly the setup I wanted and very similar to how I built my own site, just minus the sass setup. As the starter was a little out of date, I did need to make a few adustments before starting the build:
+
+* Update Elevently to latest version (3.1.1 stable at time of writing) and then any Eleventy dependencies that needed to be bumped as a result of this
+* Swap the Netlify CMS scripts and setup for Decap
+* Update Tailwind to use version 4
+* Installed any Eleventy dependencies I knew I would need, such as eleventy-img
