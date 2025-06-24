@@ -42,7 +42,9 @@ We decided we would head towards something quite minimalist, which suits my styl
 
 Along with talking design, i also asked some questions and put forward my approach and thinking for the development deliverables. Such as what I would build it with (Eleventy) the CMS I was thinking of using (Decap) and where i thought would be good to host it (Netlify). This ensured there was no suprises along the way, and that I could manage expectations with the services that would be used.
 
-For example, Decap CMS has its flaws. It can be quite slow and clunky in places, it's not the most accessible, and I was upfront about these, giving Clauida the opportunity to state a prefernce. But I felt that this stack would be ideal for what was needed and allow a short uild to be sustainable, flexible and robust.
+For example, Decap CMS has its flaws. It can be quite slow and clunky in places, it's not the most accessible, and I was upfront about these, giving Clauida the opportunity to state a prefernce. But I felt that this stack would be ideal for what was needed and allow a short build to be sustainable, flexible and robust.
+
+Claudia already had a domain name and some hosting and such, so I just explained the process of switching this to Netlify, and would would be needed, when and what it might cost.
 
 ### Pen and paper
 
