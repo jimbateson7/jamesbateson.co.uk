@@ -77,4 +77,4 @@ I used an Eleventy, Tailwind and NetlifyCMS starter as the base for the project.
 
 I use Nunjucks with Eleventy, inside of HTML files, this allows me to put HTML first and then build upon that solid semantic base with logic when needed. It also allows me to use partials, so i can build things up in a component structured way, keep things manageable and reusable.
 
-This workflow, along with using Tailwind was great to work with! I found myself enjoying the development experience and moving through my task list at a nice pace.
+This workflow, along with using Tailwind was great to work with! I found myself enjoying the development experience and moving through my task list at a nice pace. As much as I love writing CSS, I have to say that this project has probably converted me to Tailwind being my go-to for similar projects.
