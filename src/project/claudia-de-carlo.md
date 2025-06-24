@@ -32,7 +32,7 @@ The site used a page builder, drag and drop type system, and she had used WordPr
 
 ## Goal
 
-The aim was to create Claudia a site that allowed for multiple pages (her current site was just a long one pager), brought in her blog posts that were written on an external platform so she controlled and owned her content and had a space to create more, allow her to eaily add more services, testimonials and content pages as she needed.
+The aim was to create Claudia a site that allowed for multiple pages (her current site was just a long one pager), brought in her blog posts that were written on an external platform so she controlled and owned her content and had a space to create more, allow her to add more services, testimonials and content pages as she needed.
 
 ## Process
 
