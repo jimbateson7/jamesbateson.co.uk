@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: Netlify CMS content cursor fix
-metaTitle: Netlify CMS content cursor fix
+title: Netlify (Decap) CMS content cursor fix
+metaTitle: Netlify (Decap) CMS content cursor fix
 metaDesc: I've finally found a fix for a frustrating issue I've been having in
   my CMS for a while.
 socialImage: /images/social-share-default.jpg
