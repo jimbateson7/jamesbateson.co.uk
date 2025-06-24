@@ -68,7 +68,7 @@ I made use of variables (tokens) and components within Figma to ensure that my o
 
 Once the designs were signed off (apart from a few things we wanted to try out during build) I moved into the development phase. 
 
-I used an Eleventy, Tailwind and NetlifyCMS starter as the base for the project. It was exactly the setup I wanted and very similar to how I built my own site, just minus the sass setup. As the starter was a little out of date, I did need to make a few adustments before starting the build:
+I used an Eleventy, Tailwind and NetlifyCMS starter as the base for the project. It was exactly the setup I wanted and very similar to how I built my own site, just minus the sass setup. As the starter was a little out of date, I did need to make a few adjustments before starting the build:
 
 * Update Elevently to latest version (3.1.1 stable at time of writing) and then any Eleventy dependencies that needed to be bumped as a result of this
 * Swap the Netlify CMS scripts and setup for Decap
@@ -78,3 +78,23 @@ I used an Eleventy, Tailwind and NetlifyCMS starter as the base for the project.
 I use Nunjucks with Eleventy, inside of HTML files, this allows me to put HTML first and then build upon that solid semantic base with logic when needed. It also allows me to use partials, so i can build things up in a component structured way, keep things manageable and reusable.
 
 This workflow, along with using Tailwind was great to work with! I found myself enjoying the development experience and moving through my task list at a nice pace. As much as I love writing CSS, I have to say that this project has probably converted me to Tailwind being my go-to for similar projects.
+
+Once I was happy with my HTML and styling, had done some testing and such, I configured the CMS and hooked that up. This is done headless in an admin config yaml file. You can build up settings and collections, setting up fields that sit within those for content authors to populate and then selecting which widgets the fields use. I love seeing static builds come to life with dynamic data.
+
+## Anything I didn't do?
+
+I was quite limited in the format of the assets I had available on this project. Although I had some nice icons to use, they were in PNG format, and my design abilities don't stretch to assets creation. So the site makes a few too many image requests for my liking, however, we have been in touch with the designer who created the original assets to ask for them in SVG format, so hopefully can do some reworks if they come through.
+
+If I can use SVGs, I'd love to add some nice little animation touches as well. I'm thinking some floral elements drawing in on scroll etc. It will be a nice chance to do some work like that, maybe using GSAP.
+
+## Plans for the future
+
+We're going to look at adding some kind of tracking at some point. It's not something I have experience in setting up and organising, so might just be dropping an analytics tool script in to start with, but hopefully another learning opportunity that will help my understanding in future roles and projects.
+
+Claudia would also like to be able to change the language of the site and support Spanish translations. It's not something I've done with Eleventy and DecapCMS before, and the request came far too late in the day for it to make it into the initial launch. But something I will explore.
+
+## Summary
+
+This is the first start-finish solo project I've done in a long time, and I'm pleased with how it's turned out. Claudia is happy, and has been finding it easy to add and edit content - with some of the usual learning/teaching bits getting used to a new "system" comes with. And she's received some initial positive feedback on the site as a whole as well, which is great to hear.
+
+I'm currently drafting out a more in-depth article on my side project setup and workflow, as I again greatly enjoyed working with it on this project. I learnt a bunch more useful features and ways of working with Eleventy, DecapCMS and Netlify, and think it would be worth me writing about them more for my future self.
