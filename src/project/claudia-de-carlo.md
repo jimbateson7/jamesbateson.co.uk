@@ -53,3 +53,13 @@ I started off by doing some very rough page layout sketches. They don't look lik
 I showed these to Claudia, just to keep the communication up and be open with my process. There's not a lot fo feedback that you can get from them, so I used a wireframe kit in Figma to make a slightly higher fidelity version of them.
 
 After a few tweaks, we agreed on a layout and the content that would go onto the homepage, so i could move onto applying her brand.
+
+### Figma designs
+
+First things first, I'm not a designer. But I do feel that I have a proficiency in Figma and an eye for design supported by dev experience and working closely with designers. 
+
+Normally when building side projects for myself I'll just design in the browser, however, with this project being for a client, I designed the pages out in Figma. It's also good experience for me in preparing to return to work and collaborate with designers.
+
+I designed 4 different templates. Homepage, a static page, a service page and an archive (listing) page. I really enjoy using Figma, and feel my dev experience is a benefit when thinking about how I would build what I'm designing, how to make things accessible and thinking about semantics. 
+
+I made use of variables (tokens) and components within Figma to ensure that my own design to dev handover was smooth and my dev setup - Tailwind for this project - was easy to do.
