@@ -40,6 +40,10 @@ I started off by sitting down with Claudia and listening to her frustrations wit
 
 We decided we would head towards something quite minimalist, which suits my style of design and development as well.
 
+Along with talking design, i also asked some questions and put forward my approach and thinking for the development deliverables. Such as what I would build it with (Eleventy) the CMS I was thinking of using (Decap) and where i thought would be good to host it (Netlify). This ensured there was no suprises along the way, and that I could manage expectations with the services that would be used.
+
+For example, Decap CMS has its flaws. It can be quite slow and clunky in places, it's not the most accessible, and I was upfront about these, giving Clauida the opportunity to state a prefernce. But I felt that this stack would be ideal for what was needed and allow a short uild to be sustainable, flexible and robust.
+
 ### Pen and paper
 
 I started off by doing some very rough page layout sketches. They don't look like much to anyone, but for me are a really important step in starting to visualise what I want to put into something like Figma. It makes me think about the layout and content that will be included first, before getting bogged down in pixels, fonts and colours.
