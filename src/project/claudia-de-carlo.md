@@ -2,6 +2,7 @@
 layout: layouts/project-single.njk
 title: Claudia De Carlo
 url: https://claudiadecarlo.com/
+bannerImage: /images/screenshot-2025-06-25-at-11.30.04.png
 shortDescription: Design and development of a small marketing site for a transformation coach.
 socialImage: /images/social-share-default.jpg
 date: 2025-06-14T07:56:04.981Z
