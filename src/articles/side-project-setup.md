@@ -34,7 +34,7 @@ I think it's also worth noting that I'm not a designer and don't claim to be. My
 
 ## Eleventy (11ty)
 
-I've switched between using 11ty and Astro for my side projects. I love both, the documentation, setup experience, ease-of-use and communities make them a joy to work with. However, I find myself having a real affinity with 11ty. 
+I've switched between using [11ty](https://www.11ty.dev/) and [Astro](https://astro.build/) for my side projects. I love both, the documentation, setup experience, ease-of-use and communities and general developer experience make them a joy to work with. However, I find myself having a real affinity with 11ty when it comes to a new build.
 
 I use Nunjucks as my templating language. There are other HTML templating languages out there such as Twig and Liquid that are also great, Nunjucks is just my go-to preference, can't really give many reasons beyond that. using templating languages fits in well with how I like to approach my development. Do it, do it right, do it better. 
 
@@ -45,6 +45,8 @@ With Eleventy I can logically structure my projects as I need and Nunjucks allow
 I love how free the approach is, my front and back end are completely decoupled and I could switch things around if I so wished. 11ty provides support for many different languages should that need to change as well, and the whole process just feels logical to me and that I can concentrate on shipping less, and building up an accessible, performant and solid project.
 
 ## Tailwind CSS
+
+
 
 ## Netlify/Decap CMS
 
