@@ -42,7 +42,100 @@ I like to start by writing semantic, accessible HTML, then build upon that with 
 
 With Eleventy I can logically structure my projects as I need and Nunjucks allows me to work in `.html` files but use things like loops and partials. Front matter gives me the dynamic data I need to populate the HTML, which is populated by content from the CMS.
 
+Here's an example of a testimonials list component: `testimonials.html` (I'm trying to ignore the carousel I begrudgingly lost the battle to not use).
+
+```html
+{% set orderedTestimonials = collections.testimonials | sort(attribute='data.order') %}
+
+<section class="py-8 md:py-16 bg-[url('/static/uploads/pattern.webp')] bg-brand-purple-light">
+    <div class="container mx-auto">
+        <h2 class="font-medium text-brand-purple md:text-5xl">{{ testimonialsTitle }}</h2>
+
+        <div class="px-2 md:px-11 mt-12 splide" aria-label="Testimonials Slider" data-splide='{ "autoHeight": true, "updateOnMove": true, "perPage": 2, "gap": "3rem", "breakpoints": { "1023": { "perPage": 1 } } }''>
+            <div class="splide__track">
+                <ul class="md:mt-8 splide__list">
+                    {% for testimonial in orderedTestimonials %}
+                        <li class="splide__slide">
+                            {% include "partials/testimonialCard.html" %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+```
+
 I love how free the approach is, my front and back end are completely decoupled and I could switch things around if I so wished. 11ty provides support for many different languages should that need to change as well, and the whole process just feels logical to me and that I can concentrate on shipping less, and building up an accessible, performant and solid project.
+
+When the homepage content from my CMS has been added, this is how it's written to the front matter in the index.html file. You can also add front matter yourself to help write logic and such.
+
+```
+---
+heroImage: /static/uploads/collage.jpg
+layout: default
+metaTitle: My Approach
+metaDesc: Reconnect with Yourself to create lasting change
+title: My Approach
+subTitle: Reconnect with Yourself to create lasting change
+bannerImage: /static/uploads/collage.jpg
+summary: >-
+  Everything begins with the relationship you have with yourself. 
+
+
+  My method integrates insights from psychology, neuroscience, behavioural science, mindfulness, and therapeutic tools to guide you on a transformative journey. Together, we explore, redefine, and dissolve limiting beliefs and patterns, moving toward a more fulfilling life.
+
+
+  At the core of my work are 4 main pillars, supported by 5 additional concepts that ensure holistic growth.
+pillarsHeading: The 4 Core Pillars
+pillars:
+  - text: Feel
+    description: Emotions are the gateway to understanding. By allowing yourself to
+      fully experience them, we uncover the hidden limitations that hold you
+      back. Your feelings offer important clues to areas needing growth and
+      healing.
+    icon: feel
+  - text: Heal
+    description: Once we identify the root cause of those emotions, I’ll guide you
+      to nurture your inner self, helping you release old narratives and
+      limiting beliefs. This process lessens the emotional grip they once had,
+      allowing you to grow and move forward with more freedom and clarity.
+    icon: heal
+  - text: Balance
+    description: Effective change happens through a mix of movement and stillness.
+      Incorporating physical exercise, even something as simple as walking,
+      together with mindfulness and meditation (even for the ones that believe
+      they don’t have time), helps ground the body and mind. We’ll work to
+      create harmony between action and reflection, allowing for steady,
+      sustainable progress that feels natural over time.
+    icon: balance
+  - text: Transform
+    description: As you integrate these practices, you’ll align more closely with
+      your own values and deeper "Why." This leads to healthier choices in your
+      career, relationships, and overall wellbeing - a transformation into the
+      most authentic, empowered version of yourself.
+    icon: transform
+conceptsHeading: The 5 Supporting Concepts
+concepts:
+  - text: Learn
+    description: Every challenge is an opportunity to deepen your self-understanding
+      and expand your knowledge. A step forward to freedom.
+  - text: Harmony
+    description: We aim to create balance in all aspects of life, leading to inner
+      peace and a sense of well-being.
+  - text: Rise
+    description: As you heal and grow, you rise into a more resilient and empowered
+      version of yourself.
+  - text: Connect
+    description: Building deeper connections with yourself and others fosters a
+      richer, more meaningful life.
+  - text: Grow
+    description: At every stage, we focus on nurturing continuous growth, both
+      personally and professionally.
+showContactForm: true
+subtitle: Reconnect with Yourself to create lasting change
+---
+```
 
 ## Tailwind CSS
 
