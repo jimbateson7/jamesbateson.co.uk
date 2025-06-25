@@ -49,3 +49,7 @@ I love how free the approach is, my front and back end are completely decoupled 
 ## Decap CMS
 
 ## Netlify
+
+## Wrapping up
+
+## Further reading
