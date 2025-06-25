@@ -70,7 +70,7 @@ I love how free the approach is, my front and back end are completely decoupled 
 
 When the homepage content from my CMS has been added, this is how it's written to the front matter in the index.html file. You can also add front matter yourself to help write logic and such.
 
-```
+```yaml
 ---
 heroImage: /static/uploads/collage.jpg
 layout: default
@@ -149,7 +149,57 @@ I'm not going to go into how Tailwind works, and how I used it, as there are man
 
 Before version 4, `tailwind.config.js` would be used to extend any classes you need with the spacing/sizing scale from your designs, or tweak defualt breakpoints, add your brand colours etc. This was done through a series of objects, that Tailwind then did magic things with and they became classes that could be used with the same syntax as their defaults `bg-brand-purple` for example.
 
-In version 4 you now [use the CSS file you import Tailwind in to configure](https://tailwindcss.com/blog/tailwindcss-v4#css-first-configuration) your projects custom property values. 
+In version 4 you now [use the CSS file you import Tailwind in to configure](https://tailwindcss.com/blog/tailwindcss-v4#css-first-configuration) your projects custom property values. This feels like a better fit for me, after all it's a CSS framework, so setting it up in CSS makes sense, right?
+
+You can setup your design token in the `@theme` layer
+
+```css
+@theme {
+  --font-display: "lora", serif;
+  --font-sans: "jakarta-sans", sans-serif;
+
+  --color-brand-red: #c74c49;
+  --color-brand-purple: #912c61;
+  --color-brand-yellow: #fca23b;
+  --color-brand-purple-light: #f1e0e9;
+
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
+```
+
+With mine only being a fairly simple small site that I designed with Tailwinds sizing and spacing scale in mind, I've not added much here, but there's a lot more you could do, and I'm still learning how powerful Tailwind can be.
+
+You can also use a base layer, which I used for setting things like default styles on common elements like headings and links etc
+
+```css
+@layer base {
+  h1, h2, h3, h4 {
+    @apply font-display text-pretty;
+  }
+  
+  ...more base styles
+}
+```
+
+For any custom CSS you're writing, useful for such things as markup not written by you, or maybe elements coming from APIs/CMS content widgets etc, you can use the component layer, and reference your design tokens.
+
+```css
+@layer components {
+  .pillar-card:nth-child(odd) {
+    background-color: var(--color-brand-purple);
+    color: var(--color-white;
+  }
+ }
+```
+
+Something I'm still unsure on is whether it's still 'ok' to use @apply or whather now that tokens are available as CSS custom properties, whether just writing CSS as normal and using these is preferred. Something that I kind of mixed up a little bit in these examples and my latest project, but I'm sure that I'll refine with more use and learning.
+
+### Use Tailwind for bits not all
+
+Something that I quite like the idea of is using Tailwind for aspects of a projects CSS workflow, but intergating it into another methodology, or way of working. Tailwind only outputs what you have written, you could potentially have a tiny utilities library and still write your own CSS for components. 
+
+I'm still figuring out if it's counter intuitive and would need to use it in a project to make a judgement, and Tailwind 4 might be what I'm describing and just not realised. [CUBE CSS touches upon this concept](https://cube.fyi/), although it's tool agnostic, you could use something like Tailwind just for it's utility class generation of your tokens. Some food for thoughts anyway.
 
 ## Netlify/Decap CMS
 
