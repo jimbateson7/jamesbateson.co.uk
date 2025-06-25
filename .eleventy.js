@@ -1,5 +1,6 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
 const fs = require('fs');
 
 // Import filters
@@ -39,6 +40,8 @@ module.exports = (config) => {
 	config.addPassthroughCopy('src/admin/config.yml');
 	config.addPassthroughCopy('src/admin/previews.js');
 	config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');
+
+	config.addPlugin(eleventyImageTransformPlugin);
 
 	const now = new Date();
 

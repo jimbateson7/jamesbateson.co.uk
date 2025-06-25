@@ -25,6 +25,10 @@
 			{% if introSummary %}
 				<div class="[ intro__summary ] [ sf-flow ] [ text-500 md:text-700 ]">{{ introSummary | safe }}</div>
 			{% endif %}
+
+			{% if bannerImage %}
+				<img src="{{ bannerImage }}" class="[ intro__banner ] [ sf-flow ]" alt="" width="1000" loading="eager" fetchpriority="high">
+			{% endif %}
 		</div>
 
 		{% if introImage %}
