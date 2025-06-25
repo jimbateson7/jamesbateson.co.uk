@@ -46,7 +46,7 @@ I love how free the approach is, my front and back end are completely decoupled 
 
 ## Tailwind CSS
 
-## Decap CMS
+## Netlify/Decap CMS
 
 ## Netlify
 
