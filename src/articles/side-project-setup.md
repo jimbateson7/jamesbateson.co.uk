@@ -6,7 +6,7 @@ metaDesc: An overview of my go-to side project setup.
 socialImage: /images/social-share-default.jpg
 date: 2025-06-14T08:33:30.195Z
 ---
-With my latest (and to be honest first for a while) side project wrapping up soon, I thought I would write a brief overview of the stack I used, and would use for other projects. It's very similar to the one I used for this site, it won't suite everyone/every project but I love working with it.
+With my [latest (and to be honest first for a while) side project recently launched](https://jamesbateson.co.uk/project/claudia-de-carlo/), I thought I would write a brief overview of the stack I used, and would use for other projects. It's very similar to the one I used for this site, it won't suite everyone/every project but I love working with it.
 
 First off it's worth noting that the side projects I do are small-scale, normally just marketing/blog sites with little to no complex integrations. Here are the tools I use:
 
@@ -18,7 +18,7 @@ First off it's worth noting that the side projects I do are small-scale, normall
 
 \* Tailwind is something I've used recently, previously I used sass and vanilla CSS. Sometimes I'll use it for just some bits of a project alongside sass etc
 
-\*\* This site uses Netlify CMS, however, Netlify no longer maintain the project, it is now known as Decap CMS. The setup and documentation and genrally how it works seem to have stayed the same though
+\*\* This site uses Netlify CMS, however, Netlify no longer maintain the project, it is now known as Decap CMS. The setup and documentation and generally how it works seem to have stayed the same though
 
 ## Figma
 
@@ -43,3 +43,9 @@ I like to start by writing semantic, accessible HTML, then build upon that with 
 With Eleventy I can logically structure my projects as I need and Nunjucks allows me to work in `.html` files but use things like loops and partials. Front matter gives me the dynamic data I need to populate the HTML, which is populated by content from the CMS.
 
 I love how free the approach is, my front and back end are completely decoupled and I could switch things around if I so wished. 11ty provides support for many different languages should that need to change as well, and the whole process just feels logical to me and that I can concentrate on shipping less, and building up an accessible, performant and solid project.
+
+## Tailwind CSS
+
+## Decap CMS
+
+## Netlify
