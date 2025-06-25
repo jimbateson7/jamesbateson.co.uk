@@ -44,7 +44,7 @@ With Eleventy I can logically structure my projects as I need and Nunjucks allow
 
 Here's an example of a testimonials list component: `testimonials.html` (I'm trying to ignore the carousel I begrudgingly lost the battle to not use).
 
-```html
+```twig
 {% set orderedTestimonials = collections.testimonials | sort(attribute='data.order') %}
 
 <section class="py-8 md:py-16 bg-[url('/static/uploads/pattern.webp')] bg-brand-purple-light">
@@ -197,11 +197,15 @@ Something I'm still unsure on is whether it's still 'ok' to use @apply or whathe
 
 ### Use Tailwind for bits not all
 
-Something that I quite like the idea of is using Tailwind for aspects of a projects CSS workflow, but intergating it into another methodology, or way of working. Tailwind only outputs what you have written, you could potentially have a tiny utilities library and still write your own CSS for components. 
+Something that I quite like the idea of is using Tailwind for aspects of a projects CSS workflow, but integrating it into another methodology, or way of working. Tailwind only outputs what you have written, you could potentially have a tiny utilities library and still write your own CSS for components. 
 
 I'm still figuring out if it's counter intuitive and would need to use it in a project to make a judgement, and Tailwind 4 might be what I'm describing and just not realised. [CUBE CSS touches upon this concept](https://cube.fyi/), although it's tool agnostic, you could use something like Tailwind just for it's utility class generation of your tokens. Some food for thoughts anyway.
 
 ## Netlify/Decap CMS
+
+When a side project required the ability to regularly add and update content. Adding a CMS obviously makes sense. However, with little to no backend dev experience and often not really wanting to pay licensing/seat costs, I want something that is easy to configure, flexible, scalable, able to be decoupled from my front end, well documented and has an active community (not wanting much there, ey!).
+
+When I built this site (my personal site) I used Netlify CMS. It ticked all of those boxes and I also found a great 11ty starter project that used it, my site was hosted with Netlify meaning I could use their identity service to login and it kept everything in one place. However, [in February 2023 Netlify transferred the development of the CMS](https://www.netlify.com/blog/netlify-cms-to-become-decap-cms/) to one of their agency partners and it become Decap CMS.
 
 ## Netlify
 
