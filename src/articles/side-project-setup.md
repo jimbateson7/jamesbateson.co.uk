@@ -139,7 +139,17 @@ subtitle: Reconnect with Yourself to create lasting change
 
 ## Tailwind CSS
 
+To be honest, Tailwind is something I have only been using regluaraly fairly recently. It was used by the team in my last role, which was my first experience using it outside of little projects and just for prototyping. And I have to admit that in the past I've more than happily jumped on the "but I love writing CSS, look at that disgusting markup" bandwagon.
 
+However, I actually really enjoy using it now. I still think that learning CSS is an important first step before using something like Tailwind. For me, understanding what the classes your adding are actually doing, makes it even more powerful to use it efficiently, and can help with debugging when you come across unexpected CSS cross browser bugs, write performant CSS and CSS with accessibility considerations.
+
+I'm not going to go into how Tailwind works, and how I used it, as there are many posts out there that do that, and it's also got great documentation for getting started. However, this is the first project I have used Tailwind 4 on. So there were a couple of configuration differences compared to my past usage.
+
+### CSS config
+
+Before version 4, `tailwind.config.js` would be used to extend any classes you need with the spacing/sizing scale from your designs, or tweak defualt breakpoints, add your brand colours etc. This was done through a series of objects, that Tailwind then did magic things with and they became classes that could be used with the same syntax as their defaults `bg-brand-purple` for example.
+
+In version 4 you now [use the CSS file you import Tailwind in to configure](https://tailwindcss.com/blog/tailwindcss-v4#css-first-configuration) your projects custom property values. 
 
 ## Netlify/Decap CMS
 
