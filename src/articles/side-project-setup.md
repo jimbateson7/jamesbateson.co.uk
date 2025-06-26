@@ -205,7 +205,145 @@ I'm still figuring out if it's counter intuitive and would need to use it in a p
 
 When a side project required the ability to regularly add and update content. Adding a CMS obviously makes sense. However, with little to no backend dev experience and often not really wanting to pay licensing/seat costs, I want something that is easy to configure, flexible, scalable, able to be decoupled from my front end, well documented and has an active community (not wanting much there, ey!).
 
-When I built this site (my personal site) I used Netlify CMS. It ticked all of those boxes and I also found a great 11ty starter project that used it, my site was hosted with Netlify meaning I could use their identity service to login and it kept everything in one place. However, [in February 2023 Netlify transferred the development of the CMS](https://www.netlify.com/blog/netlify-cms-to-become-decap-cms/) to one of their agency partners and it become Decap CMS.
+When I built this site (my personal site) I used Netlify CMS. It ticked all of those boxes and I also found a great 11ty starter project that used it, my site was hosted with Netlify meaning I could use their identity service to login and it kept everything in one place. However, [in February 2023 Netlify transferred the development of the CMS](https://www.netlify.com/blog/netlify-cms-to-become-decap-cms/) to one of their agency partners and it become [Decap CMS](https://decapcms.org/).
+
+To take from the Decap docs:
+
+> Decap CMS (formerly Netlify CMS) is an open source content management system for your Git workflow that enables you to provide editors with a friendly UI and intuitive workflows. You can use it with any static site generator to create faster, more flexible web projects. Content is stored in your Git repository alongside your code for easier versioning, multi-channel publishing, and the option to handle content updates directly in Git.
+
+The config for Decap is done via a `yaml` file that sits in my `/admin` folder. In here I can build up a set of collections that can be added and edited in the UI. Inside these collections you add fields and set the widget types the field will use. Here's an example of a page setup
+
+```yaml
+    - name: 'static_pages'
+      label: 'Static Pages'
+      folder: 'src/pages'
+      slug: '{{slug}}'
+      preview_path: 'pages/{{slug}}'
+      create: true
+      fields:
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'page.html',
+            }
+
+          - { label: 'Title', name: 'title', widget: 'string' }
+
+          - {
+                label: 'Subtitle',
+                name: 'subTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Banner Image',
+                name: 'bannerImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - {
+                label: 'Permalink Override',
+                name: 'permalink',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Title',
+                name: 'metaTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Description',
+                name: 'metaDesc',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Social Image',
+                name: 'socialImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+          - label: 'Show contact form?'
+            name: 'showContactForm'
+            widget: 'boolean'
+            default: false
+            required: false
+```
+
+This allows the creating of a page in the CMS, with a series of fields that can be added to. In this instance it's just for basic static content pages. So as well as some basic meta info that can be added  overridden. The title, subtitle and banner image and be set, and the markdown widget provides a WYSIWYG editor to add the main content of the page. From within that images, quotes, headings, codeblocks etc can be added (these are just the Decap defaults and can be built upon). 
+
+You can make fields required, set defaults and also provide helper info if needed. As you can see, it's a pretty simple setup. Admittedly it probably wouldn't work for a large complex site. But that's not the type of project I'd be looking to undertake on my own, so this suits my needs.
+
+Along with pages, you can also add collections for items you might use in multiple places on the site. For example, if we return the testimonials I showed earlier in my Nunjucks code example. Here's how this is configured
+
+```yaml
+    - label: 'Testimonials'
+      name: 'testimonials'
+      folder: 'src/testimonials'
+      create: true
+      slug: '{{fields.testimonialAuthor | slug}}'
+      fields:
+          - label: 'Layout'
+            name: 'layout'
+            widget: 'hidden'
+            default: 'page.html'
+
+          - label: 'Order'
+            name: 'order'
+            widget: 'number'
+            min: 1
+
+          - label: 'Author'
+            name: 'testimonialAuthor'
+            widget: 'string'
+
+          - label: 'Author Location'
+            name: 'testimonialAuthorLocation'
+            widget: 'string'
+            required: false
+
+          - label: 'Author Image'
+            name: 'testimonialAuthorImage'
+            widget: 'image'
+            required: false
+
+          - label: 'Quote'
+            name: 'quote'
+            widget: 'markdown'
+
+          - label: 'Show Story?'
+            name: 'showStory'
+            widget: 'boolean'
+            default: false
+
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+            required: false
+
+          - label: 'Show contact form?'
+            name: 'showContactForm'
+            widget: 'boolean'
+            default: false
+            required: false
+```
+
+This gives me a collection that I can then loop through to display and such.
+
+There's some nice content author bits you can setup in Decap as well. You can enable an editorial workflow to allow the saving of posts as drafts, set them for review and such before you publish them. Useful if working with other contributors. There also preview links generated by Netlify (using git branches) so you can view the post to make sure you're happy, in addition to a live preview that you can show as the author builds up theuir page/article/content.
+
+What I would say is that there might well be tools that are better than this out there. Decap can be a little slow and clunky. It's not the most accessible. It has limitations for in it's functionality. However, it works for me and my skillset/knowledge limitations, and I work efficiently with it. If I'm doing the project and using this for a client. I'll always be transparent about these limitations, and talk them through how it works, show them an example and offer alternatives.
 
 ## Netlify
 
