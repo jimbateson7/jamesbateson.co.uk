@@ -347,6 +347,10 @@ What I would say is that there might well be tools that are better than this out
 
 ## Netlify
 
+Many people will be aware of Netlify, and what a great service it is for hosting and publishing great things on the web. You can very quickly get something published from a code repository (you get a siteName.netlify.app url) allowing you to share what you have built. You can then configure a custom domain.
+
+For my personal 
+
 ## Wrapping up
 
 ## Further reading
