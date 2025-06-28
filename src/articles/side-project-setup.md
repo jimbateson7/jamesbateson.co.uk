@@ -45,6 +45,7 @@ With Eleventy I can logically structure my projects as I need and Nunjucks allow
 Here's an example of a testimonials list component: `testimonials.html` (I'm trying to ignore the carousel I begrudgingly lost the battle to not use).
 
 {% raw %}
+
 ```twig
 {% set orderedTestimonials = collections.testimonials | sort(attribute='data.order') %}
 
@@ -66,6 +67,7 @@ Here's an example of a testimonials list component: `testimonials.html` (I'm try
     </div>
 </section>
 ```
+
 {% endraw %}
 
 I love how free the approach is, my front and back end are completely decoupled and I could switch things around if I so wished. 11ty provides support for many different languages should that need to change as well, and the whole process just feels logical to me and that I can concentrate on shipping less, and building up an accessible, performant and solid project.
@@ -389,3 +391,4 @@ No doubt I'll continue to tweak my stack and process as things advance and I lea
 
 * If not using 11ty, [Astro](https://astro.build/) is my other go-to
 * A great community [guide/resource hub for all things 11ty](https://11tybundle.dev/)
+* [Learn Eleventy from scratch](https://learneleventyfromscratch.com/) - a nice resources from Andy Bell on building up a site in Eleventy. **Note**: as flagged on the landing page, it may be out of date in places as Eleventy has been updated and such. still a solid learning coursw though
