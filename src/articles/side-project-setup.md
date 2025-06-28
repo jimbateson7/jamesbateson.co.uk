@@ -36,7 +36,7 @@ I think it's also worth noting that I'm not a designer and don't claim to be. My
 
 I've switched between using [11ty](https://www.11ty.dev/) and [Astro](https://astro.build/) for my side projects. I love both, the documentation, setup experience, ease-of-use and communities and general developer experience make them a joy to work with. However, I find myself having a real affinity with 11ty when it comes to a new build.
 
-I use Nunjucks as my templating language. There are other HTML templating languages out there such as Twig and Liquid that are also great, Nunjucks is just my go-to preference, can't really give many reasons beyond that. using templating languages fits in well with how I like to approach my development. Do it, do it right, do it better. 
+I use Nunjucks as my templating language. There are other HTML templating languages out there such as Twig and Liquid that are also great, Nunjucks is just my go-to preference, can't really give many reasons beyond that. using templating languages fits in well with how I like to approach my development. Do it, do it right, do it better.
 
 I like to start by writing semantic, accessible HTML, then build upon that with styles and finally any interactivity needed with presentational JavaScript. With templating languages, I feel like you're always putting the HTML first, and then writing logic around that, opposed to something like React, which has always, for me, felt like the opposite somehow, that HTML is an afterthought. This is just my opinion.
 
@@ -177,7 +177,7 @@ You can also use a base layer, which I used for setting things like default styl
   h1, h2, h3, h4 {
     @apply font-display text-pretty;
   }
-  
+
   ...more base styles
 }
 ```
@@ -197,7 +197,7 @@ Something I'm still unsure on is whether it's still 'ok' to use @apply or whathe
 
 ### Use Tailwind for bits not all
 
-Something that I quite like the idea of is using Tailwind for aspects of a projects CSS workflow, but integrating it into another methodology, or way of working. Tailwind only outputs what you have written, you could potentially have a tiny utilities library and still write your own CSS for components. 
+Something that I quite like the idea of is using Tailwind for aspects of a projects CSS workflow, but integrating it into another methodology, or way of working. Tailwind only outputs what you have written, you could potentially have a tiny utilities library and still write your own CSS for components.
 
 I'm still figuring out if it's counter intuitive and would need to use it in a project to make a judgement, and Tailwind 4 might be what I'm describing and just not realised. [CUBE CSS touches upon this concept](https://cube.fyi/), although it's tool agnostic, you could use something like Tailwind just for it's utility class generation of your tokens. Some food for thoughts anyway.
 
@@ -281,7 +281,7 @@ The config for Decap is done via a `yaml` file that sits in my `/admin` folder. 
             required: false
 ```
 
-This allows the creating of a page in the CMS, with a series of fields that can be added to. In this instance it's just for basic static content pages. So as well as some basic meta info that can be added  overridden. The title, subtitle and banner image and be set, and the markdown widget provides a WYSIWYG editor to add the main content of the page. From within that images, quotes, headings, codeblocks etc can be added (these are just the Decap defaults and can be built upon). 
+This allows the creating of a page in the CMS, with a series of fields that can be added to. In this instance it's just for basic static content pages. So as well as some basic meta info that can be added  overridden. The title, subtitle and banner image and be set, and the markdown widget provides a WYSIWYG editor to add the main content of the page. From within that images, quotes, headings, codeblocks etc can be added (these are just the Decap defaults and can be built upon).
 
 You can make fields required, set defaults and also provide helper info if needed. As you can see, it's a pretty simple setup. Admittedly it probably wouldn't work for a large complex site. But that's not the type of project I'd be looking to undertake on my own, so this suits my needs.
 
@@ -355,14 +355,14 @@ For the size and requirements of the projects I work on, [the free tier](https:/
 
 Being able to detect forms with Netlify is handy when you have little experience hooking services up. With Netlify, you just need to tell Netlify the forms you want it to collect submissions for, and it will handle the rest, as mentioned with a submission cap. Here's an example of how one is configured
 
-```
+```html
 <form action="/success" method="POST" netlify name="subscribe" data-netlify-honeypot="bot-field">
   <input type="hidden" name="subscribe" value="subscribe" />
 
   <div hidden>
       <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
   </div>
-  
+
   ...rest of your form fields
  </form>
 ```
