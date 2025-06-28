@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: My side project setup/stack
-metaTitle: My side project setup/stack
+title: My side project setup/(Jam)stack
+metaTitle: My side project setup/(Jam)stack
 metaDesc: An overview of my go-to side project setup.
 socialImage: /images/social-share-default.jpg
 date: 2025-06-14T08:33:30.195Z
@@ -45,6 +45,7 @@ With Eleventy I can logically structure my projects as I need and Nunjucks allow
 Here's an example of a testimonials list component: `testimonials.html` (I'm trying to ignore the carousel I begrudgingly lost the battle to not use).
 
 {% raw %}
+
 ```twig
 {% set orderedTestimonials = collections.testimonials | sort(attribute='data.order') %}
 
@@ -66,6 +67,7 @@ Here's an example of a testimonials list component: `testimonials.html` (I'm try
     </div>
 </section>
 ```
+
 {% endraw %}
 
 I love how free the approach is, my front and back end are completely decoupled and I could switch things around if I so wished. 11ty provides support for many different languages should that need to change as well, and the whole process just feels logical to me and that I can concentrate on shipping less, and building up an accessible, performant and solid project.
@@ -141,7 +143,7 @@ subtitle: Reconnect with Yourself to create lasting change
 
 ## Tailwind CSS
 
-To be honest, Tailwind is something I have only been using regluaraly fairly recently. It was used by the team in my last role, which was my first experience using it outside of little projects and just for prototyping. And I have to admit that in the past I've more than happily jumped on the "but I love writing CSS, look at that disgusting markup" bandwagon.
+To be honest, Tailwind is something I have only been using regularly fairly recently. It was used by the team in my last role, which was my first experience using it outside of little projects and just for prototyping. And I have to admit that in the past I've more than happily jumped on the "but I love writing CSS, look at that disgusting markup" bandwagon.
 
 However, I actually really enjoy using it now. I still think that learning CSS is an important first step before using something like Tailwind. For me, understanding what the classes your adding are actually doing, makes it even more powerful to use it efficiently, and can help with debugging when you come across unexpected CSS cross browser bugs, write performant CSS and CSS with accessibility considerations.
 
@@ -195,7 +197,7 @@ For any custom CSS you're writing, useful for such things as markup not written 
  }
 ```
 
-Something I'm still unsure on is whether it's still 'ok' to use @apply or whather now that tokens are available as CSS custom properties, whether just writing CSS as normal and using these is preferred. Something that I kind of mixed up a little bit in these examples and my latest project, but I'm sure that I'll refine with more use and learning.
+Something I'm still unsure on is whether it's still 'ok' to use @apply or whether now that tokens are available as CSS custom properties, whether just writing CSS as normal and using these is preferred. Something that I kind of mixed up a little bit in these examples and my latest project, but I'm sure that I'll refine with more use and learning.
 
 ### Use Tailwind for bits not all
 
@@ -388,4 +390,8 @@ No doubt I'll continue to tweak my stack and process as things advance and I lea
 ## Further reading
 
 * If not using 11ty, [Astro](https://astro.build/) is my other go-to
+* [What is Jamstack?](https://jamstack.org/)
 * A great community [guide/resource hub for all things 11ty](https://11tybundle.dev/)
+* [Learn Eleventy from scratch](https://learneleventyfromscratch.com/) - a nice resources from Andy Bell on building up a site in Eleventy. **Note**: as flagged on the landing page, it may be out of date in places as Eleventy has been updated and such. still a solid learning course though
+* [Decap CMS starter projects](https://decapcms.org/docs/start-with-a-template/)
+* [Tailwind CSS 4 updates](https://tailwindcss.com/blog/tailwindcss-v4)
