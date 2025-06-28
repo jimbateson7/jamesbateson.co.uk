@@ -349,7 +349,7 @@ What I would say is that there might well be tools that are better than this out
 
 Many people will be aware of Netlify, and what a great service it is for hosting and publishing great things on the web. You can very quickly get something published from a code repository (you get a siteName.netlify.app url) allowing you to share what you have built. You can then configure a custom domain.
 
-For my personal 
+For the size and requirements of the projects I work on, the free tier is more than enough for me. You get a number of build minutes a month for free alongside capped extras like handling of large media, form submissions and even features such as split testing, which is cool! The paid plans offer even more such as site analytics, extra security and more.
 
 ## Wrapping up
 
