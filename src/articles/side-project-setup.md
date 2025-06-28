@@ -379,4 +379,11 @@ I'll update this post with a link to my migration article when it's complete, wh
 
 ## Wrapping up
 
+There's no doubt that my setup/stack is suited to the smaller, static nature of the side projects I work on, and am capable and comfortable taking on by myself. The beauty of your preferred stack is that as long as what your outcome is an accessible, performant, user-friendly site, it doesn't really matter. Do what works for you best. this stack suits me as I like to practice what I preach around not jumping into JavaScript first/heavy frameworks.
+
+No doubt I'll continue to tweak my stack and process as things advance and I learn new process and tools in my new role.
+
 ## Further reading
+
+* If not using 11ty, [Astro](https://astro.build/) is my other go-to
+* A great community [guide/resource hub for all things 11ty](https://11tybundle.dev/)
