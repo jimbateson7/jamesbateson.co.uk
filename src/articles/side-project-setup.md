@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: My side project setup/stack
-metaTitle: My side project setup/stack
+title: My side project setup/(Jam)stack
+metaTitle: My side project setup/(Jam)stack
 metaDesc: An overview of my go-to side project setup.
 socialImage: /images/social-share-default.jpg
 date: 2025-06-14T08:33:30.195Z
