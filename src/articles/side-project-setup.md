@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: Side project setup
-metaTitle: Side project setup
+title: My side project setup/stack
+metaTitle: My side project setup/stack
 metaDesc: An overview of my go-to side project setup.
 socialImage: /images/social-share-default.jpg
 date: 2025-06-14T08:33:30.195Z
@@ -349,7 +349,33 @@ What I would say is that there might well be tools that are better than this out
 
 Many people will be aware of Netlify, and what a great service it is for hosting and publishing great things on the web. You can very quickly get something published from a code repository (you get a siteName.netlify.app url) allowing you to share what you have built. You can then configure a custom domain.
 
-For the size and requirements of the projects I work on, the free tier is more than enough for me. You get a number of build minutes a month for free alongside capped extras like handling of large media, form submissions and even features such as split testing, which is cool! The paid plans offer even more such as site analytics, extra security and more.
+For the size and requirements of the projects I work on, [the free tier](https://www.netlify.com/pricing/) is more than enough for me. You get a number of build minutes a month for free alongside capped extras like handling of large media, form submissions and even features such as split testing, which is cool! The paid plans offer even more such as site analytics, extra security and more.
+
+### Forms
+
+Being able to detect forms with Netlify is handy when you have little experience hooking services up. With Netlify, you just need to tell Netlify the forms you want it to collect submissions for, and it will handle the rest, as mentioned with a submission cap. Here's an example of how one is configured
+
+```
+<form action="/success" method="POST" netlify name="subscribe" data-netlify-honeypot="bot-field">
+  <input type="hidden" name="subscribe" value="subscribe" />
+
+  <div hidden>
+      <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </div>
+  
+  ...rest of your form fields
+ </form>
+```
+
+The form just needs the netlify attribute for Netlify to detect it and a name that wil show in the Netlify forms dashboard. You can also use the action attribute to use a custom success/thank you page, and attempt to filter out spam using a honeypot.
+
+### Netlify identity and CMS login
+
+I'm going write a post going into this a little more, however, [Netlify Identity has now been deprecated](https://www.netlify.com/changelog/deprecation-netlify-identity/). As my personal site was built and configured before this happened, it still works to allow me to login to my admin UI (however, I will be looking to move away from it soon).
+
+The recommendation is to setup OAuth, and a particular plugin you can add to Netlify is suggested. For my latest side project, I did try and get this working, but I'll be honest, I got a little lost and confused in the UI and wasn't sure what I was being asked to do. I may sit down and try and step through this again, but for now I used a [third party service called DecapBridge](https://decapbridge.com/), which offers a UI for authenticating admin editor users.
+
+I'll update this post with a link to my migration article when it's complete, which will explain the process and setup in a little more detail.
 
 ## Wrapping up
 
