@@ -143,7 +143,7 @@ subtitle: Reconnect with Yourself to create lasting change
 
 ## Tailwind CSS
 
-To be honest, Tailwind is something I have only been using regluaraly fairly recently. It was used by the team in my last role, which was my first experience using it outside of little projects and just for prototyping. And I have to admit that in the past I've more than happily jumped on the "but I love writing CSS, look at that disgusting markup" bandwagon.
+To be honest, Tailwind is something I have only been using regularly fairly recently. It was used by the team in my last role, which was my first experience using it outside of little projects and just for prototyping. And I have to admit that in the past I've more than happily jumped on the "but I love writing CSS, look at that disgusting markup" bandwagon.
 
 However, I actually really enjoy using it now. I still think that learning CSS is an important first step before using something like Tailwind. For me, understanding what the classes your adding are actually doing, makes it even more powerful to use it efficiently, and can help with debugging when you come across unexpected CSS cross browser bugs, write performant CSS and CSS with accessibility considerations.
 
@@ -393,3 +393,4 @@ No doubt I'll continue to tweak my stack and process as things advance and I lea
 * A great community [guide/resource hub for all things 11ty](https://11tybundle.dev/)
 * [Learn Eleventy from scratch](https://learneleventyfromscratch.com/) - a nice resources from Andy Bell on building up a site in Eleventy. **Note**: as flagged on the landing page, it may be out of date in places as Eleventy has been updated and such. still a solid learning course though
 * [Decap CMS starter projects](https://decapcms.org/docs/start-with-a-template/)
+* [Tailwind CSS 4 updates](https://tailwindcss.com/blog/tailwindcss-v4)
