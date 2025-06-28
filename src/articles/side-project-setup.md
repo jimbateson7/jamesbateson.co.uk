@@ -197,7 +197,7 @@ For any custom CSS you're writing, useful for such things as markup not written 
  }
 ```
 
-Something I'm still unsure on is whether it's still 'ok' to use @apply or whather now that tokens are available as CSS custom properties, whether just writing CSS as normal and using these is preferred. Something that I kind of mixed up a little bit in these examples and my latest project, but I'm sure that I'll refine with more use and learning.
+Something I'm still unsure on is whether it's still 'ok' to use @apply or whether now that tokens are available as CSS custom properties, whether just writing CSS as normal and using these is preferred. Something that I kind of mixed up a little bit in these examples and my latest project, but I'm sure that I'll refine with more use and learning.
 
 ### Use Tailwind for bits not all
 
@@ -390,6 +390,7 @@ No doubt I'll continue to tweak my stack and process as things advance and I lea
 ## Further reading
 
 * If not using 11ty, [Astro](https://astro.build/) is my other go-to
+* [What is Jamstack?](https://jamstack.org/)
 * A great community [guide/resource hub for all things 11ty](https://11tybundle.dev/)
 * [Learn Eleventy from scratch](https://learneleventyfromscratch.com/) - a nice resources from Andy Bell on building up a site in Eleventy. **Note**: as flagged on the landing page, it may be out of date in places as Eleventy has been updated and such. still a solid learning course though
 * [Decap CMS starter projects](https://decapcms.org/docs/start-with-a-template/)
