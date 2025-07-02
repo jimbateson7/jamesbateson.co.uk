@@ -149,7 +149,7 @@
 			display: block;
 			font-size: get-size(400);
 			margin: 0 auto;
-			max-width: map-get($metrics, 'wrap-max-width');
+			overflow: auto;
 			padding: get-size(700);
 
 			::selection {
@@ -320,6 +320,16 @@
 			align-items: flex-start;
 			box-sizing: border-box;
 			justify-content: center;
+		}
+	}
+}
+
+@include media-query('lg') {
+	.post__body {
+		pre[class*='language'] {
+			width: 85vw;
+			margin-left: 50%;
+			transform: translate3d(-50%, 0, 0);
 		}
 	}
 }
