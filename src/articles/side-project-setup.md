@@ -368,7 +368,7 @@ Being able to detect forms with Netlify is handy when you have little experience
   </div>
 
   ...rest of your form fields
- </form>
+</form>
 ```
 
 The form just needs the netlify attribute for Netlify to detect it and a name that wil show in the Netlify forms dashboard. You can also use the action attribute to use a custom success/thank you page, and attempt to filter out spam using a honeypot.
