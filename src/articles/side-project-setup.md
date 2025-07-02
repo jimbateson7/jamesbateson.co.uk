@@ -46,7 +46,7 @@ Here's an example of a testimonials list component: `testimonials.html` (I'm try
 
 {% raw %}
 
-```twig
+```nunjucks
 {% set orderedTestimonials = collections.testimonials | sort(attribute='data.order') %}
 
 <section class="py-8 md:py-16 bg-[url('/static/uploads/pattern.webp')] bg-brand-purple-light">
