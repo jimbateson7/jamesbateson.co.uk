@@ -1,3 +1,6 @@
+/** @jsx React.createElement */
+const React = window.React;
+
 const {
   w3DateFilter,
   markdownFilter,

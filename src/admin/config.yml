@@ -5,6 +5,11 @@ publish_mode: editorial_workflow
 site_url: 'https://jamesbateson.co.uk'
 media_folder: 'src/images'
 public_folder: '/images'
+# Run "npx netlify-cms-proxy-server" for local backend
+local_backend: true
+editor:
+    preview: false
+
 collections:
     - name: 'pages'
       label: 'Pages'

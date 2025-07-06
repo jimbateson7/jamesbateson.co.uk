@@ -2,32 +2,32 @@
 permalink: '/admin/index.html'
 ---
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Content Manager</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Content Manager -  James Bateson</title>
 
-		<!-- Fixes Netlify CMS editor cursor jumping issue! -->
+		<!-- Fixes Netlify CMS editor cursor jumping issue -->
 		<style>
 			[data-slate-editor] {
 				-webkit-user-modify: read-write !important;
 			}
 		</style>
+
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml" />
+		<link rel="icon" type="image/svg+xml" sizes="any" href="/images/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
+		<link rel="manifest" href="/images/favicons/site.webmanifest" />
 	</head>
 
 	<body>
 		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-		<!-- Include the script that builds the page and powers Netlify CMS -->
-		<script src="https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js"></script>
-		<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-		<script src="/node_modules/nunjucks/browser/nunjucks-slim.js"></script>
-		<script src="/admin/util.js"></script>
-		<script src="/admin/templates.js"></script>
-		<script src="/admin/previews.js" type="text/babel"></script>
+		<script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+
+		<!-- Optional: register your custom styles for the editor UI -->
 		<script>
-		CMS.registerPreviewStyle(`{% include "assets/css/global.css" %}`, { raw: true })
+			CMS.registerPreviewStyle(`/assets/css/global.css`, { raw: false });
 		</script>
 	</body>
 </html>
