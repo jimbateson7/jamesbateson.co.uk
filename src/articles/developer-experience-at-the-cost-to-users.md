@@ -9,7 +9,7 @@ date: 2025-07-16T11:53:00.000+01:00
 ---
 The draw and benefits of low/zero config build tools are pretty obvious and to be honest, fair when deciding on a stack to sort a new project. But is it sustainable to use one just for ease of setup or for developer experience? I've been working on a project recently that uses one and I'm here to vent.
 
-First off as I've touched upon I absolutely understand why they are used, and there are some good tools out there. This isn't a dig at the tools or people choosing to use them.
+First off as I've touched upon I absolutely understand why they are used, and there are some good tools out there. This isn't a dig at certain tools or people choosing to use them. Just confusion and frustration at the issues they can create.
 
 In my project case, it was Create React App that had been used with React Bootstrap.  I had completed a QA report on the site and I was tasked with remediating the issues I'd found, which included trying to improve performance benchmarking I had done. There are a few issues I came across that caused me frustration and ultimately ended it me having to pass the cost on to the end user:
 
