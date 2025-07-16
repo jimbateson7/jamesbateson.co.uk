@@ -11,9 +11,13 @@ The draw and benefits of low/zero config build tools are pretty obvious and to b
 
 First off as I've touched upon I absolutely understand why they are used, and there are some good tools out there. This isn't a dig at the tools or people choosing to use them.
 
-In my project case, it was Create React App that had been used with React Bootstrap. There are a few issues I came across that caused me frustration and ultimately ended it me having to pass the cost on to the end user:
+In my project case, it was Create React App that had been used with React Bootstrap.  I had completed a QA report on the site and I was tasked with remediating the issues I'd found, which included trying to improve performance benchmarking I had done. There are a few issues I came across that caused me frustration and ultimately ended it me having to pass the cost on to the end user:
 
-* Assets being treat as an afterthought
+* Assets being treated as an afterthought
 * Abstraction/magic box
 * Dependency management/impact
 * Tooling flexibility
+
+## Handling assets
+
+Something that has already puzzled me with these tools is assets in public, src, static or whatever? You seem to be able to access certain directories from certain files but not others. In my case I was trying to preload
