@@ -67,6 +67,10 @@ When it came to making improvements/completing tasks I needed to, there were two
 
 ### FontAwesome Icons
 
+Part of a feature request I was working on required some new icons. My normal approach would be to not use icons fonts, but create an icon component and use SVGs provided from a design. However, with it already installed and being used, I decided I may as well carry on using it for consistency. 
+
+The problem came when some of the icons I needed were not in the version shipped by React Bootstrap, I needed to update the version. However, it just so happens that the update I needed to do was a major version, and the dependency had changed how the icons then needed to be implemented.
+
 ### NPM packages
 
 ## Tooling flexibility
