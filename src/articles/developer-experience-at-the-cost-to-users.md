@@ -7,7 +7,7 @@ metaDesc: "No config build tools can be a draw for people due to efficiency, but
 socialImage: /images/social-share-default.jpg
 date: 2025-07-16T11:53:00.000+01:00
 ---
-The draw and benefits of low/zero config build tools are pretty obvious and to be honest, fair when deciding on a stack to sort a new project. But is it sustainable to use one just for ease of setup or for developer experience? I've been working on a project recently that uses one and I'm here to vent.
+The draw and benefits of low/zero config build tools are pretty obvious and to be honest, a fair choice when deciding on a stack to start a new project. But is it sustainable to use one just for ease of setup or for developer experience? I've been working on a project recently that uses one and I'm here to vent.
 
 First off as I've touched upon I absolutely understand why they are used, and there are some good tools out there. This isn't a dig at certain tools or people choosing to use them. Just confusion and frustration at the issues they can create.
 
@@ -20,7 +20,7 @@ In my project case, it was Create React App (CRA) that had been used with React 
 
 ## Handling assets
 
-Something that has often puzzled me with these tools is assets in public, src, static or whatever? You seem to be able to access certain directories from certain files but not others. In my case I was trying to preload a couple of font files in my HTML `<head>\` but it didn't seem to be able to access them as they were in \`src/fonts` but they needed to be in public for me to reference them. Sounds like an easy file move, but oh no, then the paths in the Sass and how they were processed relative to src and public directories didn't work...more on that in the next section.
+Something that has often puzzled me with these tools is assets in public, src, static or whatever? You seem to be able to access certain directories from certain files but not others. In my case I was trying to preload a couple of font files in my HTML `<head>` but it didn't seem to be able to access them as they were in \`src/fonts\` but they needed to be in public for me to reference them. Sounds like an easy file move, but oh no, then the paths in the Sass and how they were processed relative to src and public directories didn't work...more on that in the next section.
 
 ### Font files
 
@@ -53,3 +53,5 @@ In my case, I just could not get the images to load, I couldn't get whatever web
 Maybe this isn't a big deal, but when people may need to consume this content on low-data plans or poor connections, it could have a real impact. If the search mafia measures the sites metrics a little more negatively, how will SEO be affected?
 
 ## Dependency management/impact
+
+## Tooling flexibility
