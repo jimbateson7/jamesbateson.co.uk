@@ -54,4 +54,15 @@ Maybe this isn't a big deal, but when people may need to consume this content on
 
 ## Dependency management/impact
 
+Alongside making it difficult to understand what's going on with builds, using tooling and frameworks can also result in the inclusion of many dependencies that can hider future updates, and be extremely difficult to remove or change.
+
+In my case the issue arose from the use of React Bootstrap. This had been included in the project as it was initially started by developers with primarily backend skillsets. So a framework with a bunch of opinionated components out of the box made sense.
+
+Coming onto the project, things had got messy in terms of needing to customise some of the bootstrap components, with little control and visibility of the markup and styling of them, ugly overrides are needed and a lot of bloat is created.
+
+When it came to making improvements/completing tasks I needed to, there were two things that frustrated me:
+
+* Reliance on outdated versions of dependancies e.g. FontAwesome Icons
+* npm packaged added that silently modify code on build
+
 ## Tooling flexibility
