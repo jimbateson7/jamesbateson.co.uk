@@ -65,4 +65,8 @@ When it came to making improvements/completing tasks I needed to, there were two
 * Reliance on outdated versions of dependancies e.g. FontAwesome Icons
 * npm packaged added that silently modify code on build
 
+### FontAwesome Icons
+
+### NPM packages
+
 ## Tooling flexibility
