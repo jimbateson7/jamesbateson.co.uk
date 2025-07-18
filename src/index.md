@@ -23,6 +23,6 @@ bannerSummary: Welcome to my digital space. Somewhere I can post the occasional
   and have a passion for HTML, CSS, UI/UX, accessibility, and performance.
   Outside of work I love to run, hike, and cook.
 postsHeading: Recent Articles
-postsSummary: Tech related articles, shares and thoughts.
+postsSummary: Tech related articles, thoughts and shares of reads that have inspired me.
 journalSummary: Articles on being active, wellbeing, life, and more.
 ---
