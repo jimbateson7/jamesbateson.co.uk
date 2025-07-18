@@ -56,6 +56,12 @@ a:not([class]) {
 	}
 }
 
+a:focus-visible {
+	outline-offset: 0.25em;
+	outline-width: 0.5em;
+	outline-color: currentColor;
+}
+
 .link-hover {
 	&:hover {
 		text-decoration-color: light-dark(var(--color-accent)), var(--color-accent-alt);
