@@ -7,7 +7,7 @@ metaDesc: The community food bank I've been volunteering at was featured on
 socialImage: /images/screenshot-2025-07-19-at-10.41.24-1-.jpg
 date: 2025-07-19T10:28:00.000+01:00
 ---
-I've been volunteering at a local community food bank for the past couple of months. Once a week I go along and help pack food bags that people from the local community come in and collect. The food is provided by foodshare, who help prevent food from supermarkets and such going to landfill and helping out people who need it most. 
+I've been volunteering at a local community food bank for the past couple of months. Once a week I go along and help pack food bags that people from the local community come in and collect. The food is provided by [Fareshare](https://fareshare.org.uk/), who help prevent food from supermarkets and such going to landfill and helping out people who need it most. 
 
 We have recently moved to a local community space that is more suited to the needs of the organisation. As the charity is part of a collaboration with South Lakes Housing who want to do more of this kind of venture. There was a team from the local ITV Border news there this week (Thursday 17th July).
 
@@ -15,7 +15,13 @@ They were filming how we operate, unloading the van and sorting the food out etc
 
 Whilst I appeared in the background of a few shots, including one demonstrating my superb lettuce packaging transfer skills, something I'm very proud of. I think it was great that the spotlight was being shone on people that have been giving up their time since the pandemic to help people in need.
 
-If you see me around, I'm more than happy to sign autographs, if you're local to the Kirkby Lonsdale area and need some support, you can take a look at [the Community Cupboard website](https://klcommunity.co.uk/), as they offer more than just the foodbank.
+If you see me around, I'm more than happy to sign autographs, if you're local to the Kirkby Lonsdale area and need some support, you can take a look at [the Community Cupboard website](https://klcommunity.co.uk/), as they offer more than just the food bank.
+
+They have three main goals:
+
+> 1. The prevention and relief of food poverty or financial hardship
+> 2. The preservation and protection of good mental health
+> 3. The promotion of social inclusion through integration into the community
 
 ![Photograph of me and two other volunteers unpacking food donations at a community foodback.](/images/screenshot-2025-07-19-at-10.41.24.jpg)
 
