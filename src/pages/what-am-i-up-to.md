@@ -30,7 +30,7 @@ Before I start my new role, I'm keeping myself busy and in a routine with a mixt
 * Learning more about Eleventy, Netlify and Decap CMS
 * Brushing up on my templating language skills
 * Doing some UI design practice work to improve Figma skills
-* Trying to figure out the confusing world of Linkedin. ~~There are some nice communities and knowledge on there, but I was often feeling worse after visiting~~
+* ~~Trying to figure out the confusing world of Linkedin~~. There are some nice communities and knowledge on there, but I was often feeling worse after visiting
 
 ### Making
 
