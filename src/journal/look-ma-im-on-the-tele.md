@@ -17,4 +17,6 @@ Whilst I appeared in the background of a few shots, including one demonstrating 
 
 If you see me around, I'm more than happy to sign autographs, if you're local to the Kirkby Lonsdale area and need some support, you can take a look at [the Community Cupboard website](https://klcommunity.co.uk/), as they offer more than just the foodbank.
 
+![Photograph of me and two other volunteers unpacking food donations at a community foodback.](/images/screenshot-2025-07-19-at-10.41.24.jpg)
+
 If you'd like to watch the news feature, you can find it on [the ITV website](https://www.itv.com/watch/news/catch-up-on-itv-news-lookaround-from-thursday-17th-july/47tff6g) (video time 2:06 ish to 6:00 ish).
