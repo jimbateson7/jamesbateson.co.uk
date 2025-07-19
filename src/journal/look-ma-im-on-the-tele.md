@@ -23,6 +23,6 @@ They have three main goals:
 > 2. The preservation and protection of good mental health
 > 3. The promotion of social inclusion through integration into the community
 
-![Photograph of me and two other volunteers unpacking food donations at a community foodback.](/images/screenshot-2025-07-19-at-10.41.24.jpg)
+
 
 If you'd like to watch the news feature, you can find it on [the ITV website](https://www.itv.com/watch/news/catch-up-on-itv-news-lookaround-from-thursday-17th-july/47tff6g) (video time 2:06 ish to 6:00 ish).
