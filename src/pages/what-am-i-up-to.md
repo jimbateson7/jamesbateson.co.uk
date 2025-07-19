@@ -30,9 +30,7 @@ Before I start my new role, I'm keeping myself busy and in a routine with a mixt
 * Learning more about Eleventy, Netlify and Decap CMS
 * Brushing up on my templating language skills
 * Doing some UI design practice work to improve Figma skills
-* Trying to figure out the confusing world of Linkedin.
-
-   There are some nice communities and knowledge on there, but I was often feeling worse after visiting
+* Trying to figure out the confusing world of Linkedin. ~~There are some nice communities and knowledge on there, but I was often feeling worse after visiting~~
 
 ### Making
 
@@ -43,7 +41,7 @@ I'm wrapping up on a couple of projects in anticipation of starting my new role:
 
 ### Reading
 
-With a litte bit more free time, I'm trying to get into the habbit of putting some time aside to read regularly. So these books are currently on my side-table/list. They are a mixture of wellbeing, self-help and tech books.
+With a little bit more free time, I'm trying to get into the habit of putting some time aside to read regularly. So these books are currently on my side-table/list. They are a mixture of wellbeing, self-help and tech books.
 
 *   [The Accessibility Cookbook](https://accessibility-cookbook.com/) — Manuel Matuzović
 *   [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone.html) — Laura Kalbag
