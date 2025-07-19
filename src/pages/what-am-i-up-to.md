@@ -45,6 +45,6 @@ With a little bit more free time, I'm trying to get into the habit of putting so
 
 *   [The Accessibility Cookbook](https://accessibility-cookbook.com/) — Manuel Matuzović
 *   [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone.html) — Laura Kalbag
-*   [Atomic Habits](https://jamesclear.com/atomic-habits)— James Clear
+*   [Atomic Habits](https://jamesclear.com/atomic-habits) — James Clear
 *   [Home Coming: Reclaiming and Championing Your Inner Child](https://www.waterstones.com/book/homecoming/john-bradshaw/9780749910549) — John Bradshaw
 *   [The Expected Self](https://menshouldtalk.com/book/) — Gareth Palmer (Men Should Talk)
