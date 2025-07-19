@@ -5,7 +5,7 @@ bannerSummary: I like the idea from the <a
   href="https://nownownow.com/about">now now now</a> site, of sharing what's
   going on with me in my life currently. This is something different to my
   generic about page and will be updated as and when things change for me.
-permalink: /now
+permalink: /now/
 metaTitle: Now Now Now
 metaDesc: What's going on with me at the moment.
 socialImage: /images/social-share-default.jpg
