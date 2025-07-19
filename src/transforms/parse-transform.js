@@ -11,7 +11,6 @@ module.exports = function (value, outputPath) {
 
 		const document = DOM.window.document;
 		const articleImages = [...document.querySelectorAll('main article img:not(.intro__image)')];
-		const articleHeadings = [...document.querySelectorAll('main article h2, main article h3')];
 		const articleEmbeds = [...document.querySelectorAll('main article iframe')];
 
 		if (articleImages.length) {

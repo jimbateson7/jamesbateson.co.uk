@@ -1,6 +1,6 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
+const {eleventyImageTransformPlugin} = require('@11ty/eleventy-img');
 const fs = require('fs');
 
 // Import filters
@@ -11,7 +11,6 @@ const markdownFilter = require('./src/filters/markdown-filter.js');
 const w3DateFilter = require('./src/filters/w3-date-filter.js');
 
 // Import transforms
-const htmlMinTransform = require('./src/transforms/html-min-transform.js');
 const parseTransform = require('./src/transforms/parse-transform.js');
 
 // Import data files
@@ -24,9 +23,7 @@ module.exports = (config) => {
 	config.addPlugin(syntaxHighlight, {
 		alwaysWrapLineHighlights: true,
 		errorOnInvalidLanguage: false,
-		init: function({
-			Prism
-		}) {
+		init: function ({Prism}) {
 			Prism.languages['nunjucks'] = {
 				comment: /^\{#[\s\S]*?#\}/,
 				delimiter: {
@@ -37,9 +34,11 @@ module.exports = (config) => {
 					pattern: /"[^"]*"|'[^']*'/,
 					greedy: true,
 				},
-				keyword: /\b(?:as|assign|break|(?:end)?(?:capture|case|comment|for|form|if|paginate|raw|style|tablerow|unless)|continue|cycle|decrement|echo|else|elsif|in|include|increment|limit|liquid|offset|range|render|reversed|section|when|with)\b/,
+				keyword:
+					/\b(?:as|assign|break|(?:end)?(?:capture|case|comment|for|form|if|paginate|raw|style|tablerow|unless)|continue|cycle|decrement|echo|else|elsif|in|include|increment|limit|liquid|offset|range|render|reversed|section|when|with)\b/,
 				object: /\b(?:address|all_country_option_tags|article|block|blog|cart|checkout|collection|color|country|country_option_tags|currency|current_page|current_tags|customer|customer_address|date|discount_allocation|discount_application|external_video|filter|filter_value|font|forloop|fulfillment|generic_file|gift_card|group|handle|image|line_item|link|linklist|localization|location|measurement|media|metafield|model|model_source|order|page|page_description|page_image|page_title|part|policy|product|product_option|recommendations|request|robots|routes|rule|script|search|selling_plan|selling_plan_allocation|selling_plan_group|shipping_method|shop|shop_locale|sitemap|store_availability|tax_line|template|theme|transaction|unit_price_measurement|user_agent|variant|video|video_source)\b/,
-				function: [{
+				function: [
+					{
 						pattern: /(\|\s*)\w+/,
 						lookbehind: true,
 						alias: 'filter',
@@ -79,7 +78,6 @@ module.exports = (config) => {
 	config.addLayoutAlias('post', 'layouts/post.njk');
 
 	// Transforms
-	config.addTransform('htmlmin', htmlMinTransform);
 	config.addTransform('parse', parseTransform);
 
 	// Passthrough copy
