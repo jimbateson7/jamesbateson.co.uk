@@ -4,7 +4,7 @@ title: Look ma, I'm on the tele
 metaTitle: Look ma, I'm on the tele
 metaDesc: The community food bank I've been volunteering at was featured on
   local news (ish) after a recent move in location.
-socialImage: /images/social-share-default.jpg
+socialImage: /images/screenshot-2025-07-19-at-10.41.24-1-.jpg
 date: 2025-07-19T10:28:00.000+01:00
 ---
 I've been volunteering at a local community food bank for the past couple of months. Once a week I go along and help pack food bags that people from the local community come in and collect. The food is provided by foodshare, who help prevent food from supermarkets and such going to landfill and helping out people who need it most. 
