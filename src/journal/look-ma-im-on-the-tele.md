@@ -4,7 +4,7 @@ title: Look ma, I'm on the tele
 metaTitle: Look ma, I'm on the tele
 metaDesc: The community food bank I've been volunteering at was featured on
   local news (ish) after a recent move in location.
-socialImage: ""
+socialImage: /images/social-share-default.jpg
 date: 2025-07-19T10:28:00.000+01:00
 ---
 I've been volunteering at a local community food bank for the past couple of months. Once a week I go along and help pack food bags that people from the local community come in and collect. The food is provided by [Fareshare](https://fareshare.org.uk/), who help prevent food from supermarkets and such going to landfill and helping out people who need it most. 
@@ -23,6 +23,6 @@ They have three main goals:
 > 2. The preservation and protection of good mental health
 > 3. The promotion of social inclusion through integration into the community
 
-
+![Photograph of myself and two other food bank volunteers sorting out food donations for people to collect.](/images/screenshot-2025-07-19-at-10.41.24-1-.jpg)
 
 If you'd like to watch the news feature, you can find it on [the ITV website](https://www.itv.com/watch/news/catch-up-on-itv-news-lookaround-from-thursday-17th-july/47tff6g) (video time 2:06 ish to 6:00 ish).
