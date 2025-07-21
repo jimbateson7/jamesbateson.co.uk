@@ -27,7 +27,7 @@
 		a:not([class]) {
 			@include apply-utility('leading', 'tight');
 			text-decoration-thickness: 2px;
-			transition: color .35s ease;
+			transition: color 0.35s ease;
 		}
 
 		code,
@@ -37,7 +37,7 @@
 			border-radius: 4px;
 			color: var(--color-text);
 			font-size: get-size(400);
-			padding: .15rem .3rem;
+			padding: 0.15rem 0.3rem;
 		}
 
 		pre > code {
@@ -49,17 +49,18 @@
 			border-radius: 8px;
 			box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px;
 			margin-inline: auto;
-			object-fit: cover;
+			height: auto;
 		}
 
 		blockquote {
-			background-color: var(--color-grey-alt);
-			border-left: 10px solid light-dark(var(--color-accent), var(--color-accent-alt));
+			background-color: light-dark(moccasin, var(--color-accent));
+			border-left: 10px solid light-dark(var(--color-accent), var(--color-bg));
 			border-radius: 8px;
-			color: var(--color-text);
+			color: light-dark(var(--color-text), var(--color-bg));
 			font-size: get-size(500);
 			margin-left: 0;
 			padding: get-size(500);
+			padding-inline-start: get-size(800);
 			position: relative;
 			width: 100%;
 
@@ -69,10 +70,10 @@
 
 			ol,
 			ul {
-				padding-left: 1rem;
+				padding-left: 0;
 
 				::marker {
-					color: var(--color-accent);
+					color: light-dark(var(--color-bg), (--color-accent));
 				}
 			}
 
@@ -118,12 +119,14 @@
 			margin-left: 50%; /* changing this value to 47% removes the horizontal scrollbar once the viewport is < 930px */
 			max-width: map-get($metrics, 'wrap-max-width');
 			position: relative;
-			transform: translateX(-50%); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
+			transform: translateX(
+				-50%
+			); /* changing this value to 49% allows for the suggestion above to also eliminate the horizontal scroll. */
 			width: 100vw;
 		}
 
 		figure img .video-player {
-			box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+			box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
 		}
 
 		figure img {
@@ -132,9 +135,9 @@
 		}
 
 		figcaption {
-			font-size: .8em;
+			font-size: 0.8em;
 			font-style: italic;
-			margin: .5rem auto 0;
+			margin: 0.5rem auto 0;
 			max-width: map-get($metrics, 'wrap-inner-max-width');
 			padding: 0 get-size(500);
 		}
@@ -142,7 +145,7 @@
 		pre[class*='language'] {
 			background-color: var(--color-dark-alt);
 			border-radius: 6px;
-			box-shadow: 3px 3px 0 rgba(0, 0, 0, .1);
+			box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
 			position: relative;
 		}
 
@@ -166,11 +169,13 @@
 		}
 
 		kbd {
-			font-size: .75em;
-			padding: .063rem .5rem;
-			border-radius: .125rem;
+			font-size: 0.75em;
+			padding: 0.063rem 0.5rem;
+			border-radius: 0.125rem;
 			border: 2px solid;
-			box-shadow: 1px 1px 0 currentcolor, 2px 2px 0 currentcolor;
+			box-shadow:
+				1px 1px 0 currentcolor,
+				2px 2px 0 currentcolor;
 		}
 
 		dl {
@@ -209,7 +214,7 @@
 
 			h3 {
 				align-items: center;
-				border-bottom: 1px solid rgba(255, 255, 255, .25);
+				border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 				display: flex;
 				font-size: get-size(600);
 				margin-bottom: 10px;
@@ -237,12 +242,12 @@
 
 				ol,
 				ul {
-				padding-left: 1rem;
+					padding-left: 1rem;
 
-				::marker {
-					color: var(--color-accent);
+					::marker {
+						color: var(--color-accent);
+					}
 				}
-			}
 
 				a {
 					color: currentColor;
