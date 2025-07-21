@@ -8,4 +8,20 @@ metaDesc: After launching a recent project, I was tasked with adding the ability
 socialImage: /images/social-share-default.jpg
 date: 2025-07-20T10:49:00.000+01:00
 ---
-Content
+Intro
+
+Changes
+
+Content structure
+
+Data structure
+
+Eleventy config
+
+Netlify redirects
+
+SEO considerations
+
+Alternatives
+
+Summary
