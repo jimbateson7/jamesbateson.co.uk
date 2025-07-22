@@ -11,6 +11,9 @@
 {% set postListHeading = postsHeading %}
 {% set postListSummary = postsSummary %}
 {% set postListItems = collections.postFeed %}
+{% set progressPostListHeading = progressPostsHeading %}
+{% set progressPostListSummary = progressPostsSummary %}
+{% set progressPostListItems = collections.draftArticles %}
 {% set journalListHeading = journalHeading %}
 {% set journalListSummary = journalSummary %}
 {% set journalListItems = collections.journalFeed %}
@@ -22,6 +25,15 @@
 	<main id="main-content" tabindex="-1">
 		{% include "partials/components/intro.njk" %}
 		{% include "partials/components/article-list.njk" %}
+
+		{% include "partials/components/progress-article-list.njk" %}
+
+		{# <h2>Draft Posts</h2>
+		<ul>
+			{% for post in collections.draftArticles %}
+				<li><a href="{{ post.url }}">{{ post.data.title }}</a> (Not Published)</li>
+			{% endfor %}
+		</ul> #}
 
 		<section class="[ talks-list ] [ pad-top-400 pad-bottom-400 ]">
 			<div class="[ wrapper ] [ sf-flow ]">

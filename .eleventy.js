@@ -91,7 +91,7 @@ module.exports = (config) => {
 	const now = new Date();
 
 	// Custom collections
-	const liveArticles = (post) => post.date <= now && !post.data.draft;
+	const liveArticles = (post) => post.date <= now && !post.data.draft && !post.data.inProgress;
 	config.addCollection('articles', (collection) => {
 		return [...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)].reverse();
 	});
@@ -105,6 +105,12 @@ module.exports = (config) => {
 		return [...collection.getFilteredByGlob('./src/articles/*.md').filter(liveArticles)]
 			.reverse()
 			.slice(0, site.maxPostsPerPage);
+	});
+
+	config.addCollection('draftArticles', (collection) => {
+		return [...collection.getFilteredByGlob('./src/articles/*.md')]
+			.filter((post) => post.data.inProgress)
+			.reverse();
 	});
 
 	config.addCollection('journalFeed', (collection) => {
