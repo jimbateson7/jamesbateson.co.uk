@@ -1,5 +1,6 @@
 ---
 layout: layouts/post.njk
+inProgress: true
 title: Accessibility documentation in Figma mockups
 metaTitle: Accessibility documentation in Figma mockups
 metaDesc: Some learnings I took from a wonderful talk by Stéphanie Walter on
