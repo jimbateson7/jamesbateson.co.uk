@@ -1,5 +1,6 @@
 ---
 layout: layouts/post.njk
+inProgress: true
 title: Adding translations to an Eleventy site
 metaTitle: Adding translations to an Eleventy site
 metaDesc: After launching a recent project, I was tasked with adding the ability
