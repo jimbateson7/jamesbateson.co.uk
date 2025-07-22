@@ -1,23 +1,22 @@
 ---
 layout: layouts/post.njk
 inProgress: true
-title: 'AI upskilling moral predicament'
+title: AI upskilling moral predicament
 metaTitle: AI usage predicaments
 metaDesc: I'm using AI more day-to-day at the moment as I upskill between jobs.
-    However, I'm still torn by its impact.
+  However, I'm still torn by its impact.
 socialImage: /images/social-share-default.jpg
 date: 2025-04-23T11:12:16.962Z
 ---
-
-### I've always been a little skeptical about using AI in my development process, it's not something I was early onboard with. Seeing examples of poor, non-semantic and accessible code scared me off a little. However, recently when looking for a new role, I've been using it more as a way of upskilling and filling knowledge gaps. It's left me with a few random thoughts on it. Writing about these here, to look back on at the end of the year to see how my approach and view might change.
+I've always been a little skeptical about using AI in my development process, it's not something I was early onboard with. Seeing examples of poor, non-semantic and accessible code scared me off a little. However, recently when looking for a new role, I've been using it more as a way of upskilling and filling knowledge gaps. It's left me with a few random thoughts on it. Writing about these here, to look back on at the end of the year to see how my approach and view might change.
 
 ## How am I using AI currently?
 
 Day-to-day I currently use AI in the following ways, that I'm aware of, as there's is probably a lot of secondary consumptions of it I'm unaware of (translations etc)
 
-- Google search summary
-- Github copilot code autocompletion/suggestions/chat
-- ChatGPT 'pairing', feedback and suggestions (using AI chat via responses to prompts)
+* Google search summary
+* Github copilot code autocompletion/suggestions/chat
+* ChatGPT 'pairing', feedback and suggestions (using AI chat via responses to prompts)
 
 <div class="post-note"><h3 id="heading-further-reading">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3><p>These are only my views on AI usage. I absolutely see the value in it and everybody is free to make their own choices and decisions on suitable usage.</p></div>
 
@@ -75,6 +74,6 @@ The large language models need a lot of data to train on so they can give suitab
 
 ## Further reading
 
-- I've had this post in my drafts for a while now as I tweak how I want to frame it and word things. I read a brilliant article last week by [Hidde de Vries: Is "ethical AI" an oxymoron?](https://hidde.blog/ethical-ai/), which had my nodding a lot during reading. It's basically everything I wanted to say!
-- [The hidden cost of AI coding](https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/)
-- [AI Environmental Impact Report article from Michelle Barke](https://css-irl.info/ai-environmental-impact-report/)r (includes a link to read the report at the bottom)
+* I've had this post in my drafts for a while now as I tweak how I want to frame it and word things. I read a brilliant article last week by [Hidde de Vries: Is "ethical AI" an oxymoron?](https://hidde.blog/ethical-ai/), which had my nodding a lot during reading. It's basically everything I wanted to say!
+* [The hidden cost of AI coding](https://terriblesoftware.org/2025/04/23/the-hidden-cost-of-ai-coding/)
+* [AI Environmental Impact Report article from Michelle Barke](https://css-irl.info/ai-environmental-impact-report/)r (includes a link to read the report at the bottom)
