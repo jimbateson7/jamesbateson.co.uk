@@ -1,4 +1,9 @@
 ---
+progressPostsSummary: Articles I'm currently working on. They may or may not get
+  finished, but after time and effort goes into them, I think it'd be a shame
+  for them not to be published anywhere. Even not in a complete state they may
+  help me to look back on or somebody else coming across them. With them being
+  incomplete, be aware they may contain typos and such.
 archiveButtonText: See all articles
 layout: home
 journalHeading: Recent Journals
@@ -24,5 +29,6 @@ bannerSummary: Welcome to my digital space. Somewhere I can post the occasional
   Outside of work I love to run, hike, and cook.
 postsHeading: Recent Articles
 postsSummary: Tech related articles, thoughts and shares of reads that have inspired me.
+progressPostsHeading: Articles in progress
 journalSummary: Articles on being active, wellbeing, life, and more.
 ---
