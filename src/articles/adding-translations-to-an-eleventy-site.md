@@ -82,6 +82,49 @@ This was probably the biggest change needed. The approach I decided to go with w
 
 The initial goal here was to only have the content markdown files duplicated in each language folder, that just being the services, blogs and such. I wanted to try and keep as much of the template code that contained markup at the top level so to keep future development easier and not having to replicate changes in two places. Whilst this didn't quite turn out to be possible, and I did need to have some HTML files in both language folders, mainly due to front matter, I managed to move markup around into top level partials that could then be shared in each language.
 
+Here's my folder structure after the changes:
+
+```
+- /_data
+- /_includes
+    - /partials
+        - *.html
+    - *.html
+- /admin
+- /en
+    - /blog
+        - index.html
+    - /how-i-help
+        - index.html
+    - /pages
+        - *.md
+    - /posts
+        - *.md
+    - /success-stories
+        - index.html
+    - /testimonials
+        - *.md
+- /es
+    - /blog
+        - index.html
+    - /how-i-help
+        - index.html
+    - /pages
+        - *.md
+    - /posts
+        - *.md
+    - /success-stories
+        - index.html
+    - /testimonials
+        - *.md
+- /static
+    - /css
+    - /favicons
+    - /fonts
+    - /js
+    - /uploads
+```
+
 ## Data structure
 
 ## Decap config
