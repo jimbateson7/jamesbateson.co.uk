@@ -37,6 +37,37 @@ Once I've gone through these different areas. I'm also going to touch on some as
 
 ## Add a language selector
 
+First up, and mainly so I could test the functionality as I added it was to add the markup for the element the user would select the language with. Early on I just used links for this, however, I eventually switched to use a select element for this. With this change I also needed to write a little JavaScript.
+
+Here's the final markup and JavaScript, on this project I am using Tailwind CSS for styling:
+
+```nunjucks
+<div class="flex items-center gap-4">
+    <label class="text-sm" for="language-switcher">{{ settings.languageSwitcherLabel }}</label>
+
+    <select id="language-switcher" class="border-b-2 border-brand-purple p-2 text-brand-purple">
+        <option value="/en{{ page.url | replace('/es/', '/') | replace('/en/', '/') }}"{% if lang == 'en' %} selected{% endif %}>English</option>
+        <option value="/es{{ page.url | replace('/en/', '/') | replace('/es/', '/') }}"{% if lang == 'es' %} selected{% endif %}>Español</option>
+    </select>
+</div>
+```
+
+```javascript
+document.addEventListener('DOMContentLoaded', function() {
+  const select = document.getElementById('language-switcher');
+  
+  if (select) {
+      select.addEventListener('change', function() {
+          window.location.href = this.value;
+      });
+  } else {
+      console.log('Language switcher not found on this page');
+  }
+});
+```
+
+Just looking back over this now, I am debating whether a select is actually the right approach, as the functionality is that of a link. For now though, this is the approach.
+
 ## Content structure
 
 ## Data structure
