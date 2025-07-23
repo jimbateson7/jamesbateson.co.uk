@@ -159,6 +159,12 @@ Here's how my `/_data` directory looks:
     *.js
 ```
 
+So, as we can see form this structure. English and Spanish data now has it's own files, in my case for site settings data, header navigation and footer navigation. Outside of these locale directories sits any data that doesn't need to be different based on locale. In my case the social links on the site.
+
+This approach leads to an issue though, how do you now refer to the correct data source when using it in templates? This is where the `*.js` files in this `_data` directory come in.
+
+For each of my `.yaml` files in the locale directories, I have a corresponding JavaScript file. 
+
 ## Eleventy config
 
 ## Decap config
