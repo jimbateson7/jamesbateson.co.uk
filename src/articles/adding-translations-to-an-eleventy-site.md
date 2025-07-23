@@ -8,6 +8,8 @@ metaDesc: After launching a recent project, I was tasked with adding the ability
   Eleventy before. This is how I went about it.
 socialImage: /images/social-share-default.jpg
 date: 2025-07-20T10:49:00.000+01:00
+tags:
+  - Eleventy
 ---
 On a recent project, I received a request to make the site multi-lingual, enabling the client to share their content with Spanish speak people. The request came late on in the initial build, and as I knew it would require a chunk of restructure work, I pushed back and we decided to do it as a feature after the site was launched. In hindsight, it probably would have been better to do the work upfront, but anyway, here we are. Adding translations to a static site, using Eleventy in this case, isn't something I had done before.
 
@@ -21,7 +23,50 @@ So let's get into it.
 
 ## What needed to change?
 
+First off, I thought it might be useful to list out the different areas of the site I needed to make changes to. I've made these links also so if you wish to jump to a particular section, you can. As the list illustrates, it was quite a restructure.
+
+* Add language selector markup to the header
+* Separate the content structure
+* Separate the data structure
+* Update the Decap CMS config
+* Tweak the Eleventy config
+* Add Netlify redirects and duplicate forms
+* SEO url considerations
+
+Once I've gone through these different areas. I'm also going to touch on some aspects of this approach I'm not keen on, and some alternative ways this might be approached.
+
 ## Add a language selector
+
+First up, and mainly so I could test the functionality as I added it was to add the markup for the element the user would select the language with. Early on I just used links for this, however, I eventually switched to use a select element for this. With this change I also needed to write a little JavaScript.
+
+Here's the final markup and JavaScript, on this project I am using Tailwind CSS for styling:
+
+```nunjucks
+<div class="flex items-center gap-4">
+    <label class="text-sm" for="language-switcher">{{ settings.languageSwitcherLabel }}</label>
+
+    <select id="language-switcher" class="border-b-2 border-brand-purple p-2 text-brand-purple">
+        <option value="/en{{ page.url | replace('/es/', '/') | replace('/en/', '/') }}"{% if lang == 'en' %} selected{% endif %}>English</option>
+        <option value="/es{{ page.url | replace('/en/', '/') | replace('/es/', '/') }}"{% if lang == 'es' %} selected{% endif %}>Español</option>
+    </select>
+</div>
+```
+
+```javascript
+document.addEventListener('DOMContentLoaded', function() {
+  const select = document.getElementById('language-switcher');
+  
+  if (select) {
+      select.addEventListener('change', function() {
+          window.location.href = this.value;
+      });
+  } else {
+      console.log('Language switcher not found on this page');
+  }
+});
+```
+
+Just looking back over this now, I am debating whether a select is actually the right approach, as the functionality is that of a link. For now though, this is the approach.
 
 ## Content structure
 
