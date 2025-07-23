@@ -126,6 +126,7 @@ Here's my folder structure after the changes:
     - /js
     - /uploads
 ```
+
 Here we can see that all the content markdown files are now organised inside the relevant country directories. You will notice that I have also had to put the landing pages for these pages inside here. These listing pages are in here as they need a permalink for the correct language, for example:
 
 ```yaml
@@ -136,6 +137,8 @@ permalink: /en/blog/
 ---
 ```
 There may be a nicer way of doing this, however, I couldn't think of how, as if placed in the root outside of the locale (en/es) folders, how would it be written into the correct folder with the correct permalink? Maybe something clever could be done with how it's handled in the Eleventy config, but this way it's nice and obvious for a minimal amount of repeated code.
+
+All of my reusable components and partials are at the top level, they are used by content from both languages.
 
 ## Data structure
 
