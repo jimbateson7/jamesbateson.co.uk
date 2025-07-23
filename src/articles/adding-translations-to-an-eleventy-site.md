@@ -104,7 +104,7 @@ Here's my folder structure after the changes:
         - index.html
     - /testimonials
         - *.md
-    - *.html // Pages with front matter that is translated
+    - *.html // Pages with front matter that is translated e.g. home
 - /es
     - /blog
         - index.html
@@ -118,7 +118,7 @@ Here's my folder structure after the changes:
         - index.html
     - /testimonials
         - *.md
-    - *.html // Pages with front matter that is translated
+    - *.html // Pages with front matter that is translated e.g. home
 - /static
     - /css
     - /favicons
@@ -141,6 +141,21 @@ There may be a nicer way of doing this, however, I couldn't think of how, as if 
 All of my reusable components and partials are at the top level, they are used by content from both languages.
 
 ## Data structure
+
+Some of the content I have that can be edited in the CMS writes to data (yaml) files, rather than to front matter. This also needs to be separated out in to folder for English and Spanish.
+
+Eleventy requires that the `/_data` folder is in the root of the `src` directory. Therefore it needs it's own locale directories within it, rather then being able to place it in the top level folders along with the content.
+
+Here's how my `/_data` directory looks:
+
+```
+- /_data
+    - /en
+        - *.yaml
+    - /es
+        - *.yaml
+    - socialLink.yaml // Didn't need to be different for en/es
+```
 
 ## Eleventy config
 
