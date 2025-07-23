@@ -26,13 +26,13 @@ So let's get into it.
 
 First off, I thought it might be useful to list out the different areas of the site I needed to make changes to. I've made these links also so if you wish to jump to a particular section, you can. As the list illustrates, it was quite a restructure.
 
-- Add language selector markup to the header
-- Separate the content structure
-- Separate the data structure
-- Update the Decap CMS config
-- Tweak the Eleventy config
-- Add Netlify redirects and duplicate forms
-- SEO url considerations
+- [Add language selector markup to the header](#add-a-language-selector)
+- [Separate the content structure](#content-structure)
+- [Separate the data structure](#data-structure)
+- [Update the Decap CMS config](#decap-config)
+- [Tweak the Eleventy config](#eleventy-config)
+- [Add Netlify redirects and duplicate forms](#netlify-changes)
+- [SEO url considerations](#seo-considerations)
 
 Once I've gone through these different areas. I'm also going to touch on some aspects of this approach I'm not keen on, and some alternative ways this might be approached.
 
