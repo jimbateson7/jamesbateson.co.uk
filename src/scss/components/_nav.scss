@@ -35,17 +35,10 @@
 	&__item {
 		padding: 0;
 
-		&.active {
-			a {
-				text-decoration: underline;
-				text-decoration-thickness: 2px;
-			}
-		}
-
 		a {
 			font-size: get-size(500);
 			font-weight: 600;
-			padding: .3rem;
+			padding: 0.3rem;
 			text-decoration: none;
 
 			&:focus-visible {
@@ -54,6 +47,11 @@
 
 			&:hover {
 				text-decoration: underline;
+			}
+
+			&[aria-current='page'] {
+				text-decoration: underline;
+				text-decoration-thickness: 2px;
 			}
 		}
 	}

@@ -1,25 +1,24 @@
 {% if navigation.items %}
+	<nav class="nav" aria-label="Main">
+		<ul class="[ nav__list nav__list--main ] [ box-flex align-center md:space-before ]">
+		{% for item in navigation.items %}
+			{% set externalAttribute = '' %}
+			{% set currentAttribute = '' %}
 
-		<nav class="nav" aria-label="Main">
-			<ul class="[ nav__list nav__list--main ] [ box-flex align-center md:space-before ]">
-			{% for item in navigation.items %}
-				{% set externalAttribute = '' %}
-				{% set currentAttribute = '' %}
-
-				{% if item.external %}
+			{% if item.external %}
 				{% set externalAttribute = ' rel="external"' %}
-				{% endif %}
+			{% endif %}
 
-				{% if page.url == item.url %}
+			{% if page.url == item.url %}
 				{% set currentAttribute = ' aria-current="page"' %}
-				{% endif %}
+			{% endif %}
 
-				<li class="nav__item {% if page.url == item.url %} active{% endif %}">
-					<a href="{{ item.url }}" {{ externalAttribute | safe }}{{ currentAttribute | safe }}>
-						<span>{{ item.text }}</span>
-					</a>
-				</li>
-			{% endfor %}
-			</ul>
-		</nav>
+			<li class="nav__item {% if page.url == item.url %} active{% endif %}">
+				<a href="{{ item.url }}" {{ externalAttribute | safe }}{{ currentAttribute | safe }}>
+					<span>{{ item.text }}</span>
+				</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</nav>
 {% endif %}
