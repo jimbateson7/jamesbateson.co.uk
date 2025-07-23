@@ -2,6 +2,8 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const {eleventyImageTransformPlugin} = require('@11ty/eleventy-img');
 const fs = require('fs');
+const markdownIt = require('markdown-it');
+const markdownItAnchor = require('markdown-it-anchor');
 
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -138,6 +140,22 @@ module.exports = (config) => {
 			},
 		},
 	});
+
+	// Enable heading anchors in Markdown
+	const markdownLib = markdownIt({
+		html: true,
+		breaks: true,
+		linkify: true,
+	}).use(markdownItAnchor, {
+		permalink: false, // <-- No visible link icons
+		slugify: (s) =>
+			s
+				.trim()
+				.toLowerCase()
+				.replace(/[^\w]+/g, '-'),
+	});
+
+	config.setLibrary('md', markdownLib);
 
 	return {
 		templateFormats: ['njk', 'md', 'html', '11ty.js'],
