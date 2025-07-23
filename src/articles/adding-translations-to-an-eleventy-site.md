@@ -143,9 +143,9 @@ All of my reusable components and partials are at the top level, they are used b
 
 ## Data structure
 
-Some of the content I have that can be edited in the CMS writes to data (yaml) files, rather than to front matter. This also needs to be separated out in to folder for English and Spanish.
+Some of the content I have that can be edited in the CMS writes to data (yaml) files, rather than to front matter. This also needs to be separated out in to a folder for English and Spanish.
 
-Eleventy requires that the `/_data` folder is in the root of the `src` directory. Therefore it needs it's own locale directories within it, rather then being able to place it in the top level folders along with the content.
+Eleventy requires that the `/_data` folder is in the root of the `src` directory. Therefore it needs it's own locale directories within it, rather then being able to place it in the top level locale folders along with the content.
 
 Here's how my `/_data` directory looks:
 
@@ -156,7 +156,7 @@ Here's how my `/_data` directory looks:
     - /es
         - *.yaml
     - socialLinks.yaml // Didn't need different content for en/es
-    *
+    *.js
 ```
 
 ## Eleventy config
