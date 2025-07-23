@@ -2,9 +2,11 @@
 progressPostsSummary: Articles I'm currently working on. They may or may not get
   finished, but after time and effort goes into them, I think it'd be a shame
   for them not to be published anywhere. Even not in a complete state they may
-  help me to look back on or somebody else coming across them.
-  <strong>Note:</strong> With them being incomplete, be aware they may contain
-  typos and such.
+  help me to look back on or somebody else coming across them. I also keep a
+  list of <a
+  href="https://github.com/jimbateson7/jamesbateson.co.uk/issues/103">article
+  ideas in my Github issues</a>. <strong>Note:</strong> With them being
+  incomplete, be aware they may contain typos and such.
 archiveButtonText: See all articles
 layout: home
 journalHeading: Recent Journals
