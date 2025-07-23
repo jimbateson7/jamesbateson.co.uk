@@ -104,6 +104,7 @@ Here's my folder structure after the changes:
         - index.html
     - /testimonials
         - *.md
+    - *.html // Pages with front matter that is translated
 - /es
     - /blog
         - index.html
@@ -117,6 +118,7 @@ Here's my folder structure after the changes:
         - index.html
     - /testimonials
         - *.md
+    - *.html // Pages with front matter that is translated
 - /static
     - /css
     - /favicons
@@ -124,6 +126,17 @@ Here's my folder structure after the changes:
     - /js
     - /uploads
 ```
+Here we can see that all the content markdown files are now organised inside the relevant country directories. You will notice that I have also had to put the landing pages for these pages inside here. These listing pages are in here as they need a permalink for the correct language, for example:
+
+```yaml
+---
+layout: blog
+showContactForm: true
+permalink: /en/blog/
+---
+```
+
+There's probably a better way to do this and a way to avoid this duplication.
 
 ## Data structure
 
