@@ -30,4 +30,8 @@ Whilst I make every effort to adhere to the guidelines mentioned earlier in this
 
 I am continuously checking and auditing this site for accessibility issues and trying to improve areas that may not be up to the standard they should be. If you should find any accessibility issues with this site, or struggle to access any features of it [please don't hesitate to contact me](mailto:jim.bateson@outlook.com).
 
+## Things to note
+
+* Testing the site with the browser extension tool WAVE from WebAIM. Three colour contrast issues are detected on each page if the users OS setting is set to dark mode. Having looked into these, this seems to be WAVE failing elements that are visually hidden and intended to enhance the experience for assistive technology users, therefore not impacting people or creating barriers to content. I will however, keep testing this and looking out for any feedback that suggests otherwise
+
 This accessibility statement was created and published on the 9th of January 2022 and most recently reviewed and updated on the 13th of February 2025.
