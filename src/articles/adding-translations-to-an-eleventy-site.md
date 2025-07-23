@@ -11,18 +11,22 @@ date: 2025-07-20T10:49:00.000+01:00
 ---
 Intro
 
-Changes
+## What needed to change?
 
-Content structure
+## Content structure
 
-Data structure
+## Data structure
 
-Eleventy config
+## Decap config
 
-Netlify redirects
+## Eleventy config
 
-SEO considerations
+## Netlify redirects
 
-Alternatives
+## SEO considerations
 
-Summary
+## What I'm not keen on
+
+## Alternatives
+
+## Summary
