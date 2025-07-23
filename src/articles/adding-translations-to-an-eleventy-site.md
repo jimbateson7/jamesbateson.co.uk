@@ -4,21 +4,20 @@ inProgress: true
 title: Adding translations to an Eleventy site
 metaTitle: Adding translations to an Eleventy site
 metaDesc: After launching a recent project, I was tasked with adding the ability
-    to translate the content to Spanish. This is something I hadn't done with
-    Eleventy before. This is how I went about it.
+  to translate the content to Spanish. This is something I hadn't done with
+  Eleventy before. This is how I went about it.
 socialImage: /images/social-share-default.jpg
 date: 2025-07-20T10:49:00.000+01:00
 tags:
-    - Eleventy
+  - Eleventy
 ---
-
 On a recent project, I received a request to make the site multi-lingual, enabling the client to share their content with Spanish speak people. The request came late on in the initial build, and as I knew it would require a chunk of restructure work, I pushed back and we decided to do it as a feature after the site was launched. In hindsight, it probably would have been better to do the work upfront, but anyway, here we are. Adding translations to a static site, using Eleventy in this case, isn't something I had done before.
 
 In this article I'm going to step through what i needed to change to enable this functionality. As the title of this article suggests, I was using Eleventy for this site, and the rest of the stack is detailed in my [recent post about the side project stack I use](https://jamesbateson.co.uk/articles/side-project-setup/). TLDR version:
 
-- Eleventy
-- Decap CMS (formerly Netlify CMS)
-- Netlify
+* Eleventy
+* Decap CMS (formerly Netlify CMS)
+* Netlify
 
 So let's get into it.
 
@@ -26,13 +25,13 @@ So let's get into it.
 
 First off, I thought it might be useful to list out the different areas of the site I needed to make changes to. I've made these links also so if you wish to jump to a particular section, you can. As the list illustrates, it was quite a restructure.
 
-- [Add language selector markup to the header](#add-a-language-selector)
-- [Separate the content structure](#content-structure)
-- [Separate the data structure](#data-structure)
-- [Update the Decap CMS config](#decap-config)
-- [Tweak the Eleventy config](#eleventy-config)
-- [Add Netlify redirects and duplicate forms](#netlify-changes)
-- [SEO url considerations](#seo-considerations)
+* [Add language selector markup to the header](#add-a-language-selector)
+* [Separate the content structure](#content-structure)
+* [Separate the data structure](#data-structure)
+* [Update the Decap CMS config](#decap-config)
+* [Tweak the Eleventy config](#eleventy-config)
+* [Add Netlify redirects and duplicate forms](#netlify-changes)
+* [SEO url considerations](#seo-considerations)
 
 Once I've gone through these different areas. I'm also going to touch on some aspects of this approach I'm not keen on, and some alternative ways this might be approached.
 
@@ -78,6 +77,8 @@ document.addEventListener('DOMContentLoaded', function () {
 Just looking back over this now, I am debating whether a select is actually the right approach, as the functionality is that of a link. For now though, this is the approach.
 
 ## Content structure
+
+This was probably the biggest change needed. The approach I decided to go with was to completely separate out my English and Spanish content. Whilst it creates a fair bit of duplication, it means that there is a clear separation, it allows me finer control over the front matter and also means that my client can add content just for English or Spanish, which is something they are likely to do, if they are for example delivering a workshop, just in Spain.
 
 ## Data structure
 
