@@ -125,6 +125,7 @@ Here's my folder structure after the changes:
     - /fonts
     - /js
     - /uploads
+- 404.html // Custom 404 needs to sit in root
 ```
 
 Here we can see that all the content markdown files are now organised inside the relevant country directories. You will notice that I have also had to put the landing pages for these pages inside here. These listing pages are in here as they need a permalink for the correct language, for example:
@@ -154,7 +155,8 @@ Here's how my `/_data` directory looks:
         - *.yaml
     - /es
         - *.yaml
-    - socialLink.yaml // Didn't need to be different for en/es
+    - socialLinks.yaml // Didn't need different content for en/es
+    *
 ```
 
 ## Eleventy config
