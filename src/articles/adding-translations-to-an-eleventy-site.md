@@ -28,8 +28,8 @@ First off, I thought it might be useful to list out the different areas of the s
 * [Add language selector markup to the header](#add-a-language-selector)
 * [Separate the content structure](#content-structure)
 * [Separate the data structure](#data-structure)
-* [Update the Decap CMS config](#decap-config)
 * [Tweak the Eleventy config](#eleventy-config)
+* [Update the Decap CMS config](#decap-config)
 * [Add Netlify redirects and duplicate forms](#netlify-changes)
 * [SEO url considerations](#seo-considerations)
 
@@ -140,9 +140,9 @@ There's probably a better way to do this and a way to avoid this duplication.
 
 ## Data structure
 
-## Decap config
-
 ## Eleventy config
+
+## Decap config
 
 ## Netlify changes
 
