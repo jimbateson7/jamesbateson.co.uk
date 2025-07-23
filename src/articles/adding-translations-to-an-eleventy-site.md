@@ -4,21 +4,20 @@ inProgress: true
 title: Adding translations to an Eleventy site
 metaTitle: Adding translations to an Eleventy site
 metaDesc: After launching a recent project, I was tasked with adding the ability
-    to translate the content to Spanish. This is something I hadn't done with
-    Eleventy before. This is how I went about it.
+  to translate the content to Spanish. This is something I hadn't done with
+  Eleventy before. This is how I went about it.
 socialImage: /images/social-share-default.jpg
 date: 2025-07-20T10:49:00.000+01:00
 tags:
-    - Eleventy
+  - Eleventy
 ---
-
 On a recent project, I received a request to make the site multi-lingual, enabling the client to share their content with Spanish speak people. The request came late on in the initial build, and as I knew it would require a chunk of restructure work, I pushed back and we decided to do it as a feature after the site was launched. In hindsight, it probably would have been better to do the work upfront, but anyway, here we are. Adding translations to a static site, using Eleventy in this case, isn't something I had done before.
 
 In this article I'm going to step through what i needed to change to enable this functionality. As the title of this article suggests, I was using Eleventy for this site, and the rest of the stack is detailed in my [recent post about the side project stack I use](https://jamesbateson.co.uk/articles/side-project-setup/). TLDR version:
 
-- Eleventy
-- Decap CMS (formerly Netlify CMS)
-- Netlify
+* Eleventy
+* Decap CMS (formerly Netlify CMS)
+* Netlify
 
 So let's get into it.
 
@@ -26,13 +25,13 @@ So let's get into it.
 
 First off, I thought it might be useful to list out the different areas of the site I needed to make changes to. I've made these links also so if you wish to jump to a particular section, you can. As the list illustrates, it was quite a restructure.
 
-- [Add language selector markup to the header](#add-a-language-selector)
-- [Separate the content structure](#content-structure)
-- [Separate the data structure](#data-structure)
-- [Update the Decap CMS config](#decap-config)
-- [Tweak the Eleventy config](#eleventy-config)
-- [Add Netlify redirects and duplicate forms](#netlify-changes)
-- [SEO url considerations](#seo-considerations)
+* [Add language selector markup to the header](#add-a-language-selector)
+* [Separate the content structure](#content-structure)
+* [Separate the data structure](#data-structure)
+* [Tweak the Eleventy config](#eleventy-config)
+* [Update the Decap CMS config](#decap-config)
+* [Add Netlify redirects and duplicate forms](#netlify-changes)
+* [SEO url considerations](#seo-considerations)
 
 Once I've gone through these different areas. I'm also going to touch on some aspects of this approach I'm not keen on, and some alternative ways this might be approached.
 
@@ -79,11 +78,96 @@ Just looking back over this now, I am debating whether a select is actually the 
 
 ## Content structure
 
+This was probably the biggest change needed. The approach I decided to go with was to completely separate out my English and Spanish content. Whilst it creates a fair bit of duplication, it means that there is a clear separation, it allows me finer control over the front matter and also means that my client can add content just for English or Spanish, which is something they are likely to do, if they are for example delivering a workshop, just in Spain.
+
+The initial goal here was to only have the content markdown files duplicated in each language folder, that just being the services, blogs and such. I wanted to try and keep as much of the template code that contained markup at the top level so to keep future development easier and not having to replicate changes in two places. Whilst this didn't quite turn out to be possible, and I did need to have some HTML files in both language folders, mainly due to front matter, I managed to move markup around into top level partials that could then be shared in each language.
+
+Here's my folder structure after the changes:
+
+```
+- /_data
+- /_includes
+    - /partials
+        - *.html
+    - *.html
+- /admin
+- /en
+    - /blog
+        - index.html
+    - /how-i-help
+        - index.html
+    - /pages
+        - *.md
+    - /posts
+        - *.md
+    - /success-stories
+        - index.html
+    - /testimonials
+        - *.md
+    - *.html // Pages with front matter that is translated e.g. home
+- /es
+    - /blog
+        - index.html
+    - /how-i-help
+        - index.html
+    - /pages
+        - *.md
+    - /posts
+        - *.md
+    - /success-stories
+        - index.html
+    - /testimonials
+        - *.md
+    - *.html // Pages with front matter that is translated e.g. home
+- /static
+    - /css
+    - /favicons
+    - /fonts
+    - /js
+    - /uploads
+- 404.html // Custom 404 needs to sit in root
+```
+
+Here we can see that all the content markdown files are now organised inside the relevant country directories. You will notice that I have also had to put the landing pages for these pages inside here. These listing pages are in here as they need a permalink for the correct language, for example:
+
+```yaml
+---
+layout: blog
+showContactForm: true
+permalink: /en/blog/
+---
+```
+There may be a nicer way of doing this, however, I couldn't think of how, as if placed in the root outside of the locale (en/es) folders, how would it be written into the correct folder with the correct permalink? Maybe something clever could be done with how it's handled in the Eleventy config, but this way it's nice and obvious for a minimal amount of repeated code.
+
+All of my reusable components and partials are at the top level, they are used by content from both languages.
+
 ## Data structure
 
-## Decap config
+Some of the content I have that can be edited in the CMS writes to data (yaml) files, rather than to front matter. This also needs to be separated out in to a folder for English and Spanish.
+
+Eleventy requires that the `/_data` folder is in the root of the `src` directory. Therefore it needs it's own locale directories within it, rather then being able to place it in the top level locale folders along with the content.
+
+Here's how my `/_data` directory looks:
+
+```
+- /_data
+    - /en
+        - *.yaml
+    - /es
+        - *.yaml
+    - socialLinks.yaml // Didn't need different content for en/es
+    *.js
+```
+
+So, as we can see form this structure. English and Spanish data now has it's own files, in my case for site settings data, header navigation and footer navigation. Outside of these locale directories sits any data that doesn't need to be different based on locale. In my case the social links on the site.
+
+This approach leads to an issue though, how do you now refer to the correct data source when using it in templates? This is where the `*.js` files in this `_data` directory come in.
+
+For each of my `.yaml` files in the locale directories, I have a corresponding JavaScript file. 
 
 ## Eleventy config
+
+## Decap config
 
 ## Netlify changes
 
