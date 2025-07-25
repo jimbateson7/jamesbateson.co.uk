@@ -10,7 +10,7 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^5.0.1",
 		"@tbranyen/jsdom": "^13.0.0",
 		"concurrently": "^9.2.0",
-		"dotenv": "^17.2.0",
+		"dotenv": "^17.2.1",
 		"html-minifier": "^4.0.0",
 		"json-to-scss": "^1.6.2",
 		"markdown-it-anchor": "^9.2.0",
