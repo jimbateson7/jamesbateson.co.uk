@@ -143,13 +143,14 @@ showContactForm: true
 permalink: /en/blog/
 ---
 ```
+
 There may be a nicer way of doing this, however, I couldn't think of how, as if placed in the root outside of the locale (en/es) folders, how would it be written into the correct folder with the correct permalink? Maybe something clever could be done with how it's handled in the Eleventy config, but this way it's nice and obvious for a minimal amount of repeated code.
 
 All of my reusable components and partials are at the top level, they are used by content from both languages.
 
 ## Data structure
 
-Some of the content I have that can be edited in the CMS writes to data (yaml) files, rather than to front matter. This also needs to be separated out in to a folder for English and Spanish.
+Some of the content I have that can be edited in the CMS writes to data (yaml) files, rather than to front matter. This also needs to be separated out in to a folder for English and Spanish. I'll be covering in the \[Decap CMS config section](#decap-config) how the files are referenced.
 
 Eleventy requires that the `/_data` folder is in the root of the `src` directory. Therefore it needs it's own locale directories within it, rather then being able to place it in the top level locale folders along with the content.
 
@@ -171,7 +172,7 @@ So, as we can see form this structure. English and Spanish data now has it's own
 
 This approach leads to an issue though, how do you now refer to the correct data source when using it in templates? This is where the `*.js` files in this `_data` directory come in.
 
-For each of my `.yaml` files in the locale directories, I have a corresponding JavaScript file. Here's an example of my `siteSettings.js` file. My site settings in this project are for strings and options used across the site.
+For each of my `yaml` files in the locale directories, I have a corresponding JavaScript file. Here's an example of my `siteSettings.js` file. My site settings in this project are for strings and options used across the site.
 
 ```javascript
 const fs = require('fs');
@@ -198,9 +199,11 @@ First off the `loadYAML()` is just a helper function that I've included for clar
     es: { ...Spanish content... }
 }
 ```
+
 In my Nunkucks templates, I can access the appropriate language version by using a locale (or falling back to en).
 
 {% raw %}
+
 ```nunjucks
 {% set lang = locale or 'en' %}
 
@@ -208,11 +211,12 @@ In my Nunkucks templates, I can access the appropriate language version by using
 {% set nav = headerNavigation[lang] %}
 {% set footer = footerNavigation[lang] %}
 ```
+
 {% endraw %}
 
 These can then be used in components and layouts `settings.someTitle` and it will grab the correct content based on the current page locale context the user has chosen.
 
-Note: I'm going to cover how the `locale` is set and determined in the next section: [Eleventy config](#eleventy-config).
+**Note**: I'm going to cover how the `locale` is set and determined in the next section: [Eleventy config](#eleventy-config).
 
 ## Eleventy config
 
