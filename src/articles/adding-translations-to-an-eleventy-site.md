@@ -84,48 +84,56 @@ The initial goal here was to only have the content markdown files duplicated in 
 
 Here's my folder structure after the changes:
 
+### `src` folder structure after content separation
+
 ```
-- /_data
-- /_includes
-    - /partials
-        - *.html
-    - *.html
-- /admin
-- /en
-    - /blog
-        - index.html
-    - /how-i-help
-        - index.html
-    - /pages
-        - *.md
-    - /posts
-        - *.md
-    - /success-stories
-        - index.html
-    - /testimonials
-        - *.md
-    - *.html // Pages with front matter that is translated e.g. home
-- /es
-    - /blog
-        - index.html
-    - /how-i-help
-        - index.html
-    - /pages
-        - *.md
-    - /posts
-        - *.md
-    - /success-stories
-        - index.html
-    - /testimonials
-        - *.md
-    - *.html // Pages with front matter that is translated e.g. home
-- /static
-    - /css
-    - /favicons
-    - /fonts
-    - /js
-    - /uploads
-- 404.html // Custom 404 needs to sit in root
+/
+├── _data
+│   ├── en/
+│   │   └── siteSettings.yaml
+│   ├── es/
+│   │   └── siteSettings.yaml
+│   └── siteSettings.js
+├── _includes
+│   ├── partials/
+│   │   └── *.html
+│   └── *.html
+├── admin
+├── en/
+│   ├── blog/
+│   │   └── index.html
+│   ├── how-i-help/
+│   │   └── index.html
+│   ├── pages/
+│   │   └── *.md
+│   ├── posts/
+│   │   └── *.md
+│   ├── success-stories/
+│   │   └── index.html
+│   ├── testimonials/
+│   │   └── *.md
+│   └── *.html  // Pages with front matter that is translated, e.g., home
+├── es/
+│   ├── blog/
+│   │   └── index.html
+│   ├── how-i-help/
+│   │   └── index.html
+│   ├── pages/
+│   │   └── *.md
+│   ├── posts/
+│   │   └── *.md
+│   ├── success-stories/
+│   │   └── index.html
+│   ├── testimonials/
+│   │   └── *.md
+│   └── *.html  // Pages with front matter that is translated, e.g., home
+├── static/
+│   ├── css/
+│   ├── favicons/
+│   ├── fonts/
+│   ├── js/
+│   └── uploads/
+└── 404.html  // Custom 404 page needs to sit in root
 ```
 
 Here we can see that all the content markdown files are now organised inside the relevant country directories. You will notice that I have also had to put the landing pages for these pages inside here. These listing pages are in here as they need a permalink for the correct language, for example:
@@ -149,21 +157,62 @@ Eleventy requires that the `/_data` folder is in the root of the `src` directory
 
 Here's how my `/_data` directory looks:
 
+### `_data` folder structure after locale seperation
+
 ```
-- /_data
-    - /en
-        - *.yaml
-    - /es
-        - *.yaml
-    - socialLinks.yaml // Didn't need different content for en/es
-    *.js
+_data/
+├── en/
+│   └── *.yaml          
+├── es/
+│   └── *.yaml          
+├── socialLinks.yaml // Shared across all languages
+└── *.js 
 ```
 
 So, as we can see form this structure. English and Spanish data now has it's own files, in my case for site settings data, header navigation and footer navigation. Outside of these locale directories sits any data that doesn't need to be different based on locale. In my case the social links on the site.
 
 This approach leads to an issue though, how do you now refer to the correct data source when using it in templates? This is where the `*.js` files in this `_data` directory come in.
 
-For each of my `.yaml` files in the locale directories, I have a corresponding JavaScript file. 
+For each of my `.yaml` files in the locale directories, I have a corresponding JavaScript file. Here's an example of my `siteSettings.js` file. My site settings in this project are for strings and options used across the site.
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+const yaml = require('js-yaml');
+
+function loadYAML(filePath) {
+    const fullPath = path.join(__dirname, filePath);
+    const file = fs.readFileSync(fullPath, 'utf8');
+    return yaml.load(file);
+}
+
+module.exports = {
+    en: loadYAML('./en/siteSettings.yaml'),
+    es: loadYAML('./es/siteSettings.yaml'),
+};
+```
+
+First off the `loadYAML()` is just a helper function that I've included for clarity. it allows the reading of both the English and Spanish `yaml` files and merges them into an object keyed by language code.
+
+```javascript
+{
+    en: { ...English content... },
+    es: { ...Spanish content... }
+}
+```
+In my Nunkucks templates, I can access the appropriate language version by using a locale (or falling back to en).
+
+```nunjucks
+{% set lang = locale or 'en' %}
+
+{% set settings = siteSettings[lang] %}
+{% set nav = headerNavigation[lang] %}
+{% set footer = footerNavigation[lang] %}
+```
+
+These can then be used in components and layouts `settings.someTitle` and it will grab the correct content based on the current page locale context the user has chosen.
+
+Note: I'm going to cover how the `locale` is set and determined in the next section: [Eleventy config](#eleventy-config).
 
 ## Eleventy config
 
