@@ -163,7 +163,26 @@ So, as we can see form this structure. English and Spanish data now has it's own
 
 This approach leads to an issue though, how do you now refer to the correct data source when using it in templates? This is where the `*.js` files in this `_data` directory come in.
 
-For each of my `.yaml` files in the locale directories, I have a corresponding JavaScript file. 
+For each of my `.yaml` files in the locale directories, I have a corresponding JavaScript file. Here's an example of my `siteSettings.js` file. My site settings in this project are for strings and options used across the site.
+
+```javascript
+const fs = require('fs');
+const path = require('path');
+const yaml = require('js-yaml');
+
+function loadYAML(filePath) {
+    const fullPath = path.join(__dirname, filePath);
+    const file = fs.readFileSync(fullPath, 'utf8');
+    return yaml.load(file);
+}
+
+module.exports = {
+    en: loadYAML('./en/siteSettings.yaml'),
+    es: loadYAML('./es/siteSettings.yaml'),
+};
+```
+
+First off the `loadYAML()` is just a helper function that I've included for clarity.
 
 ## Eleventy config
 
