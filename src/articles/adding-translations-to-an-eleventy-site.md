@@ -182,7 +182,27 @@ module.exports = {
 };
 ```
 
-First off the `loadYAML()` is just a helper function that I've included for clarity.
+First off the `loadYAML()` is just a helper function that I've included for clarity. it allows the reading of both the English and Spanish `yaml` files and merges them into an object keyed by language code.
+
+```javascript
+{
+    en: { ...English content... },
+    es: { ...Spanish content... }
+}
+```
+In my Nunkucks templates, I can access the appropriate language version by using a locale (or falling back to en).
+
+```nunjucks
+{% set lang = locale or 'en' %}
+
+{% set settings = siteSettings[lang] %}
+{% set nav = headerNavigation[lang] %}
+{% set footer = footerNavigation[lang] %}
+```
+
+These can then be used in components and layouts `settings.someTitle` and it will grab the correct content based on the current page locale context the user has chosen.
+
+Note: I'm going to cover how the `locale` is set and determined in the next section: [Eleventy config](#eleventy-config).
 
 ## Eleventy config
 
