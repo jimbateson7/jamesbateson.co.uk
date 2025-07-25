@@ -202,6 +202,7 @@ First off the `loadYAML()` is just a helper function that I've included for clar
 ```
 In my Nunkucks templates, I can access the appropriate language version by using a locale (or falling back to en).
 
+{% raw %}
 ```nunjucks
 {% set lang = locale or 'en' %}
 
@@ -209,6 +210,7 @@ In my Nunkucks templates, I can access the appropriate language version by using
 {% set nav = headerNavigation[lang] %}
 {% set footer = footerNavigation[lang] %}
 ```
+{% endraw %}
 
 These can then be used in components and layouts `settings.someTitle` and it will grab the correct content based on the current page locale context the user has chosen.
 
