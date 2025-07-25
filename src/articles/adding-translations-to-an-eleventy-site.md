@@ -82,9 +82,7 @@ This was probably the biggest change needed. The approach I decided to go with w
 
 The initial goal here was to only have the content markdown files duplicated in each language folder, that just being the services, blogs and such. I wanted to try and keep as much of the template code that contained markup at the top level so to keep future development easier and not having to replicate changes in two places. Whilst this didn't quite turn out to be possible, and I did need to have some HTML files in both language folders, mainly due to front matter, I managed to move markup around into top level partials that could then be shared in each language.
 
-Here's my folder structure after the changes:
-
-### `src` folder structure after content separation
+### src folder structure after content separation
 
 ```
 /
@@ -157,7 +155,7 @@ Eleventy requires that the `/_data` folder is in the root of the `src` directory
 
 Here's how my `/_data` directory looks:
 
-### `_data` folder structure after locale seperation
+### _data folder structure after locale seperation
 
 ```
 _data/
