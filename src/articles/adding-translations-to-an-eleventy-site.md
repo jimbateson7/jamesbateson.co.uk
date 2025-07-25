@@ -218,7 +218,27 @@ These can then be used in components and layouts `settings.someTitle` and it wil
 
 **Note**: I'm going to cover how the `locale` is set and determined in the next section: [Eleventy config](#eleventy-config).
 
+So now we have our content in markdown files split and content in data files split. Let's move onto what we need to pass to Eleventy and tweak in the config.
+
 ## Eleventy config
+
+Eleventy can take an optional config (usually eleventy.js, eleventy.config.js/mjs) that can be used to tweak default Eleventy settings, define how files are processed, and can also be used to add filters, shortcodes, data, plugins and more.
+
+In my case I was defining my collections from within my config. Due to now having two sets of the content inside these collections - services, posts and testimonials in both English and Spanish, unfortunately a bit more duplication was needed. For example my single services collection now became:
+
+```javascript
+eleventyConfig.addCollection("services_en", (collection) => {
+    return
+    [...collection.getFilteredByGlob("./src/en/services/*.md").filter(services)].reverse();
+});
+
+eleventyConfig.addCollection("services_es", (collection) => {
+    return
+    [...collection.getFilteredByGlob("./src/es/services/*.md").filter(services)].reverse();
+});
+```
+
+Each locale now has a collection and it points to the collection files within the local directory. Rinse and repeat this for each collection.
 
 ## Decap config
 
