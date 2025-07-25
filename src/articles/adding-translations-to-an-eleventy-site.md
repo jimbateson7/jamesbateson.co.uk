@@ -84,48 +84,56 @@ The initial goal here was to only have the content markdown files duplicated in 
 
 Here's my folder structure after the changes:
 
+### `src` folder structure after content separation
+
 ```
-- /_data
-- /_includes
-    - /partials
-        - *.html
-    - *.html
-- /admin
-- /en
-    - /blog
-        - index.html
-    - /how-i-help
-        - index.html
-    - /pages
-        - *.md
-    - /posts
-        - *.md
-    - /success-stories
-        - index.html
-    - /testimonials
-        - *.md
-    - *.html // Pages with front matter that is translated e.g. home
-- /es
-    - /blog
-        - index.html
-    - /how-i-help
-        - index.html
-    - /pages
-        - *.md
-    - /posts
-        - *.md
-    - /success-stories
-        - index.html
-    - /testimonials
-        - *.md
-    - *.html // Pages with front matter that is translated e.g. home
-- /static
-    - /css
-    - /favicons
-    - /fonts
-    - /js
-    - /uploads
-- 404.html // Custom 404 needs to sit in root
+/
+├── _data
+│   ├── en/
+│   │   └── siteSettings.yaml
+│   ├── es/
+│   │   └── siteSettings.yaml
+│   └── siteSettings.js
+├── _includes
+│   ├── partials/
+│   │   └── *.html
+│   └── *.html
+├── admin
+├── en/
+│   ├── blog/
+│   │   └── index.html
+│   ├── how-i-help/
+│   │   └── index.html
+│   ├── pages/
+│   │   └── *.md
+│   ├── posts/
+│   │   └── *.md
+│   ├── success-stories/
+│   │   └── index.html
+│   ├── testimonials/
+│   │   └── *.md
+│   └── *.html  // Pages with front matter that is translated, e.g., home
+├── es/
+│   ├── blog/
+│   │   └── index.html
+│   ├── how-i-help/
+│   │   └── index.html
+│   ├── pages/
+│   │   └── *.md
+│   ├── posts/
+│   │   └── *.md
+│   ├── success-stories/
+│   │   └── index.html
+│   ├── testimonials/
+│   │   └── *.md
+│   └── *.html  // Pages with front matter that is translated, e.g., home
+├── static/
+│   ├── css/
+│   ├── favicons/
+│   ├── fonts/
+│   ├── js/
+│   └── uploads/
+└── 404.html  // Custom 404 page needs to sit in root
 ```
 
 Here we can see that all the content markdown files are now organised inside the relevant country directories. You will notice that I have also had to put the landing pages for these pages inside here. These listing pages are in here as they need a permalink for the correct language, for example:
@@ -149,14 +157,16 @@ Eleventy requires that the `/_data` folder is in the root of the `src` directory
 
 Here's how my `/_data` directory looks:
 
+### `_data` folder structure after locale seperation
+
 ```
-- /_data
-    - /en
-        - *.yaml
-    - /es
-        - *.yaml
-    - socialLinks.yaml // Didn't need different content for en/es
-    *.js
+_data/
+├── en/
+│   └── *.yaml          
+├── es/
+│   └── *.yaml          
+├── socialLinks.yaml // Shared across all languages
+└── *.js 
 ```
 
 So, as we can see form this structure. English and Spanish data now has it's own files, in my case for site settings data, header navigation and footer navigation. Outside of these locale directories sits any data that doesn't need to be different based on locale. In my case the social links on the site.
