@@ -595,6 +595,8 @@ These are doing the following (and why needed):
 
 ## SEO considerations
 
+I'm not an SEO specialist, but I am aware of how changes I make can have an impact on it, and being the sole team member on projects, means I needed to do the investigation and work so as not to create regressions.
+
 ## What I'm not keen on
 
 ## Alternatives
