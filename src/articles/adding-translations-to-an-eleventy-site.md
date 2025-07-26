@@ -238,7 +238,37 @@ eleventyConfig.addCollection("services_es", (collection) => {
 });
 ```
 
-Each locale now has a collection and it points to the collection files within the local directory. Rinse and repeat this for each collection.
+Each locale now has a collection and it points to the collection files within the locale directory. Rinse and repeat this for each collection. What we don't want to do is then have to duplicate looping through these collections in our templates. I'd just like to have one services component that renders either the English or Spanish services.
+
+To achieve this I made use of my `locale` variable again:
+
+```nunjucks
+{% set orderedServices = collections['services_' + locale] | sort(attribute='data.order') %}
+
+<section class="py-8 md:py-12 lg:py-16 overflow-x-hidden relative">
+    <div class="container mx-auto">
+        <h2 class="font-medium text-brand-purple md:text-5xl">{{ howIHelpTitle }}</h2>
+
+    <div class="px-2 md:px-11 mt-12 splide" data-splide='{ "autoHeight": true, "updateOnMove": true, "perPage": 3, "gap": "3rem", "breakpoints": { "1023": { "perPage": 1 } } }'>
+            <div class="splide__track">
+                <ul class="md:mt-8 splide__list">
+                    {% for service in orderedServices %}
+                        <li class="splide__slide">
+                            {% include "partials/serviceCard.html" %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+```
+
+Here we use the `locale` (set in the front matter) on the page to ensure the correct collection is rendered `['services_' + locale]`. This can then be used for other collections as well. One partial file takes care of all our languages.
+
+### Setting/determining the locale
+
+As some of my snippets have used the `locale` variable I have available in my templates, I wanted to show how this is working. It's set in my Eleventy config file, and uses [a feature of Eleventy called Computed Data (`eleventyComputed)](https://www.11ty.dev/docs/data-computed/).  
 
 ## Decap config
 
