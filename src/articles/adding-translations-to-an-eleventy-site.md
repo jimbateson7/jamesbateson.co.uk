@@ -218,11 +218,380 @@ These can then be used in components and layouts `settings.someTitle` and it wil
 
 **Note**: I'm going to cover how the `locale` is set and determined in the next section: [Eleventy config](#eleventy-config).
 
+So now we have our content in markdown files split and content in data files split. Let's move onto what we need to pass to Eleventy and tweak in the config.
+
 ## Eleventy config
+
+Eleventy can take an optional config (usually eleventy.js, eleventy.config.js/mjs) that can be used to tweak default Eleventy settings, define how files are processed, and can also be used to add filters, shortcodes, data, plugins and more.
+
+In my case I was defining my collections from within my config. Due to now having two sets of the content inside these collections - services, posts and testimonials in both English and Spanish, unfortunately a bit more duplication was needed. For example my single services collection now became:
+
+```javascript
+eleventyConfig.addCollection("services_en", (collection) => {
+    return
+    [...collection.getFilteredByGlob("./src/en/services/*.md").filter(services)].reverse();
+});
+
+eleventyConfig.addCollection("services_es", (collection) => {
+    return
+    [...collection.getFilteredByGlob("./src/es/services/*.md").filter(services)].reverse();
+});
+```
+
+Each locale now has a collection and it points to the collection files within the locale directory. Rinse and repeat this for each collection. What we don't want to do is then have to duplicate looping through these collections in our templates. I'd just like to have one services component that renders either the English or Spanish services.
+
+To achieve this I made use of my `locale` variable again:
+
+```nunjucks
+{% set orderedServices = collections['services_' + locale] | sort(attribute='data.order') %}
+
+<section class="py-8 md:py-12 lg:py-16 overflow-x-hidden relative">
+    <div class="container mx-auto">
+        <h2 class="font-medium text-brand-purple md:text-5xl">{{ howIHelpTitle }}</h2>
+
+    <div class="px-2 md:px-11 mt-12 splide" data-splide='{ "autoHeight": true, "updateOnMove": true, "perPage": 3, "gap": "3rem", "breakpoints": { "1023": { "perPage": 1 } } }'>
+            <div class="splide__track">
+                <ul class="md:mt-8 splide__list">
+                    {% for service in orderedServices %}
+                        <li class="splide__slide">
+                            {% include "partials/serviceCard.html" %}
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+```
+
+Here we use the `locale` (set in the front matter) on the page to ensure the correct collection is rendered `['services_' + locale]`. This can then be used for other collections as well. One partial file takes care of all our languages.
+
+### Setting/determining the locale
+
+As some of my snippets have used the `locale` variable I have available in my templates, I wanted to show how this is working. It's set in my Eleventy config file, and uses [a feature of Eleventy called Computed Data (`eleventyComputed)](https://www.11ty.dev/docs/data-computed/).
+
+Here's an example of the usage from the Eleventy docs:
+
+> Say you want to use Eleventy’s Navigation Plugin to create a navigation menu for your site. This plugin relies on the eleventyNavigation object to be set. You don’t necessarily want to set this object manually in front matter in each individual source file. This is where Computed Data comes in!
+
+In my case this also works well for adding a locale to the front matter of my files. It would then allow me to access this and render the relevant content and data for each page. To ensure it was set, here's how I achieved this:
+
+```javascript
+eleventyConfig.addGlobalData("eleventyComputed", {
+  locale: (data) => {
+    // Front matter locale takes absolute precedence - don't override if already set
+    if (data.locale) return data.locale;
+    
+    // Fallback to path-based detection only if no front matter locale
+    if (data.page && data.page.inputPath) {
+      if (data.page.inputPath.includes(`${path.sep}es${path.sep}`)) return "es";
+      if (data.page.inputPath.includes(`${path.sep}en${path.sep}`)) return "en";
+    }
+    return "en";
+  }
+});
+```
+
+To break this down:
+
+* If the locale is already set in the data, don't try and override this
+* Otherwise use the `inputPath` of the file, which is [supplied data from Eleventy](https://www.11ty.dev/docs/data-eleventy-supplied/). If depending on if the `inputPath` contains `en` or `es` set this
+* Fallback to `en`
+
+I then know I'll have access to a locale, allowing me to set it as a variable in my top level template, giving all others access to it, in `default.njk` - `{% set lang = locale or 'en' %}`.
+
 
 ## Decap config
 
+So we now have content separation for our languages, we have a variable that we can use to determine which content we need to serve, collections are split up so each language has its own. We now need to ability to add this data into the Decap CMS interface.
+
+This step involved another frustrating dose of duplication, inside of the `/admin/config.yaml` file. This file is where we define how the UI will be presented to add content for all of our collections and settings. This is done by defining fields and the widgets that make them up.
+
+Here's an example of how I set up the ability to add simple static content pages
+
+### Admin config file code example
+
+```yaml
+    - name: 'static_pages'
+      label: 'Static Pages'
+      folder: 'src/pages'
+      slug: ''
+      preview_path: 'pages/'
+      create: true
+      fields:
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'page.html',
+            }
+
+          - { label: 'Title', name: 'title', widget: 'string' }
+
+          - {
+                label: 'Subtitle',
+                name: 'subTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Banner Image',
+                name: 'bannerImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - {
+                label: 'Permalink Override',
+                name: 'permalink',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Title',
+                name: 'metaTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Description',
+                name: 'metaDesc',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Social Image',
+                name: 'socialImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+          - label: 'Show contact form?'
+            name: 'showContactForm'
+            widget: 'boolean'
+            default: false
+            required: false
+```
+
+Now we have pages, services, posts, testimonials for both English and Spanish though, we need to duplicate this to allow content entry in both languages. So our static pages would become:
+
+### Admin config file code example after multiple languages added
+
+```yaml
+# Static Pages - English
+    - name: 'static_pages_en'
+      label: 'Static Pages (English)'
+      folder: 'src/en/pages'
+      slug: '{{slug}}'
+      preview_path: 'pages/{{slug}}'
+      create: true
+      fields:
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'page.html',
+            }
+
+          - { label: 'Title', name: 'title', widget: 'string' }
+
+          - {
+                label: 'Subtitle',
+                name: 'subTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Banner Image',
+                name: 'bannerImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - {
+                label: 'Permalink Override',
+                name: 'permalink',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Title',
+                name: 'metaTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Description',
+                name: 'metaDesc',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Social Image',
+                name: 'socialImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+          - label: 'Show contact form?'
+            name: 'showContactForm'
+            widget: 'boolean'
+            default: false
+            required: false
+
+    # Static Pages - Spanish
+    - name: 'static_pages_es'
+      label: 'Static Pages (Spanish)'
+      folder: 'src/es/pages'
+      slug: '{{slug}}'
+      preview_path: 'pages/{{slug}}'
+      create: true
+      fields:
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'page.html',
+            }
+
+          - { label: 'Title', name: 'title', widget: 'string' }
+
+          - {
+                label: 'Subtitle',
+                name: 'subTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Banner Image',
+                name: 'bannerImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - {
+                label: 'Permalink Override',
+                name: 'permalink',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Title',
+                name: 'metaTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Description',
+                name: 'metaDesc',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Social Image',
+                name: 'socialImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+          - label: 'Show contact form?'
+            name: 'showContactForm'
+            widget: 'boolean'
+            default: false
+            required: false
+```
+
+As we can see everything is the same here, apart from we have two versions. For me, this is slightly ugly and has resulted in quite a large config file, with changes in two places required if I want to make changes, albeit in the same file and close together. For my two languages, it's manageable, but if I needed to added 2-3 more languages, or a bunch more collections/fields for both languages it'd be a challenge.
+
 ## Netlify changes
+
+The changes here, may well be unique to my setup, and in all honesty, I probably made these issues for myself. I envisaged a couple of issues that might arise after launching this feature with the site already being live with just English content. If following this along, can most likely be skipped.
+
+* People may already have urls saved that had no locale in them, what would they see?
+* The way my data was being populated based on having that locale meant that if a page was displayed without it, important data would be missing or incorrect
+
+### Netlify redirects
+
+Netlify allows you to setup redirects via it's build config file `netlify.toml`. to be honest, I needed to make use of AI to know what I might need to add into here. I wasn't able to test it locally easily either.
+
+```toml
+[build]
+  publish = "_site"
+  command = "npm run build"
+
+# Allow direct access to /admin and /admin/* (no language redirect)
+[[redirects]]
+  from = "/admin"
+  to = "/admin"
+  status = 200
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  status = 200
+
+# Redirect root to English
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 301
+  force = true
+
+# Do NOT redirect if already has /en/ or /es/
+[[redirects]]
+  from = "/en/*"
+  to = "/en/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/es/*"
+  to = "/es/:splat"
+  status = 200
+
+# Redirect only non-language-prefixed URLs to English
+[[redirects]]
+  from = "/:path"
+  to = "/en/:path"
+  status = 301
+  force = true
+
+# Prevent double /en/en/ or /es/es/
+[[redirects]]
+  from = "/en/en/*"
+  to = "/en/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/es/*"
+  to = "/es/:splat"
+  status = 301
+  force = true
+```
+
+These are doing the following (and why needed):
+
+* We don't want the admin url to contain a locale, so ensure this is always just {domain}/admin
+* If somebody with the urls with no locale lands on the site, redirect them to the /en version of the page. Probably not the nicest approach, but at least they see something complete and can then change the language
+* I was seeing some issues with it being possible to have two locales in the url, not 100% sure why this was happening, so added some redirects to ensure this was doable
 
 ## SEO considerations
 
