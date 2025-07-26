@@ -305,7 +305,7 @@ I then know I'll have access to a locale, allowing me to set it as a variable in
 
 So we now have content separation for our languages, we have a variable that we can use to determine which content we need to serve, collections are split up so each language has its own. We now need to ability to add this data into the Decap CMS interface.
 
-This step involved another frustrating dose of duplication, inside of the `/admin/config.yaml` file.
+This step involved another frustrating dose of duplication, inside of the `/admin/config.yaml` file. This file is where we define how the UI will be presented to add content for all of our collections and settings. This is done by defining fields and the widgets that make them up.
 
 ## Netlify changes
 
