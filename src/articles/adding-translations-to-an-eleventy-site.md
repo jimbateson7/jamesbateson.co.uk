@@ -303,6 +303,10 @@ I then know I'll have access to a locale, allowing me to set it as a variable in
 
 ## Decap config
 
+So we now have content separation for our languages, we have a variable that we can use to determine which content we need to serve, collections are split up so each language has its own. We now need to ability to add this data into the Decap CMS interface.
+
+This step involved another frustrating dose of duplication, inside of the `/admin/config.yaml` file.
+
 ## Netlify changes
 
 ## SEO considerations
