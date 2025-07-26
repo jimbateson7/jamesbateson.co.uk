@@ -590,7 +590,8 @@ Netlify allows you to setup redirects via it's build config file `netlify.toml`.
 I'll try and summarise what each of these is doing.
 
 * We don't want the admin url to contain a locale, so ensure this is always just {domain}/admin
-*
+* If somebody with the urls with no locale lands on the site, redirect them to the /en version of the page. Probably not the nicest approach, but at least they see something complete and can then change the language
+* I was seeing some issues with it being possible to have two locales in the url, not 100% sure why this was happening, so added some redirects to ensure this was doable
 
 ## SEO considerations
 
