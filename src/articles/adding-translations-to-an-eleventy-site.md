@@ -587,7 +587,7 @@ Netlify allows you to setup redirects via it's build config file `netlify.toml`.
   force = true
 ```
 
-I'll try and summarise what each of these is doing.
+These are doing the following (and why needed):
 
 * We don't want the admin url to contain a locale, so ensure this is always just {domain}/admin
 * If somebody with the urls with no locale lands on the site, redirect them to the /en version of the page. Probably not the nicest approach, but at least they see something complete and can then change the language
