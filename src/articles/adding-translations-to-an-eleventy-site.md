@@ -523,6 +523,70 @@ As we can see everything is the same here, apart from we have two versions. For 
 
 ## Netlify changes
 
+The changes here, may well be unique to my setup, and in all honesty, I probably made this issue for myself. I envisaged a couple of issues that might arise after launching this feature with the site already being live with just English content.
+
+* People may already have urls saved that had no locale in them, what would they see?
+* The way my data was being populated based on having that locale meant that if a page was displayed without it, important data would be missing or incorrect
+
+### Netlify redirects
+
+Netlify allows you to setup redirects via it's build config file `netlify.toml`. to be honest, I needed to make use of AI to know what I might need to add into here. I wasn't able to test it locally easily either.
+
+```toml
+[build]
+  publish = "_site"
+  command = "npm run build"
+
+# Allow direct access to /admin and /admin/* (no language redirect)
+[[redirects]]
+  from = "/admin"
+  to = "/admin"
+  status = 200
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/:splat"
+  status = 200
+
+# Redirect root to English
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 301
+  force = true
+
+# Do NOT redirect if already has /en/ or /es/
+[[redirects]]
+  from = "/en/*"
+  to = "/en/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/es/*"
+  to = "/es/:splat"
+  status = 200
+
+# Redirect only non-language-prefixed URLs to English
+[[redirects]]
+  from = "/:path"
+  to = "/en/:path"
+  status = 301
+  force = true
+
+# Prevent double /en/en/ or /es/es/
+[[redirects]]
+  from = "/en/en/*"
+  to = "/en/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/es/es/*"
+  to = "/es/:splat"
+  status = 301
+  force = true
+```
+
 ## SEO considerations
 
 ## What I'm not keen on
