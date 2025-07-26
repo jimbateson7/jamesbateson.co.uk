@@ -242,6 +242,8 @@ Each locale now has a collection and it points to the collection files within th
 
 To achieve this I made use of my `locale` variable again:
 
+{% raw %}
+
 ```nunjucks
 {% set orderedServices = collections['services_' + locale] | sort(attribute='data.order') %}
 
@@ -263,6 +265,7 @@ To achieve this I made use of my `locale` variable again:
     </div>
 </section>
 ```
+{% endraw %}
 
 Here we use the `locale` (set in the front matter) on the page to ensure the correct collection is rendered `['services_' + locale]`. This can then be used for other collections as well. One partial file takes care of all our languages.
 
