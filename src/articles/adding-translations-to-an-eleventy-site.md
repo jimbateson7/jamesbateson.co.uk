@@ -268,7 +268,36 @@ Here we use the `locale` (set in the front matter) on the page to ensure the cor
 
 ### Setting/determining the locale
 
-As some of my snippets have used the `locale` variable I have available in my templates, I wanted to show how this is working. It's set in my Eleventy config file, and uses [a feature of Eleventy called Computed Data (`eleventyComputed)](https://www.11ty.dev/docs/data-computed/).  
+As some of my snippets have used the `locale` variable I have available in my templates, I wanted to show how this is working. It's set in my Eleventy config file, and uses [a feature of Eleventy called Computed Data (`eleventyComputed)](https://www.11ty.dev/docs/data-computed/).
+
+Here's an example of the usage from the Eleventy docs:
+
+> Say you want to use Eleventy’s Navigation Plugin to create a navigation menu for your site. This plugin relies on the eleventyNavigation object to be set. You don’t necessarily want to set this object manually in front matter in each individual source file. This is where Computed Data comes in!
+
+In my case this also works well for adding a locale to the front matter of my files. It would then allow me to access this and render the relevant content and data for each page. To ensure it was set, here's how I achieved this:
+
+```javascript
+eleventyConfig.addGlobalData("eleventyComputed", {
+  locale: (data) => {
+    // Front matter locale takes absolute precedence - don't override if already set
+    if (data.locale) return data.locale;
+    
+    // Fallback to path-based detection only if no front matter locale
+    if (data.page && data.page.inputPath) {
+      if (data.page.inputPath.includes(`${path.sep}es${path.sep}`)) return "es";
+      if (data.page.inputPath.includes(`${path.sep}en${path.sep}`)) return "en";
+    }
+    return "en";
+  }
+});
+```
+
+To break this down:
+
+* If the locale is already set in the data, don't try and override this
+* Otherwise use the `inputPath` of the file, which is [supplied data from Eleventy](https://www.11ty.dev/docs/data-eleventy-supplied/). If depending on if the `inputPath` contains `en` or `es` set this
+* Fallback to `en`
+
 
 ## Decap config
 
