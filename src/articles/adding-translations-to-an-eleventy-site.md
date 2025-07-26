@@ -301,7 +301,7 @@ To break this down:
 * Otherwise use the `inputPath` of the file, which is [supplied data from Eleventy](https://www.11ty.dev/docs/data-eleventy-supplied/). If depending on if the `inputPath` contains `en` or `es` set this
 * Fallback to `en`
 
-I then know I'll have access to a locale, allowing me to set it as a variable in my top level template, giving all others access to it, in `default.njk` - `{% set lang = locale or 'en' %}`.
+I then know I'll have access to a locale, allowing me to set it as a variable in my top level template, giving all others access to it, in `default.njk` - {% raw %}`{% set lang = locale or 'en' %}`{% endraw %}.
 
 
 ## Decap config
