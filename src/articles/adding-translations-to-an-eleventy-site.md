@@ -519,7 +519,7 @@ Now we have pages, services, posts, testimonials for both English and Spanish th
             required: false
 ```
 
-As we can see everything is the same here, apart from we have two versions. For me, this is slightly ugly and has resulted in quite a large config file, with changes in two places required if I want to make changes, albeit in the same file and close together. For my two languages, it's manageable, but if I needed to added 2-3 more languages, it'd be a challenge.
+As we can see everything is the same here, apart from we have two versions. For me, this is slightly ugly and has resulted in quite a large config file, with changes in two places required if I want to make changes, albeit in the same file and close together. For my two languages, it's manageable, but if I needed to added 2-3 more languages, or a bunch more collections/fields for both languages it'd be a challenge.
 
 ## Netlify changes
 
