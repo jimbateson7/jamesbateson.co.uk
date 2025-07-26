@@ -523,7 +523,7 @@ As we can see everything is the same here, apart from we have two versions. For 
 
 ## Netlify changes
 
-The changes here, may well be unique to my setup, and in all honesty, I probably made this issue for myself. I envisaged a couple of issues that might arise after launching this feature with the site already being live with just English content.
+The changes here, may well be unique to my setup, and in all honesty, I probably made these issues for myself. I envisaged a couple of issues that might arise after launching this feature with the site already being live with just English content. If following this along, can most likely be skipped.
 
 * People may already have urls saved that had no locale in them, what would they see?
 * The way my data was being populated based on having that locale meant that if a page was displayed without it, important data would be missing or incorrect
@@ -586,6 +586,11 @@ Netlify allows you to setup redirects via it's build config file `netlify.toml`.
   status = 301
   force = true
 ```
+
+I'll try and summarise what each of these is doing.
+
+* We don't want the admin url to contain a locale, so ensure this is always just {domain}/admin
+*
 
 ## SEO considerations
 
