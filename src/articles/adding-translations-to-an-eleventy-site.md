@@ -307,6 +307,220 @@ So we now have content separation for our languages, we have a variable that we 
 
 This step involved another frustrating dose of duplication, inside of the `/admin/config.yaml` file. This file is where we define how the UI will be presented to add content for all of our collections and settings. This is done by defining fields and the widgets that make them up.
 
+Here's an example of how I set up the ability to add simple static content pages
+
+### Admin config file code example
+
+```yaml
+    - name: 'static_pages'
+      label: 'Static Pages'
+      folder: 'src/pages'
+      slug: ''
+      preview_path: 'pages/'
+      create: true
+      fields:
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'page.html',
+            }
+
+          - { label: 'Title', name: 'title', widget: 'string' }
+
+          - {
+                label: 'Subtitle',
+                name: 'subTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Banner Image',
+                name: 'bannerImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - {
+                label: 'Permalink Override',
+                name: 'permalink',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Title',
+                name: 'metaTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Description',
+                name: 'metaDesc',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Social Image',
+                name: 'socialImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+          - label: 'Show contact form?'
+            name: 'showContactForm'
+            widget: 'boolean'
+            default: false
+            required: false
+```
+
+Now we have pages, services, posts, testimonials for both English and Spanish though, we need to duplicate this to allow content entry in both languages. So our static pages would become:
+
+### Admin config file code example after multiple languages added
+
+```yaml
+# Static Pages - English
+    - name: 'static_pages_en'
+      label: 'Static Pages (English)'
+      folder: 'src/en/pages'
+      slug: '{{slug}}'
+      preview_path: 'pages/{{slug}}'
+      create: true
+      fields:
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'page.html',
+            }
+
+          - { label: 'Title', name: 'title', widget: 'string' }
+
+          - {
+                label: 'Subtitle',
+                name: 'subTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Banner Image',
+                name: 'bannerImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - {
+                label: 'Permalink Override',
+                name: 'permalink',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Title',
+                name: 'metaTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Description',
+                name: 'metaDesc',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Social Image',
+                name: 'socialImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+          - label: 'Show contact form?'
+            name: 'showContactForm'
+            widget: 'boolean'
+            default: false
+            required: false
+
+    # Static Pages - Spanish
+    - name: 'static_pages_es'
+      label: 'Static Pages (Spanish)'
+      folder: 'src/es/pages'
+      slug: '{{slug}}'
+      preview_path: 'pages/{{slug}}'
+      create: true
+      fields:
+          - {
+                label: 'Layout',
+                name: 'layout',
+                widget: 'hidden',
+                default: 'page.html',
+            }
+
+          - { label: 'Title', name: 'title', widget: 'string' }
+
+          - {
+                label: 'Subtitle',
+                name: 'subTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Banner Image',
+                name: 'bannerImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - {
+                label: 'Permalink Override',
+                name: 'permalink',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Title',
+                name: 'metaTitle',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'SEO Meta Description',
+                name: 'metaDesc',
+                widget: 'string',
+                required: false,
+            }
+
+          - {
+                label: 'Social Image',
+                name: 'socialImage',
+                widget: 'image',
+                required: false,
+            }
+
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+          - label: 'Show contact form?'
+            name: 'showContactForm'
+            widget: 'boolean'
+            default: false
+            required: false
+```
+
+As we can see everything is the same here, apart from we have two versions. For me, this is slightly ugly and has resulted in quite a large config file, with changes in two places required if I want to make changes, albeit in the same file and close together. For my two languages, it's manageable, but if I needed to added 2-3 more languages, it'd be a challenge.
+
 ## Netlify changes
 
 ## SEO considerations
