@@ -265,6 +265,7 @@ To achieve this I made use of my `locale` variable again:
     </div>
 </section>
 ```
+
 {% endraw %}
 
 Here we use the `locale` (set in the front matter) on the page to ensure the correct collection is rendered `['services_' + locale]`. This can then be used for other collections as well. One partial file takes care of all our languages.
@@ -303,6 +304,7 @@ To break this down:
 
 I then know I'll have access to a locale, allowing me to set it as a variable in my top level template, giving all others access to it, in `default.njk` - {% raw %}`{% set lang = locale or 'en' %}`{% endraw %}.
 
+Add in html language setting here.
 
 ## Decap config
 
@@ -599,6 +601,26 @@ These are doing the following (and why needed):
 ## SEO considerations
 
 I'm not an SEO specialist, but I am aware of how changes I make can have an impact on it, and being the sole team member on projects, means I needed to do the investigation and work so as not to create regressions.
+
+The questions I had for myself were:
+
+1. As I now effectively have two copies of each page, does this mean any penalties for duplicate content?
+2. Do I need to do anything with the canonical link element?
+3. What are \`hreflang\` tags and how do I need to use those?
+4. Ensure that the `<title>` is translated along with any metadata
+5. What changes will be needed to my sitemap generation?
+
+Here's what my understanding of each point is after some research.
+
+### Duplicate content
+
+Due to the unique url structure of the site e.g. /en/articleName and /es/articleName, I believe that this will be recognised by the likes of Google and not penalised as duplicate content, as it's understood that it's different translations of the content.
+
+### Page title and metadata translations
+
+In most cases I make use of the top level heading (h1) on the page for the `<title>` and this is set in the CMS content, therefore as the that content will be entered translated, this will pull through ensuring the title is correctly translated, although that does put the requirement on the content author to enter this.
+
+I also provide a way to override the meta title and meta description in the CMS as well, therefore this can be added translated by the content author.
 
 ## What I'm not keen on
 
