@@ -78,7 +78,14 @@ Just looking back over this now, I am debating whether a select is actually the 
 
 ## Content structure
 
-This was probably the biggest change needed. The approach I decided to go with was to completely separate out my English and Spanish content. Whilst it creates a fair bit of duplication, it means that there is a clear separation, it allows me finer control over the front matter and also means that my client can add content just for English or Spanish, which is something they are likely to do, if they are for example delivering a workshop, just in Spain.
+On the [Eleventy docs page for internationalisation](https://www.11ty.dev/docs/i18n/) it states there are two major decisions that need to be made early:
+
+> There are two big decisions you’ll need to make up front when working on an Eleventy project that serves localized content:
+>
+> 1.File Organisation
+> 2.URL Style
+
+File/content was probably the biggest change needed for me. The approach I decided to go with was to completely separate out my English and Spanish content. Whilst it creates a fair bit of duplication, it means that there is a clear separation, it allows me finer control over the front matter and also means that my client can add content just for English or Spanish, which is something they are likely to do, if they are for example delivering a workshop, just in Spain.
 
 The initial goal here was to only have the content markdown files duplicated in each language folder, that just being the services, blogs and such. I wanted to try and keep as much of the template code that contained markup at the top level so to keep future development easier and not having to replicate changes in two places. Whilst this didn't quite turn out to be possible, and I did need to have some HTML files in both language folders, mainly due to front matter, I managed to move markup around into top level partials that could then be shared in each language.
 
@@ -640,6 +647,24 @@ Optionally, I could also include `<xhtml:link rel="alternate" hreflang="...">` e
 
 ## What I'm not keen on
 
+As I've kind of alluded to in various sections of this article, I have a couple of slight issues with my approach, and things that if the project was a larger scale or more people working on it, may not be suitable.
+
+* Duplication
+* CMS config size
+* General scaleability
+
 ## Alternatives
+
+When looking into how to approach this task, I had a look around for ways others had tackled this kind of thing, or if Eleventy had any plugins solutions etc.
+
+### Eleventy i18n (internationalisation)
+
+I love the Eleventy docs and it does have a [documentation page for adding internationalisation](https://www.11ty.dev/docs/i18n/), this details various way and tools that could be used along with tips for structure etc, pros and cons of different approaches and even goes into tips for redirects and points to resources from the community, it was very helpful in making upfront decisions.
+
+It does have [a plugin that can help with translating content](https://github.com/adamduncan/eleventy-plugin-i18n). The setup and usage notes are excellent, very thorough with examples. It also has a [page on the Eleventy docs site](https://www.11ty.dev/docs/plugins/i18n/) of its own.
+
+I did install this plugin, however, and very much a fault of my own, I couldn't wrap my head around how I would translate content in front matter that was edited via the CMS. I understood how it would be useful for providing a dictionary of translations, but was unsure on how to apply this to large scale bits of content.
+
+Having revisited the whole process writing this article however, I have somewhat solidified my understanding of how everything is fitting together and the implementation makes more sense to me. So if I need to do this on a future project with this stack, or need to make the solution I have more scaleable, I will give this another go first.
 
 ## Summary
