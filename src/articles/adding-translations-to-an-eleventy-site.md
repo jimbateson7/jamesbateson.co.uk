@@ -410,7 +410,7 @@ Now we have pages, services, posts, testimonials for both English and Spanish th
 ### Admin config file code example after multiple languages added
 
 ```yaml
-# Static Pages - English
+    # Static Pages - English
     - name: 'static_pages_en'
       label: 'Static Pages (English)'
       folder: 'src/en/pages'
