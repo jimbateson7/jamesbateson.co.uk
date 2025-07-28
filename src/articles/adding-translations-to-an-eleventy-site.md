@@ -313,15 +313,19 @@ I then know I'll have access to a locale, allowing me to set it as a variable in
 
 **Important**: For accessibility and SEO remember to change the `lang` attribute on your `<html>` depending on the language the user has chosen:
 
+{% raw %}
 ```nunjucks
 <html lang="{{ lang }}">
 ```
+{% endraw %}
 
 In my case I didn't need to consider reading direction, however, this might be something that needs to be dynamically changed if translating to languages that switch between `ltr` and `rtl`. This could also be added as a variable somewhere and then updated, for example:
 
+{% raw %}
 ```nunjucks
 <html lang="{{ lang }}" dir="{{ dir }}">
 ```
+{% endraw %}
 
 ## Decap config
 
