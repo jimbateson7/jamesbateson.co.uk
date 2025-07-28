@@ -654,7 +654,7 @@ When looking into how to approach this task, I had a look around for ways others
 
 I love the Eleventy docs and it does have a [documentation page for adding internationalisation](https://www.11ty.dev/docs/i18n/), this details various way and tools that could be used along with tips for structure etc, pros and cons of different approaches and even goes into tips for redirects and points to resources from the community, it was very helpful in making upfront decisions.
 
-It does have [a plugin that can help with translating content](https://github.com/adamduncan/eleventy-plugin-i18n). The setup and usage notes are excellent, very thorough with examples.
+It does have [a plugin that can help with translating content](https://github.com/adamduncan/eleventy-plugin-i18n). The setup and usage notes are excellent, very thorough with examples. It also has a [page on the Eleventy docs site](https://www.11ty.dev/docs/plugins/i18n/) of its own.
 
 I did install this plugin, however, and very much a fault of my own, I couldn't wrap my head around how I would translate content in front matter that was edited via the CMS. I understood how it would be useful for providing a dictionary of translations, but was unsure on how to apply this to large scale bits of content.
 
