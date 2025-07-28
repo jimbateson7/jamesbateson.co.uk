@@ -279,7 +279,7 @@ Here we use the `locale` (set in the front matter) on the page to ensure the cor
 
 ### Setting/determining the locale
 
-As some of my snippets have used the `locale` variable I have available in my templates, I wanted to show how this is working. It's set in my Eleventy config file, and uses [a feature of Eleventy called Computed Data (`eleventyComputed)](https://www.11ty.dev/docs/data-computed/).
+As some of my snippets have used the `locale` variable I have available in my templates, I wanted to show how this is working. It's set in my Eleventy config file, and uses [a feature of Eleventy called Computed Data (`eleventyComputed`)](https://www.11ty.dev/docs/data-computed/).
 
 Here's an example of the usage from the Eleventy docs:
 
@@ -682,3 +682,9 @@ I did install this plugin, however, and very much a fault of my own, I couldn't 
 Having revisited the whole process writing this article however, I have somewhat solidified my understanding of how everything is fitting together and the implementation makes more sense to me. So if I need to do this on a future project with this stack, or need to make the solution I have more scaleable, I will give this another go first.
 
 ## Summary
+
+Phew, that turned into quite the write up, thanks if you stuck with it, and hopefully it's been helpful or insightful in some way! It's the first long-form technical writing I've done for quite a while, so a good learning experience for me, and appreciation for people that publish resources like this regularly, A fair amount of time and effort goes into putting them together.
+
+I'm relatively pleased with the translation solution I have ended up with. Before starting the work it was something I was unsure about doing with a static site generator, but as with everything I have come across so far, Eleventy is super flexible and working with it was a joy again with this feature.
+
+Before starting work like this, it's important to have a bit of a plan upfront, make key decisions, know what it might impact and have a plan on what needs to be tackled. It definitely helped me avoid any nasty surprises, or panic when it launched that I'd missed or regressed something.
