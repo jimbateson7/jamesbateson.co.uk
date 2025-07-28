@@ -22,7 +22,7 @@ Even though only the initial stage of the process, that the client does not see,
 
 Before starting the design or development of a new site, feature, page, component etc, I also try to start with a sketch. This allows me to jot down any early considerations and make some early decisions on rough layout etc.
 
-This stage can speed up process when it comes to higher-fidelity designs and plans.
+This stage can speed up process when it comes to higher-fidelity designs and plans and give me a clearer idea on the processes and outcomes of the work I'm doing.
 
 ![](/images/img_3537-large.jpeg)
 
