@@ -13,7 +13,7 @@ tags:
 ---
 On a recent project, I received a request to make the site multi-lingual, enabling the client to share their content with Spanish speak people. The request came late on in the initial build, and as I knew it would require a chunk of restructure work, I pushed back and we decided to do it as a feature after the site was launched. In hindsight, it probably would have been better to do the work upfront, but anyway, here we are. Adding translations to a static site, using Eleventy in this case, isn't something I had done before.
 
-In this article I'm going to step through what i needed to change to enable this functionality. As the title of this article suggests, I was using Eleventy for this site, and the rest of the stack is detailed in my [recent post about the side project stack I use](https://jamesbateson.co.uk/articles/side-project-setup/). TLDR version:
+In this article I'm going to step through what I needed to change to enable this functionality. As the title of this article suggests, I was using Eleventy for this site, and the rest of the stack is detailed in my [recent post about the side project stack I use](https://jamesbateson.co.uk/articles/side-project-setup/). TLDR version:
 
 * Eleventy
 * Decap CMS (formerly Netlify CMS)
@@ -311,7 +311,17 @@ To break this down:
 
 I then know I'll have access to a locale, allowing me to set it as a variable in my top level template, giving all others access to it, in `default.njk` - {% raw %}`{% set lang = locale or 'en' %}`{% endraw %}.
 
-Add in html language setting here.
+**Important**: For accessibility and SEO remember to change the `lang` attribute on your `<html>` depending on the language the user has chosen:
+
+```nunjucks
+<html lang="{{ lang }}">
+```
+
+In my case I didn't need to consider reading direction, however, this might be something that needs to be dynamically changed if translating to languages that switch between ltr and rtl. This could also be added as a variable somewhere and then updated, for example:
+
+```nunjucks
+<html lang="{{ lang }}" dir="{{ dir }}">
+```
 
 ## Decap config
 
