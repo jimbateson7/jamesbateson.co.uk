@@ -16,6 +16,10 @@ I've been fascinated and intrigued by the beautiful sketches she has around her 
 
 ![](/images/img_3536-large.jpeg)
 
+Much like the first steps for my in development work, Sonja starts with some sketches (although infinitely better than anything I do). These are overlaid onto topography-type maps as well so she can better understand what considerations might be needed based on the landscape features of the garden.
+
+Even though only the initial stage of the process, that the client does not see, I love the detail of the sketches and visual style of them. You can almost to start visualise how things might look just based off of them.
+
 ![](/images/img_3537-large.jpeg)
 
 ## Moving to more high-fidelity
