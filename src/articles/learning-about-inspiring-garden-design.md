@@ -16,9 +16,13 @@ I've been fascinated and intrigued by the beautiful sketches she has around her 
 
 ![](/images/img_3536-large.jpeg)
 
-Much like the first steps for my in development work, Sonja starts with some sketches (although infinitely better than anything I do). These are overlaid onto topography-type maps as well so she can better understand what considerations might be needed based on the landscape features of the garden.
+Much like the first steps for me in development work, Sonja starts with some sketches (although infinitely better than anything I do). These are overlaid onto topography-type maps as well so she can better understand what considerations might be needed based on the landscape features of the garden.
 
 Even though only the initial stage of the process, that the client does not see, I love the detail of the sketches and visual style of them. You can almost to start visualise how things might look just based off of them.
+
+Before starting the design or development of a new site, feature, page, component etc, I also try to start with a sketch. This allows me to jot down any early considerations and make some early decisions on rough layout etc.
+
+This stage can speed up process when it comes to higher-fidelity designs and plans.
 
 ![](/images/img_3537-large.jpeg)
 
