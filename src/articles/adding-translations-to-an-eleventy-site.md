@@ -600,27 +600,43 @@ These are doing the following (and why needed):
 
 ## SEO considerations
 
-I'm not an SEO specialist, but I am aware of how changes I make can have an impact on it, and being the sole team member on projects, means I needed to do the investigation and work so as not to create regressions.
+I'm not an SEO specialist, but I am aware that the changes I make can impact SEO. Since I’m the sole developer on this project, I needed to do the research and implementation myself to avoid introducing any regressions.
 
-The questions I had for myself were:
-
-1. As I now effectively have two copies of each page, does this mean any penalties for duplicate content?
-2. Do I need to do anything with the canonical link element?
-3. What are \`hreflang\` tags and how do I need to use those?
-4. Ensure that the `<title>` is translated along with any metadata
-5. What changes will be needed to my sitemap generation?
-
-Here's what my understanding of each point is after some research.
+When I added multilingual support to the site, a few questions came up:
 
 ### Duplicate content
 
-Due to the unique url structure of the site e.g. /en/articleName and /es/articleName, I believe that this will be recognised by the likes of Google and not penalised as duplicate content, as it's understood that it's different translations of the content.
+I was initially concerned that having both `/en/article-name` and `/es/article-name` could trigger duplicate content issues. However, because each version exists at a distinct URL and is intended for a different language audience, search engines like Google understand this as legitimate multilingual content—not duplicate content.
 
-### Page title and metadata translations
+What matters is making sure the pages are properly linked to each other with `hreflang` tags (more on that below), and that each page is clearly targeting its own language.
 
-In most cases I make use of the top level heading (h1) on the page for the `<title>` and this is set in the CMS content, therefore as the that content will be entered translated, this will pull through ensuring the title is correctly translated, although that does put the requirement on the content author to enter this.
+### Canonical URLs
 
-I also provide a way to override the meta title and meta description in the CMS as well, therefore this can be added translated by the content author.
+In a multilingual setup where each page has a unique URL per language (e.g. `/en/...` and `/es/...`), you generally **don’t** want every page pointing to a single "canonical" version—doing so would actually harm your SEO for the non-canonical languages.
+
+Instead, each language variant should be self-canonical. So `/en/article-name` should have a canonical pointing to itself, and `/es/article-name` should do the same. That tells search engines that each version is valid and intentional, not duplicate.
+
+### `hreflang` tags
+
+This was probably the biggest learning curve. `hreflang` tags help search engines understand which version of a page to show users based on their language and region.
+
+You add them as `<link rel="alternate" hreflang="...">` elements in the `<head>` of each page. For example:
+
+You can also include `hreflang="x-default"` to indicate a default version when no language match is found.
+
+Implementing this properly is key to avoiding language confusion in search results and ensuring the right audience sees the right content.
+
+### Translated page titles and metadata
+
+I already pull the `<title>` from the top-level `<h1>` on the page, which comes from the CMS. Since content authors will be entering this in the correct language, the title should naturally be localized. However, this does rely on the content author remembering to translate that field.
+
+I also provide fields in the CMS to override the meta title and description, which are optional but available per language. This gives content authors full control over translated SEO metadata.
+
+### Sitemap updates
+
+Since I generate the sitemap manually via Eleventy, I needed to update it to include entries for both `/en/` and `/es/` versions of each page.
+
+Optionally, I could also include `<xhtml:link rel="alternate" hreflang="...">` elements inside the sitemap if I wanted to push language relationships even more directly to search engines. But this is only necessary if you’re not already adding `hreflang` tags in the HTML `<head>` (which I am).
 
 ## What I'm not keen on
 
