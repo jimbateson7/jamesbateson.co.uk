@@ -279,7 +279,7 @@ Here we use the `locale` (set in the front matter) on the page to ensure the cor
 
 ### Setting/determining the locale
 
-As some of my snippets have used the `locale` variable I have available in my templates, I wanted to show how this is working. It's set in my Eleventy config file, and uses [a feature of Eleventy called Computed Data (`eleventyComputed)](https://www.11ty.dev/docs/data-computed/).
+As some of my snippets have used the `locale` variable I have available in my templates, I wanted to show how this is working. It's set in my Eleventy config file, and uses [a feature of Eleventy called Computed Data (`eleventyComputed`)](https://www.11ty.dev/docs/data-computed/).
 
 Here's an example of the usage from the Eleventy docs:
 
