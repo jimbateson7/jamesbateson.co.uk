@@ -9,7 +9,7 @@ progressPostsSummary: Articles I'm currently working on. They may or may not get
   incomplete, be aware they may contain typos and such.
 archiveButtonText: See all articles
 layout: home
-journalHeading: Recent Journals
+journalHeading: Recent journals
 projectsSummary: Some silly side project ideas, I also make things on <a
   href=\"#\">Codepen</a> and any source code is available on <a
   href=\"#\">Github</a>
@@ -30,7 +30,7 @@ bannerSummary: Welcome to my digital space. Somewhere I can post the occasional
   href="https://bradfrost.com/blog/post/front-of-the-front-end-and-back-of-the-front-end-web-development/">front-of-the-front-end</a>'
   and have a passion for HTML, CSS, UI/UX, accessibility, and performance.
   Outside of work I love to run, hike, and cook.
-postsHeading: Recent Articles
+postsHeading: Recent articles
 postsSummary: Tech related articles, thoughts and shares of reads that have inspired me.
 progressPostsHeading: Articles in progress
 journalSummary: Articles on being active, wellbeing, life, and more.
