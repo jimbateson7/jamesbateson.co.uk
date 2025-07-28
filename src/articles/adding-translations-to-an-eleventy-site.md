@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-inProgress: true
+inProgress: false
 title: Adding translations to an Eleventy site
 metaTitle: Adding translations to an Eleventy site
 metaDesc: After launching a recent project, I was tasked with adding the ability
@@ -410,7 +410,7 @@ Now we have pages, services, posts, testimonials for both English and Spanish th
 ### Admin config file code example after multiple languages added
 
 ```yaml
-# Static Pages - English
+    # Static Pages - English
     - name: 'static_pages_en'
       label: 'Static Pages (English)'
       folder: 'src/en/pages'
@@ -666,6 +666,26 @@ As I've kind of alluded to in various sections of this article, I have a couple 
 * Duplication
 * CMS config size
 * General scaleability
+
+### Duplication
+
+I have managed to reduce markup duplication as much as possible, so changes are not needed in multiple files if I make future updates, however, there has been some left in there, which could be frustrating if other people were to work on the project.
+
+I don't think there is way of getting around the duplication of a lot of files and structure, it's just the nature of needs the files translated, and although it might lead to larger and slightly more complex codebase, it does mean that it's obvious what is going on, clear which content belongs to which locale.
+
+### CMS config size
+
+If I was adding any more languages, this is something I would need to address. The size and complexity of the file has grown just with two languages, and navigating it is not the easiest task.
+
+If needing more languages, I would first look at the eleventy-i18n plugin that I will mention in the next section, however, I don't think this would have any impact on the CMS setup, so it may be a case of exploring another headless CMS option.
+
+The UI of the CMS is also quite verbose as well due to multiple collections needed for each language, again with just two languages, probably manageable, but with more the content entry experience would become a real chore to manage and navigate.
+
+### General scaleability
+
+Aside from the scaleability of the CMS config, it feels a like a lot of manual work and considerations would be needed if I wanted to add another language.
+
+With the work done, it might be expected by a client that it should be a fairly quick job and they might need it on a short time-frame. however, it would need some planning and then testing. Again, it could just be the nature of this work, and actually not too much of a hassle when it came to it, but it just doesn't feel like something as easy to manage as it could be.
 
 ## Alternatives
 
