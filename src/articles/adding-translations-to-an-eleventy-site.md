@@ -78,7 +78,14 @@ Just looking back over this now, I am debating whether a select is actually the 
 
 ## Content structure
 
-This was probably the biggest change needed. The approach I decided to go with was to completely separate out my English and Spanish content. Whilst it creates a fair bit of duplication, it means that there is a clear separation, it allows me finer control over the front matter and also means that my client can add content just for English or Spanish, which is something they are likely to do, if they are for example delivering a workshop, just in Spain.
+On the [Eleventy docs page for internationalisation](https://www.11ty.dev/docs/i18n/) it states there are two major decisions that need to be made early:
+
+> There are two big decisions you’ll need to make up front when working on an Eleventy project that serves localized content:
+>
+> 1.File Organisation
+> 2.URL Style
+
+File/content was probably the biggest change needed for me. The approach I decided to go with was to completely separate out my English and Spanish content. Whilst it creates a fair bit of duplication, it means that there is a clear separation, it allows me finer control over the front matter and also means that my client can add content just for English or Spanish, which is something they are likely to do, if they are for example delivering a workshop, just in Spain.
 
 The initial goal here was to only have the content markdown files duplicated in each language folder, that just being the services, blogs and such. I wanted to try and keep as much of the template code that contained markup at the top level so to keep future development easier and not having to replicate changes in two places. Whilst this didn't quite turn out to be possible, and I did need to have some HTML files in both language folders, mainly due to front matter, I managed to move markup around into top level partials that could then be shared in each language.
 
