@@ -12,10 +12,26 @@ I'm lucky to be able to share a co-working space ([Herdwork in Kirkby Lonsdale](
 
 I've been fascinated and intrigued by the beautiful sketches she has around her desk space, so asked if I could hear more about what goes into a garden design. I was naturally drawn to make comparisons to the process of building a website, which I'll reflect on in this article, as well as just appreciating how amazing Sonja's work is.
 
+## Pen and paper / planning
+
 ![](/images/img_3536-large.jpeg)
+
+Much like the first steps for me in development work, Sonja starts with some sketches (although infinitely better than anything I do). These are overlaid onto topography-type maps as well so she can better understand what considerations might be needed based on the landscape features of the garden.
+
+Even though only the initial stage of the process, that the client does not see, I love the detail of the sketches and visual style of them. You can almost to start visualise how things might look just based off of them.
+
+Before starting the design or development of a new site, feature, page, component etc, I also try to start with a sketch. This allows me to jot down any early considerations and make some early decisions on rough layout etc.
+
+This stage can speed up process when it comes to higher-fidelity designs and plans and give me a clearer idea on the processes and outcomes of the work I'm doing.
 
 ![](/images/img_3537-large.jpeg)
 
+## Moving to more high-fidelity
+
 ![](/images/img_3539-large.jpeg)
+
+## Into prototype
+
+## Going live
 
 All asset credit to Sonja Kalkschmidt and Silva Vista.
