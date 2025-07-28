@@ -48,3 +48,4 @@ With a little bit more free time, I'm trying to get into the habit of putting so
 *   [Atomic Habits](https://jamesclear.com/atomic-habits) — James Clear
 *   [Home Coming: Reclaiming and Championing Your Inner Child](https://www.waterstones.com/book/homecoming/john-bradshaw/9780749910549) — John Bradshaw
 *   [The Expected Self](https://menshouldtalk.com/book/) — Gareth Palmer (Men Should Talk)
+* [The Lake District Trail and Fell Running Guide](https://www.inspiredbylakeland.co.uk/collections/books/products/the-lake-district-trail-and-fell-running-guide) — Jenny Bushell
