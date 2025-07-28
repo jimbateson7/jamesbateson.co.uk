@@ -317,7 +317,7 @@ I then know I'll have access to a locale, allowing me to set it as a variable in
 <html lang="{{ lang }}">
 ```
 
-In my case I didn't need to consider reading direction, however, this might be something that needs to be dynamically changed if translating to languages that switch between ltr and rtl. This could also be added as a variable somewhere and then updated, for example:
+In my case I didn't need to consider reading direction, however, this might be something that needs to be dynamically changed if translating to languages that switch between `ltr` and `rtl`. This could also be added as a variable somewhere and then updated, for example:
 
 ```nunjucks
 <html lang="{{ lang }}" dir="{{ dir }}">
