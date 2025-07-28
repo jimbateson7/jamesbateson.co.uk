@@ -12,7 +12,7 @@ I'm lucky to be able to share a co-working space ([Herdwork in Kirkby Lonsdale](
 
 I've been fascinated and intrigued by the beautiful sketches she has around her desk space, so asked if I could hear more about what goes into a garden design. I was naturally drawn to make comparisons to the process of building a website, which I'll reflect on in this article, as well as just appreciating how amazing Sonja's work is.
 
-## Pen and paper
+## Pen and paper / planning
 
 ![](/images/img_3536-large.jpeg)
 
