@@ -625,6 +625,18 @@ These are doing the following (and why needed):
 
 **Note**: I'd love to be able to do some smarter redirects to not just put people with no locale in the url to the EN version of the page. For example if they have come from a ES url page, but wasn't sure on the rules for that. There looks to be some helpful examples in the Eleventy i18n docs page though that I'm going to look into.
 
+### Netlify forms
+
+I'm also using [Netlify Forms](https://docs.netlify.com/manage/forms/setup/) on the site to handle a couple of simple form submissions.
+
+The forms are newsletter subscribe and quick content that can be toggled on for different page templates. Netlify Forms allows you to set a custom success page for submissions without validation errors. This is another page that would need some translations, but how to send the user to the correct success page based on the locale context of the site?
+
+```nunjucks
+<form class="mt-4 lg:max-w-3/4" action="/{{ locale }}/success-contact" method="POST" netlify name="quickContact-{{ locale }}" data-netlify-honeypot="bot-field">
+```
+
+I got around this by essentially duplicating the forms within Netlify. Then in the root of each locale folder in my codebase, created a translated success page. I think this actually works quite nicely for managing the form submissions in the Netlify dashboard as well, as it becomes quickly clear which locale the submissions are coming from.
+
 ## SEO considerations
 
 I'm not an SEO specialist, but I am aware that the changes I make can impact SEO. Since I’m the sole developer on this project, I needed to do the research and implementation myself to avoid introducing any regressions.
