@@ -623,6 +623,8 @@ These are doing the following (and why needed):
 * If somebody with the urls with no locale lands on the site, redirect them to the /en version of the page. Probably not the nicest approach, but at least they see something complete and can then change the language
 * I was seeing some issues with it being possible to have two locales in the url, not 100% sure why this was happening, so added some redirects to ensure this was doable
 
+**Note**: I'd love to be able to do some smarter redirects to not just put people with no locale in the url to the EN version of the page. For example if they have come from a ES url page, but wasn't sure on the rules for that. There looks to be some helpful examples in the Eleventy i18n docs page though that I'm going to look into.
+
 ## SEO considerations
 
 I'm not an SEO specialist, but I am aware that the changes I make can impact SEO. Since I’m the sole developer on this project, I needed to do the research and implementation myself to avoid introducing any regressions.
