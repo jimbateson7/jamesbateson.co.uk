@@ -314,17 +314,21 @@ I then know I'll have access to a locale, allowing me to set it as a variable in
 **Important**: For accessibility and SEO remember to change the `lang` attribute on your `<html>` depending on the language the user has chosen:
 
 {% raw %}
+
 ```nunjucks
 <html lang="{{ lang }}">
 ```
+
 {% endraw %}
 
 In my case I didn't need to consider reading direction, however, this might be something that needs to be dynamically changed if translating to languages that switch between `ltr` and `rtl`. This could also be added as a variable somewhere and then updated, for example:
 
 {% raw %}
+
 ```nunjucks
 <html lang="{{ lang }}" dir="{{ dir }}">
 ```
+
 {% endraw %}
 
 ## Decap config
@@ -619,6 +623,20 @@ These are doing the following (and why needed):
 * If somebody with the urls with no locale lands on the site, redirect them to the /en version of the page. Probably not the nicest approach, but at least they see something complete and can then change the language
 * I was seeing some issues with it being possible to have two locales in the url, not 100% sure why this was happening, so added some redirects to ensure this was doable
 
+**Note**: I'd love to be able to do some smarter redirects to not just put people with no locale in the url to the EN version of the page. For example if they have come from a ES url page, but wasn't sure on the rules for that. There looks to be some helpful examples in the Eleventy i18n docs page though that I'm going to look into.
+
+### Netlify forms
+
+I'm also using [Netlify Forms](https://docs.netlify.com/manage/forms/setup/) on the site to handle a couple of simple form submissions.
+
+The forms are newsletter subscribe and quick content that can be toggled on for different page templates. Netlify Forms allows you to set a custom success page for submissions without validation errors. This is another page that would need some translations, but how to send the user to the correct success page based on the locale context of the site?
+
+```nunjucks
+<form class="mt-4 lg:max-w-3/4" action="/{{ locale }}/success-contact" method="POST" netlify name="quickContact-{{ locale }}" data-netlify-honeypot="bot-field">
+```
+
+I got around this by essentially duplicating the forms within Netlify. Then in the root of each locale folder in my codebase, created a translated success page. I think this actually works quite nicely for managing the form submissions in the Netlify dashboard as well, as it becomes quickly clear which locale the submissions are coming from.
+
 ## SEO considerations
 
 I'm not an SEO specialist, but I am aware that the changes I make can impact SEO. Since I’m the sole developer on this project, I needed to do the research and implementation myself to avoid introducing any regressions.
@@ -708,3 +726,5 @@ Phew, that turned into quite the write up, thanks if you stuck with it, and hope
 I'm relatively pleased with the translation solution I have ended up with. Before starting the work it was something I was unsure about doing with a static site generator, but as with everything I have come across so far, Eleventy is super flexible and working with it was a joy again with this feature.
 
 Before starting work like this, it's important to have a bit of a plan upfront, make key decisions, know what it might impact and have a plan on what needs to be tackled. It definitely helped me avoid any nasty surprises, or panic when it launched that I'd missed or regressed something.
+
+If you have been through this process and spot anywhere it could be improved, or done things in a different way that I could use to improve my setup, [I'd love to hear from you](mailto:jim.bateson@outlook.com).
