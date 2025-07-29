@@ -629,13 +629,17 @@ These are doing the following (and why needed):
 
 I'm also using [Netlify Forms](https://docs.netlify.com/manage/forms/setup/) on the site to handle a couple of simple form submissions.
 
-The forms are newsletter subscribe and quick content that can be toggled on for different page templates. Netlify Forms allows you to set a custom success page for submissions without validation errors. This is another page that would need some translations, but how to send the user to the correct success page based on the locale context of the site?
+The forms are newsletter subscribe and quick contact that can be toggled on for different page templates. Netlify Forms allows you to set a custom success page for submissions without validation errors. This is another page that would need some translations, but how to send the user to the correct success page based on the locale context of the site?
 
+{% raw %}
 ```nunjucks
 <form class="mt-4 lg:max-w-3/4" action="/{{ locale }}/success-contact" method="POST" netlify name="quickContact-{{ locale }}" data-netlify-honeypot="bot-field">
 ```
+{% endraw %}
 
 I got around this by essentially duplicating the forms within Netlify. Then in the root of each locale folder in my codebase, created a translated success page. I think this actually works quite nicely for managing the form submissions in the Netlify dashboard as well, as it becomes quickly clear which locale the submissions are coming from.
+
+**Note**: I do also need to do some work to add a proper validation solution to the site. Currently I'm just using the HTML5 browser validations. Which don't translate as I need them, and are not accessible.
 
 ## SEO considerations
 
