@@ -732,3 +732,11 @@ I'm relatively pleased with the translation solution I have ended up with. Befor
 Before starting work like this, it's important to have a bit of a plan upfront, make key decisions, know what it might impact and have a plan on what needs to be tackled. It definitely helped me avoid any nasty surprises, or panic when it launched that I'd missed or regressed something.
 
 If you have been through this process and spot anywhere it could be improved, or done things in a different way that I could use to improve my setup, [I'd love to hear from you](mailto:jim.bateson@outlook.com).
+
+## Further reading
+
+There are better and more in depth resources available than mine that you may wish to use alongside it.
+
+* Fabien Lasserre's Master Eleventy article series. [Part 1: The project structure](https://www.fabienlasserre.dev/en/blog/master-eleventy-part-1-the-project-structure/) and [Part 2: i18n and assets](https://www.fabienlasserre.dev/en/blog/master-eleventy-part-2-i18n-and-assets/)
+* [Multilingual Eleventy components](https://dev.to/andberry/eleventy-11ty-setup-for-multilingual-component-based-flexible-pages-aka-one-page-websites-with-i18n-2ilo) by Andrea Berardi
+* Other great [community internationalisation resources](https://www.11ty.dev/docs/i18n/#from-the-community) from the Eleventy docs page
