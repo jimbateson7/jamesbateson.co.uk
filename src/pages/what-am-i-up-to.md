@@ -19,7 +19,7 @@ I've recently moved back to my hometown Kirkby Lonsdale. Returning (a lot) older
 * Strength training to aid the running
 * Trying out different places to work
 * Starting to write a little more regularly
-* Volunteering with local community groups and charities. So far I've helped out a local jumble sale and a community food center
+* Volunteering with local community groups and charities. So far I've helped out a charity jumble sale, community food bank, and local Parkrun
 * Speaking to a transformation coach on how I can help shift my mindset
 * Preparing to start a new role 🎉
 
