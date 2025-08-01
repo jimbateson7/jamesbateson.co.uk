@@ -15,6 +15,14 @@ bannerSummary: I'm James — a passionate UI Developer and Digital Accessibility
 
 <div class="cv-heading">
 
+### Front End Developer at ![EXP logo](/images/avatars/twitter/exp.webp) [EXP Consultancy](https://expconsultancy.com/)
+
+#### August 2025 - Present
+
+</div>
+
+<div class="cv-heading">
+
 ### Front End Developer at ![Soap Media logo](/images/avatars/twitter/soap-media.webp) [Soap Media](https://www.soapmedia.co.uk/)
 
 #### September 2024 - February 2025
