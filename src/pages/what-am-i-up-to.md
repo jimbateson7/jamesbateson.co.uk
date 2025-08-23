@@ -25,7 +25,7 @@ I've recently moved back to my hometown Kirkby Lonsdale. Returning (a lot) older
 
 ### Learning
 
-Before I start my new role, I'm keeping myself busy and in a routine with a mixture of using tools and tech I'll be building with and learning more about the setup I have on this site:
+Whilst I settle into my new role, I'm not looking to burn out, and concentrating on that.
 
 * Finding my way around tech stacks and ways of working in my new role
 
