@@ -21,27 +21,21 @@ I've recently moved back to my hometown Kirkby Lonsdale. Returning (a lot) older
 * Starting to write a little more regularly
 * Volunteering with local community groups and charities. So far I've helped out a charity jumble sale, community food bank, and local Parkrun
 * Speaking to a transformation coach on how I can help shift my mindset
-* Preparing to start a new role 🎉
+* Settling into a [new role at EXP](https://jamesbateson.co.uk/articles/starting-a-new-role/) 🎉
 
 ### Learning
 
 Before I start my new role, I'm keeping myself busy and in a routine with a mixture of using tools and tech I'll be building with and learning more about the setup I have on this site:
 
-* Learning more about Eleventy, Netlify and Decap CMS
-* Brushing up on my templating language skills
-* Doing some UI design practice work to improve Figma skills
-* ~~Trying to figure out the confusing world of Linkedin~~. There are some nice communities and knowledge on there, but I was often feeling worse after visiting
+* Finding my way around tech stacks and ways of working in my new role
 
 ### Making
 
-I'm wrapping up on a couple of projects in anticipation of starting my new role:
-
-* Helping a friend out with a React/TypeScript/Dato project
-* Some post-launch translation feature work on a marketing site I've recently designed, built and launched for a transformation coach
+* Planning this years Great British Bake Off fan site
 
 ### Reading
 
-With a little bit more free time, I'm trying to get into the habit of putting some time aside to read regularly. So these books are currently on my side-table/list. They are a mixture of wellbeing, self-help and tech books.
+These books are currently on my side-table/list. They are a mixture of wellbeing, self-help and tech books.
 
 *   [The Accessibility Cookbook](https://accessibility-cookbook.com/) — Manuel Matuzović
 *   [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone.html) — Laura Kalbag
