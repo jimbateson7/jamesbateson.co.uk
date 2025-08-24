@@ -15,6 +15,11 @@ As much as loath reaching for carousels as a UI pattern, there is no getting awa
 
 I came across [this excellent article from a series from Graceful Web Studio](https://www.gracefulwebstudio.com/blog-articles/accessible-swiper-js-carousel-autoplay-a11y), detailing how they implemented accessibility into their swiper carousels. It's worth noting that they use Webflow, however, I found the advice and techniques transferrable to a codebase stack.
 
+The article details how to improve swiper.js accessibility in two areas that were lacking during my testing:
+
+* Keyboard usage
+* Screen reader announcement 
+
 ## Further reading
 
 * [swiper.js accessibility documentation](https://swiperjs.com/swiper-api#accessibility-a11y). **Note**: make sure to understand the limitations of this from the Graceful article
