@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-inProgress: true
+inProgress: false
 title: "Share: swiper.js accessibility considerations"
 metaTitle: "Share: swiper.js accessibility considerations"
 metaDesc: In my new role I've been working on some base components in the
