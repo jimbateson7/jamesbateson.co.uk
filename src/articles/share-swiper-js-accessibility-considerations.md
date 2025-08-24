@@ -17,4 +17,4 @@ I came across [this excellent article from a series from Graceful Web Studio](ht
 
 ## Further reading
 
-* [swiper.js accessibility documentation](https://swiperjs.com/swiper-api#accessibility-a11y). Note: make sure to understand the limitations of this from the Graceful article 
+* [swiper.js accessibility documentation](https://swiperjs.com/swiper-api#accessibility-a11y). **Note**: make sure to understand the limitations of this from the Graceful article
