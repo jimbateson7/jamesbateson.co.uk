@@ -20,7 +20,6 @@ I've recently moved back to my hometown Kirkby Lonsdale. Returning (a lot) older
 * Trying out different places to work
 * Starting to write a little more regularly
 * Volunteering with local community groups and charities. So far I've helped out a charity jumble sale, community food bank, and local Parkrun
-* Speaking to a transformation coach on how I can help shift my mindset
 * Settling into a [new role at EXP](https://jamesbateson.co.uk/articles/starting-a-new-role/) 🎉
 
 ### Learning
@@ -37,9 +36,9 @@ Whilst I settle into my new role, I'm not looking to burn out, and concentrating
 
 These books are currently on my side-table/list. They are a mixture of wellbeing, self-help and tech books.
 
-*   [The Accessibility Cookbook](https://accessibility-cookbook.com/) — Manuel Matuzović
-*   [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone.html) — Laura Kalbag
-*   [Atomic Habits](https://jamesclear.com/atomic-habits) — James Clear
-*   [Home Coming: Reclaiming and Championing Your Inner Child](https://www.waterstones.com/book/homecoming/john-bradshaw/9780749910549) — John Bradshaw
-*   [The Expected Self](https://menshouldtalk.com/book/) — Gareth Palmer (Men Should Talk)
+* [The Accessibility Cookbook](https://accessibility-cookbook.com/) — Manuel Matuzović
+* [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone.html) — Laura Kalbag
+* [Atomic Habits](https://jamesclear.com/atomic-habits) — James Clear
+* [Home Coming: Reclaiming and Championing Your Inner Child](https://www.waterstones.com/book/homecoming/john-bradshaw/9780749910549) — John Bradshaw
+* [The Expected Self](https://menshouldtalk.com/book/) — Gareth Palmer (Men Should Talk)
 * [The Lake District Trail and Fell Running Guide](https://www.inspiredbylakeland.co.uk/collections/books/products/the-lake-district-trail-and-fell-running-guide) — Jenny Bushell
