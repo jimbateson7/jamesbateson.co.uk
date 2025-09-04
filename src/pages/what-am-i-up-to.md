@@ -10,7 +10,7 @@ metaTitle: Now Now Now
 metaDesc: What's going on with me at the moment.
 socialImage: /images/social-share-default.jpg
 ---
-### Enjoying
+## Enjoying
 
 I've recently moved back to my hometown Kirkby Lonsdale. Returning (a lot) older and wiser has given me a new appreciation of how beautiful it is around here. So I'm currently:
 
@@ -22,17 +22,17 @@ I've recently moved back to my hometown Kirkby Lonsdale. Returning (a lot) older
 * Volunteering with local community groups and charities. So far I've helped out a charity jumble sale, community food bank, and local Parkrun
 * Settling into a [new role at EXP](https://jamesbateson.co.uk/articles/starting-a-new-role/) 🎉
 
-### Learning
+## Learning
 
 Whilst I settle into my new role, I'm not looking to burn out, and concentrating on that.
 
 * Finding my way around tech stacks and ways of working in my new role
 
-### Making
+## Making
 
 * Planning this years Great British Bake Off fan site
 
-### Reading
+## Reading
 
 These books are currently on my side-table/list. They are a mixture of wellbeing, self-help and tech books.
 
