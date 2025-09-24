@@ -15,21 +15,38 @@ If for example, someone cannot see, hear, or use a mouse, would they still be ab
 
 ### It’s the right thing to do
 
+Accessibility is a **right**,not a privilege.
+
 At its core, accessibility is about inclusion and equality. Every person deserves the opportunity to access information, services, and online interactions without unnecessary barriers. When digital services exclude people with disabilities, we reinforce inequality and marginalisation.
+
+
 Moreover, inclusive design often has ripple effects: improving usability for all users, not just those with recognised disabilities. For example, captions on videos help not only deaf users, but also non-native speakers, or people in noisy environments.
-From an internal culture perspective, organisations that prioritise accessibility tend to foster more empathy, more awareness of diversity, and stronger social values — which can boost morale and brand perception.
 
-### You could be excluding a whole group of users
+### You could be excluding a whole group of users (customers)
 
-Ignoring accessibility means leaving money on the table. In the UK, the term “Purple Pound” refers to the spending power of disabled people and their households. According to multiple sources, that figure is estimated at £274 billion per year. UK Parliament+2Scope for business+2
-Some key statistics worth highlighting:
-73 % of potential disabled customers report facing barriers on more than a quarter of the websites they visit. Purple Goat Agency+1
-Many businesses lose revenue because interested customers quit the experience and “walk away.” Scope for business+1
-An AbilityNet/Scope infographic notes that businesses lose approximately £2 billion per month across UK sectors by ignoring disabled users’ needs. AbilityNet+1
-In the tourism sector, spending by people with impairments is estimated at £14.6 billion annually in England alone. VisitBritain.org
-Beyond direct sales, accessible design broadens reach, reduces friction, improves conversion, and strengthens loyalty. Once users have a frustrating experience, many will not revisit your site.
-From a competitive perspective, an Accenture study (cited by BCS) indicates that inclusion leaders in digital accessibility “achieved, on average, 28 % higher revenue, double the net income, and 30 % higher profit margins” compared to peers. BCS
-So even on purely commercial grounds, accessibility is a smart investment — sometimes positively transformative.
+Ignoring accessibility means leaving money on the table. In the UK, the term “Purple Pound” refers to the spending power of disabled people and their households.
+
+In the UK it's estimated that around [16.1 million people identify as being disabled](https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2022-to-2023/family-resources-survey-financial-year-2022-to-2023#disability-1). That's around 1 in 4 people. [The collective total of spending power of people with disabilities and their households is estimated to be around £274 billion](https://business.scope.org.uk/accessibility-and-disability-facts-and-figures/), with online making up for around £24.8 billion of that total (estimated in 2023).
+
+From the same article, there are a number of findings that suggest that people with disabilities that encounter accessibility barriers on websites and with services will take their custom elsewhere and create a negative perception of an organisation:
+
+> Businesses lose money from disabled customers due to inaccessible websites and products. In 2016, research showed that:
+>
+> * 7 in 10 disabled customers said they will click away from a website that they find difficult to use
+> * 83% of participants with access needs limit their shopping to sites that they know are accessible
+> * 86% have chosen to pay more for a product from an accessible website rather than buy the same product for less from a website that was harder to use.
+> * 4 million people abandoned a retail website because of the barriers
+> * an estimated loss of £11.75 billion comes from the ‘Click-Away Pound’
+>
+> **In 2019, the Click-Away Pound has grown to £17.1 billion.**
+>
+> According to Accenture’s analysis of the Disability Equality Index (DEI), companies that prioritise digital inclusion:
+>
+> * are twice as likely to have higher shareholder returns
+> * 28% higher revenue
+> * see a 30% better performance in economic profit margins
+
+Beyond direct sales, accessible design broadens reach, reduces friction, improves conversion, and strengthens loyalty. Once users have a frustrating experience, many will not revisit your site. So even on purely commercial grounds, accessibility is a smart investment, sometimes positively transformative.
 
 ### You may have a legal requirement
 
@@ -78,8 +95,6 @@ Train your team (designers, developers, content authors) in accessibility princi
 Embed accessibility into development lifecycle rather than treating it as a bolt-on.
 Monitor & maintain — accessibility is an ongoing effort, not a one-off checkbox.
 
-## EXP lunchtime tech talk
-
 ## Further reading
 
 ## Follow up articles
@@ -90,3 +105,9 @@ Future EXP articles planned
 * Accessibility in digital documents
 * Accessibility in design
 * Accessibility in development
+
+## EXP lunchtime tech talk
+
+I'm going to finish on a bit of a self-plug. On Thursday 4th December, in the Fraser House Hub we will be delivering a lunchtime tech talk around accessibility. It will be the first in a series that will follow a similar direction to the blog post series mentioned above. It will start with an overview of accessibility, introducing the fundamentals.
+
+If you'd like to come along, or catch up with talk afterwards, please get in touch, and we'd be happy to help organise this.
