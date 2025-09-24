@@ -67,6 +67,7 @@ So accessibility can deliver SEO upside even before counting the goodwill and co
 
 * Accessibility in the EXP process, design, dev, branding
 * Uni, proposals, C2C review - get in touch, we can help message
+* Shifting left, moving accessibility earlier in the product process
 
 ### Conclusion & Call to Action
 
