@@ -82,3 +82,12 @@ Monitor & maintain — accessibility is an ongoing effort, not a one-off checkbo
 ## EXP lunchtime tech talk
 
 ## Further reading
+
+## Follow up articles
+
+Future EXP articles planned
+
+* Accessibility testing
+* Accessibility in digital documents
+* Accessibility in design
+* Accessibility in development
