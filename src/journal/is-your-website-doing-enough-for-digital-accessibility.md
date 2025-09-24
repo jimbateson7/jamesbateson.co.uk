@@ -5,22 +5,6 @@ metaTitle: Is your website doing enough for digital accessibility?
 socialImage: /images/social-share-default.jpg
 date: 2025-09-24T14:30:00.000+01:00
 ---
-\- Intro
-  - A brief intro of the term digital accessibility is and why it's important
-
-* Why accessibility is important
-    - Morale reasons, it's the right thing to do
-    - Financial reasons, missing out on/excluding a massive market (purple pound) - include some stats/links (make sure link to these for credability)
-    - Legal
-      - Public sector act/requirements (WCAG 2.2 AA)
-      - Disability Awareness Act
-    - Best practice benefits (SEO, performance)
-* Actionable takeaways (linking back to EXP)
-    - Accessibility in the EXP process, design, dev, branding
-    - Uni, proposals, C2C review - get in touch, we can help message
-* Summary
-* Mention the learn'n'lunch session in Dec?
-
 ## Digital Accessibility: What it is, and why it matters
 
 In the broadest sense, digital accessibility means designing and developing digital products (websites, apps, documents, multimedia, etc.) so that people with a wide range of abilities and disabilities can use them effectively. It’s not just about “adding alt text to images” — it’s about ensuring content is perceivable, operable, understandable, and robust, so that people with visual, auditory, motor, cognitive, or neurological differences can access and interact with your content.
@@ -77,6 +61,11 @@ Accessibility favours mobile and responsive design (which is already vital for S
 In effect, many practices that help users with disabilities also signal to algorithms that your site is well structured, fast, and relevant.
 So accessibility can deliver SEO upside even before counting the goodwill and compliance benefits.
 
+## Actionable takeaways (linking back to EXP)
+
+* Accessibility in the EXP process, design, dev, branding
+* Uni, proposals, C2C review - get in touch, we can help message
+
 ### Conclusion & Call to Action
 
 Digital accessibility is no longer a “nice to have” add-on — it’s integral to responsible, future-ready design. The moral case is obvious: everyone deserves access. The financial case is compelling: the Purple Pound is too big to ignore. The legal case is firm: many organisations are mandated to meet standards like WCAG 2.2 Level AA. And the SEO/tech case is a bonus that compounds the benefits.
@@ -86,3 +75,5 @@ Plan remediation and inclusive design practices.
 Train your team (designers, developers, content authors) in accessibility principles.
 Embed accessibility into development lifecycle rather than treating it as a bolt-on.
 Monitor & maintain — accessibility is an ongoing effort, not a one-off checkbox.
+
+## EXP lunchtime tech talk
