@@ -50,6 +50,8 @@ Beyond direct sales, accessible design broadens reach, reduces friction, improve
 
 ### You may have a legal requirement
 
+Depending on the sector you operate in and where you offer the service, you may be legally required to make your product or service accessible. Not doing so may lead to fines and reputational damage. Here are laws that are applicable in the UK.
+
 #### Public Sector and WCAG Requirements
 
 In the UK, public sector bodies must adhere to the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018, which mandate that websites and mobile apps meet accessibility standards. GOV.UK+2Siteimprove+2
