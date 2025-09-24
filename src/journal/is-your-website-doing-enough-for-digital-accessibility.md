@@ -7,10 +7,9 @@ date: 2025-09-24T14:30:00.000+01:00
 ---
 ## Digital Accessibility: What it is, and why it matters
 
-In the broadest sense, digital accessibility means designing and developing digital products (websites, apps, documents, multimedia, etc.) so that people with a wide range of abilities and disabilities can use them effectively. It’s not just about “adding alt text to images” — it’s about ensuring content is perceivable, operable, understandable, and robust, so that people with visual, auditory, motor, cognitive, or neurological differences can access and interact with your content.
+In the broadest sense, digital accessibility means designing and developing digital products (websites, apps, documents, multimedia, etc.) so that people with a wide range of abilities and disabilities can use them effectively. It’s about ensuring content is perceivable, operable, understandable, and robust and we're not creating barriers that prevent people accessing and using content.
 
-In other words: if someone cannot see, hear, or use a mouse (or has a learning difference, or limited dexterity), digital accessibility ensures your product still “works” for them.
-Accessibility is increasingly central — not just as a moral or legal imperative, but as a practical business necessity. Below are key arguments for why organisations should care deeply about it.
+If for example, someone cannot see, hear, or use a mouse, would they still be able to use your product? Accessibility is not a "nice to have" and shouldn't be something that is considered at the end of a project. It can have a real impact on users, exclude whole groups of people and damage business reputation. Below are some reasons your organisation should care about it.
 
 ## Why Accessibility Is Important
 
