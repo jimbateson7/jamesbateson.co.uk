@@ -19,7 +19,6 @@ Accessibility is a **right**,not a privilege.
 
 At its core, accessibility is about inclusion and equality. Every person deserves the opportunity to access information, services, and online interactions without unnecessary barriers. When digital services exclude people with disabilities, we reinforce inequality and marginalisation.
 
-
 Moreover, inclusive design often has ripple effects: improving usability for all users, not just those with recognised disabilities. For example, captions on videos help not only deaf users, but also non-native speakers, or people in noisy environments.
 
 ### You could be excluding a whole group of users (customers)
@@ -28,7 +27,7 @@ Ignoring accessibility means leaving money on the table. In the UK, the term “
 
 In the UK it's estimated that around [16.1 million people identify as being disabled](https://www.gov.uk/government/statistics/family-resources-survey-financial-year-2022-to-2023/family-resources-survey-financial-year-2022-to-2023#disability-1). That's around 1 in 4 people. [The collective total of spending power of people with disabilities and their households is estimated to be around £274 billion](https://business.scope.org.uk/accessibility-and-disability-facts-and-figures/), with online making up for around £24.8 billion of that total (estimated in 2023).
 
-From the same article, there are a number of findings that suggest that people with disabilities that encounter accessibility barriers on websites and with services will take their custom elsewhere and create a negative perception of an organisation:
+From the same article, there are a number of findings that suggest that people with disabilities that encounter accessibility barriers on websites and with services will take their custom elsewhere and create a negative perception of an organisation.
 
 > Businesses lose money from disabled customers due to inaccessible websites and products. In 2016, research showed that:
 >
@@ -54,7 +53,8 @@ Depending on the sector you operate in and where you offer the service, you may 
 
 #### Public Sector and WCAG Requirements
 
-In the UK, public sector bodies must adhere to the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018, which mandate that websites and mobile apps meet accessibility standards. GOV.UK+2Siteimprove+2
+In the UK, public sector bodies must adhere to the Public Sector Bodies (Websites and Mobile Applications) Accessibility Regulations 2018, which mandate that websites and mobile apps meet accessibility standards.
+
 Specifically, public sector digital services must conform to WCAG 2.2 Level AA (or valid legal exceptions). Siteimprove+4GOV.UK+4GOV.UK+4 They also must publish an accessibility statement that clearly describes how accessible the site is and notes any parts that do not comply. GOV.UK+2Siteimprove+2
 The government guidance states that failure to comply may constitute a legal breach, especially if users are denied necessary access. GOV.UK
 
