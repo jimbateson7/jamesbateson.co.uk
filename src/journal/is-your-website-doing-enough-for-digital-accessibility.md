@@ -78,7 +78,7 @@ Noncompliance can be used in legal or regulatory challenges — especially when 
 Additionally, though not always directly enforced, the European Accessibility Act (EAA) (applicable in broader EU contexts) pushes harmonisation of accessibility in goods & services, and may influence obligations post-Brexit as standards evolve. Wikipedia+1
 If your digital platforms are inaccessible, you risk legal complaints, reputational damage, and being forced to retrofit costly fixes on short notice.
 
-### SEO & Performance Benefits — The (Somewhat) Selfish Incentive
+### Benefits for other key metrics (SEO and performance)
 
 Even if your motivation is not legal compliance or ethics, accessibility is tightly aligned with SEO best practices and site performance:
 Well-structured, semantic HTML (with headings, lists, alt text, ARIA markup as appropriate) helps search engines understand your content.
