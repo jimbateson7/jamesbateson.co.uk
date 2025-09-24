@@ -14,13 +14,13 @@ Accessibility is increasingly central — not just as a moral or legal imperativ
 
 ## Why Accessibility Is Important
 
-### Morale & Ethical Reasons — It’s the Right Thing to Do
+### It’s the right thing to do
 
 At its core, accessibility is about inclusion and equality. Every person deserves the opportunity to access information, services, and online interactions without unnecessary barriers. When digital services exclude people with disabilities, we reinforce inequality and marginalisation.
 Moreover, inclusive design often has ripple effects: improving usability for all users, not just those with recognised disabilities. For example, captions on videos help not only deaf users, but also non-native speakers, or people in noisy environments.
 From an internal culture perspective, organisations that prioritise accessibility tend to foster more empathy, more awareness of diversity, and stronger social values — which can boost morale and brand perception.
 
-### Financial & Market Reasons — Don’t Miss the “Purple Pound”
+### You could be excluding a whole group of users
 
 Ignoring accessibility means leaving money on the table. In the UK, the term “Purple Pound” refers to the spending power of disabled people and their households. According to multiple sources, that figure is estimated at £274 billion per year. UK Parliament+2Scope for business+2
 Some key statistics worth highlighting:
@@ -32,7 +32,9 @@ Beyond direct sales, accessible design broadens reach, reduces friction, improve
 From a competitive perspective, an Accenture study (cited by BCS) indicates that inclusion leaders in digital accessibility “achieved, on average, 28 % higher revenue, double the net income, and 30 % higher profit margins” compared to peers. BCS
 So even on purely commercial grounds, accessibility is a smart investment — sometimes positively transformative.
 
-### Legal & Regulatory Reasons — You May Be Required to Do ItPublic Sector & WCAG Requirements
+### You may have a legal requirement
+
+#### Public Sector & WCAG Requirements
 
 In the UK, public sector bodies must adhere to the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018, which mandate that websites and mobile apps meet accessibility standards. GOV.UK+2Siteimprove+2
 Specifically, public sector digital services must conform to WCAG 2.2 Level AA (or valid legal exceptions). Siteimprove+4GOV.UK+4GOV.UK+4 They also must publish an accessibility statement that clearly describes how accessible the site is and notes any parts that do not comply. GOV.UK+2Siteimprove+2
@@ -77,3 +79,5 @@ Embed accessibility into development lifecycle rather than treating it as a bolt
 Monitor & maintain — accessibility is an ongoing effort, not a one-off checkbox.
 
 ## EXP lunchtime tech talk
+
+## Further reading
