@@ -11,7 +11,7 @@ In the broadest sense, digital accessibility means designing and developing digi
 
 If for example, someone cannot see, hear, or use a mouse, would they still be able to use your product? Accessibility is not a "nice to have" and shouldn't be something that is considered at the end of a project. It can have a real impact on users, exclude whole groups of people and damage business reputation. Below are some reasons your organisation should care about it.
 
-## Why accessibility Is Important
+## Why accessibility is important
 
 ### It’s the right thing to do
 
