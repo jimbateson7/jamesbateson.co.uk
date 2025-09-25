@@ -69,7 +69,7 @@ The [European Accessibility Act (EAA)](https://www.levelaccess.com/compliance-ov
 
 Even if you are based outside of the European Union (EU), if your services are available to people within the EU, you are in scope.
 
-The act can be interpreted in slightly different ways depending on individual country implementations and requirements, but the generally EN501 
+The act can be interpreted in slightly different ways depending on individual country implementations and requirements, but the generally [EN 301 549](https://www.levelaccess.com/compliance-overview/en-301-549-compliance/) is the adopted standard. This has many of the same requirements as WCAG 2.1, so using these guidelines as a starting point can be a good place to start. Although The EAA goes beyond WCAG, it's about outcomes and people.
 
 ### WCAG - a very brief overview
 
@@ -77,10 +77,10 @@ The Web Content Accessibility Guidelines (WCAG) are an international standard th
 
 Under WCAG 2.2, digital content should be:
 
-* Perceivable - users must be able to sense the content (e.g. text alternatives, captions).
-* Operable - interfaces must be usable (e.g. keyboard navigation, navigation timing).
-* Understandable - content and interface should be clear and predictable (e.g. consistent help, readable language).
-* Robust - content must reliably work with assistive technologies (e.g. compatibility with screen readers).
+* **Perceivable** - users must be able to sense the content (e.g. text alternatives, captions).
+* **Operable** - interfaces must be usable (e.g. keyboard navigation, navigation timing).
+* **Understandable** - content and interface should be clear and predictable (e.g. consistent help, readable language).
+* **Robust** - content must reliably work with assistive technologies (e.g. compatibility with screen readers).
 
 Meeting WCAG 2.2 AA is both a legal target (for many public sector bodies) and a best practice standard.
 
