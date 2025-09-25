@@ -55,7 +55,7 @@ Depending on the sector you operate in and where you offer the service, you may 
 
 In the UK, public sector bodies must adhere to the Public Sector Bodies Accessibility Regulations 2018, which mandate that websites and mobile apps meet accessibility standards.
 
-Specifically, public sector digital services must conform to WCAG 2.2 Level AA. They also must publish an accessibility statement that clearly describes how accessible the site is and notes any parts that do not comply.
+Specifically, public sector digital services must conform to the Web Content Accessibility Guidelines (WCAG) 2.2 Level AA. They also must publish an accessibility statement that clearly describes how accessible the site is and notes any parts that do not comply.
 
 Sites are regularly audited to ensure these standards are being met.
 
@@ -63,21 +63,26 @@ Sites are regularly audited to ensure these standards are being met.
 
 There is also the broader Equality Act 2010, which replaced the earlier Disability Discrimination Act 1995. The Equality Act does not explicitly define digital accessibility, but it imposes a duty on organisations (public and private) to make “reasonable adjustments” so as not to discriminate against disabled persons in accessing services.
 
-### WCAG - a very brief overview
-
-The Web Content Accessibility Guidelines (WCAG) are an international standard (W3C) that define how to make web content accessible. The latest version, WCAG 2.2, refines and adds success criteria (especially better addressing cognitive, mobility, and low-vision needs). Digital Wonderlab+3AbilityNet+3W3C+3
-Under WCAG 2.2, digital content should be:
-Perceivable — users must be able to sense the content (e.g. text alternatives, captions). GOV.UK+2W3C+2
-Operable — interfaces must be usable (e.g. keyboard navigation, navigation timing). GOV.UK+2AbilityNet+2
-Understandable — content and interface should be clear and predictable (e.g. consistent help, readable language). GOV.UK+2AbilityNet+2
-Robust — content must reliably work with assistive technologies (e.g. compatibility with screen readers). GOV.UK+2W3C+2
-Meeting WCAG 2.2 AA is both a legal target (for many public sector bodies) and a best practice standard. Level Access+3AbilityNet+3Siteimprove+3
-Noncompliance can be used in legal or regulatory challenges — especially when users complain or a public body oversight is triggered.
-
 ### European Accessibility Act (EAA)
 
-Additionally, though not always directly enforced, the European Accessibility Act (EAA) (applicable in broader EU contexts) pushes harmonisation of accessibility in goods & services, and may influence obligations post-Brexit as standards evolve. Wikipedia+1
-If your digital platforms are inaccessible, you risk legal complaints, reputational damage, and being forced to retrofit costly fixes on short notice.
+The [European Accessibility Act (EAA)](https://www.levelaccess.com/compliance-overview/european-accessibility-act-eaa) pushes harmonisation of accessibility in goods and services. This ranges from digital services, to physical products and devices.
+
+Even if you are based outside of the European Union (EU), if your services are available to people within the EU, you are in scope.
+
+The act can be interpreted in slightly different ways depending on individual country implementations and requirements, but the generally EN501 
+
+### WCAG - a very brief overview
+
+The Web Content Accessibility Guidelines (WCAG) are an international standard that define how to make web content accessible. The latest version, WCAG 2.2, refines and adds success criteria (especially better addressing cognitive, mobility, and low-vision needs).
+
+Under WCAG 2.2, digital content should be:
+
+* Perceivable - users must be able to sense the content (e.g. text alternatives, captions).
+* Operable - interfaces must be usable (e.g. keyboard navigation, navigation timing).
+* Understandable - content and interface should be clear and predictable (e.g. consistent help, readable language).
+* Robust - content must reliably work with assistive technologies (e.g. compatibility with screen readers).
+
+Meeting WCAG 2.2 AA is both a legal target (for many public sector bodies) and a best practice standard.
 
 ### Benefits for other key metrics (SEO and performance)
 
