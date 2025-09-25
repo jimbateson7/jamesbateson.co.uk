@@ -148,6 +148,8 @@ Future EXP articles planned
 * How accessibility can be added into the design workflow
 * Tips for ensuring development considers accessibility
 
+[Check in on our blog ](https://expconsultancy.com/blog)in upcoming months to find out more.
+
 ## EXP tech lunch talk
 
 I'm going to finish on a bit of a self-plug. On Thursday 4th December, in the Fraser House Hub we will be delivering a lunchtime tech talk around accessibility. It will be the first in a series that will follow a similar direction to the blog post series mentioned above. It will start with an overview of accessibility, introducing the fundamentals.
