@@ -105,7 +105,7 @@ We're constantly looking at ways we can bring accessibility into our design and 
 
 ### Digital and branding
 
-We work in both digital and print spaces with our partners. This can present interesting challenges ensuring accessibility is considered across different mediums.
+We work in both digital and print spaces with our partners. This can present interesting challenges ensuring accessibility is considered across different mediums. Checking font size and contrast of not only web based assets, but that when printed they will also be sufficient.
 
 ### Accessible digital documents
 
