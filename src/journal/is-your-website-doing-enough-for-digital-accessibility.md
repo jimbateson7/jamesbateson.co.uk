@@ -11,7 +11,7 @@ In the broadest sense, digital accessibility means designing and developing digi
 
 If for example, someone cannot see, hear, or use a mouse, would they still be able to use your product? Accessibility is not a "nice to have" and shouldn't be something that is considered at the end of a project. It can have a real impact on users, exclude whole groups of people and damage business reputation. Below are some reasons your organisation should care about it.
 
-Despite its importance, [the 2025 WebAIM One Million report ](https://webaim.org/projects/million/)found that **94.8%** of homepages tested has accessibility failings that could be creating barriers for people. We have to do better. 
+Despite its importance, [the 2025 WebAIM One Million report ](https://webaim.org/projects/million/)found that **94.8%** of homepages tested have accessibility failings that could be creating barriers for people. We have to do better. 
 
 ## Why accessibility is important
 
@@ -131,9 +131,16 @@ We're currently trying to move accessibility conversations earlier into our proc
 
 ### Wrapping up
 
-That's all for this first post folks, thanks for making it this far and we hope it's given you a breif overview of why accessibility is so important.
+Digital accessibility is no longer optional:
 
-Digital accessibility is no longer a “nice to have” afterthought .The moral case is obvious: everyone deserves access. The financial case is compelling: the Purple Pound is too big to ignore. The legal case is firm: many organisations are mandated to meet standards like WCAG 2.2 Level AA. And the SEO/tech case is a bonus that compounds the benefits.
+* The moral case: everyone deserves equal access.
+* The business case: the Purple Pound is too big to ignore.
+* The legal case: compliance is often required.
+* The technical case: accessibility boosts SEO, performance, and usability.
+
+Start small if you need to - but start. The sooner accessibility becomes part of your process, the more impact it will have.
+
+At EXP, we’d love to help you on that journey. Whether you need an audit, training, or ongoing support, get in touch and let’s start a conversation about making your digital products accessible to all.
 
 ### Where to start
 
