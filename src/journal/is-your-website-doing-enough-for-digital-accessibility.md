@@ -127,15 +127,24 @@ We're on our own accessibility journey at EXP, we're constantly learning and ada
 
 We're currently trying to move accessibility conversations earlier into our process. Rather than just making it a dev/testing expectation, when issues can become more expensive to fix. We're moving accessibility requirements into design, ticket writing and even making sure we talk about it in early project conversations and pitches/proposals.
 
-### Conclusion & Call to Action
+### Wrapping up
 
-Digital accessibility is no longer a “nice to have” add-on — it’s integral to responsible, future-ready design. The moral case is obvious: everyone deserves access. The financial case is compelling: the Purple Pound is too big to ignore. The legal case is firm: many organisations are mandated to meet standards like WCAG 2.2 Level AA. And the SEO/tech case is a bonus that compounds the benefits.
-If you haven’t already, take steps today:
-Audit your digital properties (manual & automated testing, user testing with people with disabilities).
-Plan remediation and inclusive design practices.
-Train your team (designers, developers, content authors) in accessibility principles.
-Embed accessibility into development lifecycle rather than treating it as a bolt-on.
-Monitor & maintain — accessibility is an ongoing effort, not a one-off checkbox.
+That's all for this first post folks, thanks for making it this far and we hope it's given you a breif overview of why accessibility is so important.
+
+Digital accessibility is no longer a “nice to have” afterthought .The moral case is obvious: everyone deserves access. The financial case is compelling: the Purple Pound is too big to ignore. The legal case is firm: many organisations are mandated to meet standards like WCAG 2.2 Level AA. And the SEO/tech case is a bonus that compounds the benefits.
+
+### 
+Where to start
+
+Getting started can seem intimidating, but here are some ways you could start.
+
+* Audit your digital properties (manual & automated testing, user testing with people with disabilities).
+* Plan remediation and inclusive design practices.
+* Train your team (designers, developers, content authors) in accessibility principles.
+* Embed accessibility into development lifecycle rather than treating it as a bolt-on.
+* Monitor & maintain - accessibility is an ongoing effort, not a one-off checkbox.
+
+Here at EXP we can help with any of these, [get in touch and we start the accessibility conversation](https://expconsultancy.com/contact) at your organisation.
 
 ## Further reading
 
