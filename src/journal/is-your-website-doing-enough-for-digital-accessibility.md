@@ -123,9 +123,9 @@ Accessibility isn't just a one-time box to check, it's a continuous commitment.
 
 ### Our journey
 
-* Accessibility in the EXP process, design, dev, branding
-* Uni, proposals, C2C review - get in touch, we can help message
-* Shifting left, moving accessibility earlier in the product process
+We're on our own accessibility journey at EXP, we're constantly learning and adapting our processes to ensure we can help our partners on their accessibility journeys.
+
+We're currently trying to move accessibility conversations earlier into our process. Rather than just making it a dev/testing expectation, when issues can become more expensive to fix. We're moving accessibility requirements into design, ticket writing and even making sure we talk about it in early project conversations and pitches/proposals.
 
 ### Conclusion & Call to Action
 
