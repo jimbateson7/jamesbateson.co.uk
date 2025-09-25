@@ -117,7 +117,9 @@ We can conduct accessibility reviews on existing products to help understand whe
 
 ### Accessibility remediation
 
-Alongside helping with finding accessibility issues, we can also help prioritise and fix these
+Alongside helping with finding accessibility issues, we can also help prioritise and work through actioning the issues, doing so in a sustainable and planned way that can help educate content authors and stakeholders as well as just fixing the issues.
+
+Accessibility isn't just a one-time box to check, it's a continuous commitment.
 
 ### Our journey
 
