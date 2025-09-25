@@ -155,12 +155,12 @@ Here are some articles we have found useful when getting started with accessibil
 
 ## Follow up articles
 
-Future EXP articles planned
+We're planning on this being the first article in a series of accessibility posts. Here's what we'll be covering.
 
 * Methods of testing accessibility
-* How to create and check digital documents for accessibility
 * How accessibility can be added into the design workflow
 * Tips for ensuring development considers accessibility
+* How to create and check digital documents for accessibility
 
 [Check in on our blog ](https://expconsultancy.com/blog)in upcoming months to find out more.
 
