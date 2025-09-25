@@ -144,9 +144,11 @@ Getting started can seem intimidating, but here are some ways you could start.
 * Embed accessibility into development lifecycle rather than treating it as a bolt-on.
 * Monitor & maintain - accessibility is an ongoing effort, not a one-off checkbox.
 
-Here at EXP we can help with any of these, [get in touch and we start the accessibility conversation](https://expconsultancy.com/contact) at your organisation.
+Here at EXP we can help with any of these, [get in touch and let's start the accessibility conversation](https://expconsultancy.com/contact) at your organisation.
 
 ## Further reading
+
+Here are some articles we have found useful when getting started with accessibility.
 
 ## Follow up articles
 
