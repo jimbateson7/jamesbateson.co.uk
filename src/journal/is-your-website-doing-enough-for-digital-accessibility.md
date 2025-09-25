@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
-title: Is your website doing enough for digital accessibility?
-metaTitle: Is your website doing enough for digital accessibility?
+title: Are you prioritising digital accessibility?
+metaTitle: Are you prioritising digital accessibility?
 socialImage: /images/social-share-default.jpg
 date: 2025-09-24T14:30:00.000+01:00
 ---
