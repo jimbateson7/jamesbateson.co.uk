@@ -138,10 +138,11 @@ Where to start
 
 Getting started can seem intimidating, but here are some ways you could start.
 
-* Audit your digital properties (manual & automated testing, user testing with people with disabilities).
+* Audit your digital properties (manual and automated testing, user testing with people with disabilities ideally).
 * Plan remediation and inclusive design practices.
 * Train your team (designers, developers, content authors) in accessibility principles.
 * Embed accessibility into development lifecycle rather than treating it as a bolt-on.
+* Consider and talk about accessibility earlier in your processes and workflows
 * Monitor & maintain - accessibility is an ongoing effort, not a one-off checkbox.
 
 Here at EXP we can help with any of these, [get in touch and let's start the accessibility conversation](https://expconsultancy.com/contact) at your organisation.
