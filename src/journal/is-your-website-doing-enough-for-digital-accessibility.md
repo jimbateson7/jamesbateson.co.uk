@@ -105,7 +105,17 @@ We're constantly looking at ways we can bring accessibility into our design and 
 
 ### Digital and branding
 
-We work in both digital and print spaces with our partners. 
+We work in both digital and print spaces with our partners. This can present interesting challenges ensuring accessibility is considered across different mediums.
+
+### Accessible digital documents
+
+We work with a number of higher education organisations. When producing documents such as a prospectus, the digital versions, need to be accessible so that the content can be understood by everyone. This means producing accessible PDF versions, that consider heading structure, link text, contrast and image alt text.
+
+### Accessibility reviews
+
+We can conduct accessibility reviews on existing products to help understand where any accessibility gaps may be, and suggest remediation priority. This is often done using a mixture of automated and manual accessibility testing tools, and on a representative sample of pages, for example; key pages and common/important user journeys.
+
+### Accessibility remediation
 
 ### Our journey
 
