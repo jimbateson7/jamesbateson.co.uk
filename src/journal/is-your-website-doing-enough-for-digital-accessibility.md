@@ -35,7 +35,7 @@ From the same article, there are a number of findings that suggest that people w
 > * 83% of participants with access needs limit their shopping to sites that they know are accessible
 > * 86% have chosen to pay more for a product from an accessible website rather than buy the same product for less from a website that was harder to use.
 > * 4 million people abandoned a retail website because of the barriers
-> * an estimated loss of £11.75 billion comes from the ‘Click-Away Pound’
+> * An estimated loss of £11.75 billion comes from the ‘Click-Away Pound’
 >
 > **In 2019, the Click-Away Pound has grown to £17.1 billion.**
 >
@@ -126,4 +126,4 @@ Future EXP articles planned
 
 I'm going to finish on a bit of a self-plug. On Thursday 4th December, in the Fraser House Hub we will be delivering a lunchtime tech talk around accessibility. It will be the first in a series that will follow a similar direction to the blog post series mentioned above. It will start with an overview of accessibility, introducing the fundamentals.
 
-If you'd like to come along, or catch up with talk afterwards, please get in touch, and we'd be happy to help organise this.
+If you'd like to come along, or catch up with talk afterwards, [please get in touch](mailto:hello@expconsultancy.com), and we'd be happy to help organise this, and if you're reading this and a member of Fraser House, hopefully see you there!
