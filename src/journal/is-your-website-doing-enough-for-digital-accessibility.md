@@ -15,7 +15,7 @@ If for example, someone cannot see, hear, or use a mouse, would they still be ab
 
 ### It’s the right thing to do
 
-Accessibility is a **right**,not a privilege.
+Accessibility is a **right**, not a privilege.
 
 At its core, accessibility is about inclusion and equality. Every person deserves the opportunity to access information, services, and online interactions without unnecessary barriers. When digital services exclude people with disabilities, we reinforce inequality and marginalisation.
 
@@ -111,10 +111,10 @@ Monitor & maintain — accessibility is an ongoing effort, not a one-off checkbo
 
 Future EXP articles planned
 
-* Accessibility testing
-* Accessibility in digital documents
-* Accessibility in design
-* Accessibility in development
+* Methods of testing accessibility
+* How to create and check digital documents for accessibility
+* How accessibility can be added into the design workflow
+* Tips for ensuring development considers accessibility
 
 ## EXP lunchtime tech talk
 
