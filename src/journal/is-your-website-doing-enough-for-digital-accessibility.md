@@ -153,6 +153,7 @@ Here are some articles we have found useful when getting started with accessibil
 * An excellent [free accessibility fundamentals course from W3C](https://www.w3.org/WAI/courses/foundations-course/). Suitable for technical and non-technical learners
 * [The Beginners Guide to Web Accessibility](https://www.deque.com/web-accessibility-beginners-guide/) from Deque
 * [WCAG understanding documentation](https://www.w3.org/WAI/WCAG22/Understanding/) a more technical link, but useful for explaining WCAG success criteria in an easier to understand way
+* Scope have some great accessibility resources, this is their [beginners guide to digital accessibility](https://business.scope.org.uk/a-beginners-guide-to-digital-accessibility/)
 
 ## Follow up articles
 
