@@ -91,7 +91,7 @@ Even if your motivation is not legal compliance or ethics, accessibility is tigh
 * Well-structured, semantic HTML (headings, lists, alt text, etc) helps search engines understand your content.
 * Text alternatives (e.g. alt text on images, captions) add indexable content.
 * Cleaner, more efficient code (less clutter, better structure) often leads to faster page loads - which helps with SEO and user retention.
-* Better navigation (logical structure, skip links, keyboard access) reduces bounce rates and increases user dwell time - positive signals for search engines.
+* Better navigation (logical and consistent structure, skip links, keyboard access) reduces bounce rates and increases user dwell time - positive signals for search engines.
 
 In effect, many practices that help users with disabilities also signal to algorithms that your site is well structured, fast, and relevant.
 
