@@ -11,7 +11,7 @@ In the broadest sense, digital accessibility means designing and developing digi
 
 If for example, someone cannot see, hear, or use a mouse, would they still be able to use your product? Accessibility is not a "nice to have" and shouldn't be something that is considered at the end of a project. It can have a real impact on users, exclude whole groups of people and damage business reputation. Below are some reasons your organisation should care about it.
 
-Despite its importance, [the 2025 WebAIM One Million report ](https://webaim.org/projects/million/)found that **94.8%** of homepages tested have accessibility failings that could be creating barriers for people. We have to do better. 
+Despite its importance, [the 2025 WebAIM One Million report](https://webaim.org/projects/million/) found that **94.8%** of homepages tested have accessibility failings that could be creating barriers for people. We have to do better. 
 
 ## Why accessibility is important
 
