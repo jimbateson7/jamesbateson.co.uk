@@ -162,6 +162,7 @@ We're planning on this being the first article in a series of accessibility post
 * Methods of testing accessibility
 * How accessibility can be added into the design workflow
 * Tips for ensuring development considers accessibility
+* The importance of accessibility and content
 * How to create and check digital documents for accessibility
 
 [Check in on our blog ](https://expconsultancy.com/blog)in upcoming months to find out more.
