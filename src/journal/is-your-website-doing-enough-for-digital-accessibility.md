@@ -5,7 +5,7 @@ metaTitle: Is your website doing enough for digital accessibility?
 socialImage: /images/social-share-default.jpg
 date: 2025-09-24T14:30:00.000+01:00
 ---
-## Digital Accessibility: what it is, and why it matters
+## Digital accessibility: what it is, and why it matters
 
 In the broadest sense, digital accessibility means designing and developing digital products (websites, apps, documents, multimedia, etc.) so that people with a wide range of abilities and disabilities can use them effectively. It’s about ensuring content is perceivable, operable, understandable, and robust and we're not creating barriers that prevent people accessing and using content.
 
