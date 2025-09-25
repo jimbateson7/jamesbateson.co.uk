@@ -133,8 +133,7 @@ That's all for this first post folks, thanks for making it this far and we hope 
 
 Digital accessibility is no longer a “nice to have” afterthought .The moral case is obvious: everyone deserves access. The financial case is compelling: the Purple Pound is too big to ignore. The legal case is firm: many organisations are mandated to meet standards like WCAG 2.2 Level AA. And the SEO/tech case is a bonus that compounds the benefits.
 
-### 
-Where to start
+### Where to start
 
 Getting started can seem intimidating, but here are some ways you could start.
 
@@ -145,11 +144,14 @@ Getting started can seem intimidating, but here are some ways you could start.
 * Consider and talk about accessibility earlier in your processes and workflows
 * Monitor & maintain - accessibility is an ongoing effort, not a one-off checkbox.
 
-Here at EXP we can help with any of these, [get in touch and let's start the accessibility conversation](https://expconsultancy.com/contact) at your organisation.
+Here at EXP we can help with any of these or help you get started if you're unsure how we could help, [get in touch and let's start the accessibility conversation](https://expconsultancy.com/contact) at your organisation.
 
 ## Further reading
 
 Here are some articles we have found useful when getting started with accessibility.
+
+* An excellent [free accessibility fundamentals course from W3C](https://www.w3.org/WAI/courses/foundations-course/). Suitable for technical and non-technical learners
+*
 
 ## Follow up articles
 
