@@ -90,12 +90,24 @@ Even if your motivation is not legal compliance or ethics, accessibility is tigh
 
 * Well-structured, semantic HTML (headings, lists, alt text, etc) helps search engines understand your content.
 * Text alternatives (e.g. alt text on images, captions) add indexable content.
-* Cleaner, more efficient code (less clutter, better structure) often leads to faster page loads — which helps with SEO and user retention.
-* Better navigation (logical structure, skip links, keyboard access) reduces bounce rates and increases user dwell time — positive signals for search engines.
+* Cleaner, more efficient code (less clutter, better structure) often leads to faster page loads - which helps with SEO and user retention.
+* Better navigation (logical structure, skip links, keyboard access) reduces bounce rates and increases user dwell time - positive signals for search engines.
 
 In effect, many practices that help users with disabilities also signal to algorithms that your site is well structured, fast, and relevant.
 
-## Actionable takeaways (linking back to EXP)
+## Our accessibility experience
+
+At EXP, we care about people's experiences with our products and this includes making them as accessible and inclusive as possible.
+
+### Processes
+
+We're constantly looking at ways we can bring accessibility into our design and development workflows and ensure it's prioritised in collaboration. We used a mix of automated and manual tools to test accessibility to check and monitor accessibility. We ensure accessibility is discussed when scoping features and tickets to help make it part of our "definition of done".
+
+### Digital and branding
+
+We work in both digital and print spaces with our partners. 
+
+### Our journey
 
 * Accessibility in the EXP process, design, dev, branding
 * Uni, proposals, C2C review - get in touch, we can help message
