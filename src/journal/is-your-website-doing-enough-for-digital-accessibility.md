@@ -69,9 +69,9 @@ The [European Accessibility Act (EAA)](https://www.levelaccess.com/compliance-ov
 
 Even if you are based outside of the European Union (EU), if your services are available to people within the EU, you are in scope.
 
-The act can be interpreted in slightly different ways depending on individual country implementations and requirements, but the generally [EN 301 549](https://www.levelaccess.com/compliance-overview/en-301-549-compliance/) is the adopted standard. This has many of the same requirements as WCAG 2.1, so using these guidelines as a starting point can be a good place to start. Although The EAA goes beyond WCAG, it's about outcomes and people.
+The act can be interpreted in slightly different ways depending on individual country implementations and requirements, but the generally [EN 301 549](https://www.levelaccess.com/compliance-overview/en-301-549-compliance/) is the adopted standard. This has many of the same requirements as WCAG 2.1 (P.O.U.R - see below), so using these guidelines as a starting point can be a good place to start. Although, The EAA goes beyond WCAG, it's about outcomes and people.
 
-### WCAG - a very brief overview
+### WCAG - a brief overview
 
 The Web Content Accessibility Guidelines (WCAG) are an international standard that define how to make web content accessible. The latest version, WCAG 2.2, refines and adds success criteria (especially better addressing cognitive, mobility, and low-vision needs).
 
@@ -88,7 +88,7 @@ Meeting WCAG 2.2 AA is both a legal target (for many public sector bodies) and a
 
 Even if your motivation is not legal compliance or ethics, accessibility is tightly aligned with SEO best practices and site performance.
 
-* Well-structured, semantic HTML (with headings, lists, alt text, ARIA markup as appropriate) helps search engines understand your content.
+* Well-structured, semantic HTML (headings, lists, alt text, etc) helps search engines understand your content.
 * Text alternatives (e.g. alt text on images, captions) add indexable content.
 * Cleaner, more efficient code (less clutter, better structure) often leads to faster page loads — which helps with SEO and user retention.
 * Better navigation (logical structure, skip links, keyboard access) reduces bounce rates and increases user dwell time — positive signals for search engines.
