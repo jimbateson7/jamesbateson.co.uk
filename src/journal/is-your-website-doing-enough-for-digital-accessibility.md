@@ -11,7 +11,7 @@ In the broadest sense, digital accessibility means designing and developing digi
 
 If for example, someone cannot see, hear, or use a mouse, would they still be able to use your product? Accessibility is not a "nice to have" and shouldn't be something that is considered at the end of a project. It can have a real impact on users, exclude whole groups of people and damage business reputation. Below are some reasons your organisation should care about it.
 
-## Why Accessibility Is Important
+## Why accessibility Is Important
 
 ### It’s the right thing to do
 
@@ -51,7 +51,7 @@ Beyond direct sales, accessible design broadens reach, reduces friction, improve
 
 Depending on the sector you operate in and where you offer the service, you may be legally required to make your product or service accessible. Not doing so may lead to fines and reputational damage. Here are laws that are applicable in the UK.
 
-#### Public Sector and WCAG Requirements
+#### Public Sector
 
 In the UK, public sector bodies must adhere to the Public Sector Bodies Accessibility Regulations 2018, which mandate that websites and mobile apps meet accessibility standards.
 
@@ -86,14 +86,14 @@ Meeting WCAG 2.2 AA is both a legal target (for many public sector bodies) and a
 
 ### Benefits for other key metrics (SEO and performance)
 
-Even if your motivation is not legal compliance or ethics, accessibility is tightly aligned with SEO best practices and site performance:
-Well-structured, semantic HTML (with headings, lists, alt text, ARIA markup as appropriate) helps search engines understand your content.
-Text alternatives (e.g. alt text on images, captions) add indexable content.
-Cleaner, more efficient code (less clutter, better structure) often leads to faster page loads — which helps with SEO and user retention.
-Better navigation (logical structure, skip links, keyboard access) reduces bounce rates and increases user dwell time — positive signals for search engines.
-Accessibility favours mobile and responsive design (which is already vital for SEO).
+Even if your motivation is not legal compliance or ethics, accessibility is tightly aligned with SEO best practices and site performance.
+
+* Well-structured, semantic HTML (with headings, lists, alt text, ARIA markup as appropriate) helps search engines understand your content.
+* Text alternatives (e.g. alt text on images, captions) add indexable content.
+* Cleaner, more efficient code (less clutter, better structure) often leads to faster page loads — which helps with SEO and user retention.
+* Better navigation (logical structure, skip links, keyboard access) reduces bounce rates and increases user dwell time — positive signals for search engines.
+
 In effect, many practices that help users with disabilities also signal to algorithms that your site is well structured, fast, and relevant.
-So accessibility can deliver SEO upside even before counting the goodwill and compliance benefits.
 
 ## Actionable takeaways (linking back to EXP)
 
