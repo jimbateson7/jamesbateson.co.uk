@@ -152,6 +152,6 @@ Future EXP articles planned
 
 ## EXP tech lunch talk
 
-I'm going to finish on a bit of a self-plug. On Thursday 4th December, in the Fraser House Hub we will be delivering a lunchtime tech talk around accessibility. It will be the first in a series that will follow a similar direction to the blog post series mentioned above. It will start with an overview of accessibility, introducing the fundamentals.
+Going to finish on a bit of a self-plug. On Thursday 4th December, in the Fraser House Hub we will be delivering a lunchtime tech talk around accessibility. It will be the first in a series that will follow a similar direction to the blog post series mentioned above. It will start with an overview of accessibility, introducing the fundamentals.
 
-If you'd like to come along, or catch up with talk afterwards, [please get in touch](mailto:hello@expconsultancy.com), and we'd be happy to help organise this, and if you're reading this and a member of Fraser House, hopefully see you there!
+If you'd like to come along (free to attend), or catch up with talk afterwards (we're hoping to record), [please get in touch](mailto:hello@expconsultancy.com), and we'd be happy to help organise this, and if you're reading this and a member of Fraser House, hopefully see you there!
