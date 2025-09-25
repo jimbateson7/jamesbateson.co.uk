@@ -71,7 +71,7 @@ Even if you are based outside of the European Union (EU), if your services are a
 
 The act can be interpreted in slightly different ways depending on individual country implementations and requirements, but the generally [EN 301 549](https://www.levelaccess.com/compliance-overview/en-301-549-compliance/) is the adopted standard. This has many of the same requirements as WCAG 2.1 (P.O.U.R - see below), so using these guidelines as a starting point can be a good place to start. Although, The EAA goes beyond WCAG, it's about outcomes and people.
 
-### WCAG - a brief overview
+### A brief WCAG explanation
 
 The Web Content Accessibility Guidelines (WCAG) are an international standard that define how to make web content accessible. The latest version, WCAG 2.2, refines and adds success criteria (especially better addressing cognitive, mobility, and low-vision needs).
 
