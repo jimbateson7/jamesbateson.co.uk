@@ -53,14 +53,15 @@ Depending on the sector you operate in and where you offer the service, you may 
 
 #### Public Sector and WCAG Requirements
 
-In the UK, public sector bodies must adhere to the Public Sector Bodies (Websites and Mobile Applications) Accessibility Regulations 2018, which mandate that websites and mobile apps meet accessibility standards.
+In the UK, public sector bodies must adhere to the Public Sector Bodies Accessibility Regulations 2018, which mandate that websites and mobile apps meet accessibility standards.
 
-Specifically, public sector digital services must conform to WCAG 2.2 Level AA (or valid legal exceptions). Siteimprove+4GOV.UK+4GOV.UK+4 They also must publish an accessibility statement that clearly describes how accessible the site is and notes any parts that do not comply. GOV.UK+2Siteimprove+2
-The government guidance states that failure to comply may constitute a legal breach, especially if users are denied necessary access. GOV.UK
+Specifically, public sector digital services must conform to WCAG 2.2 Level AA. They also must publish an accessibility statement that clearly describes how accessible the site is and notes any parts that do not comply.
+
+Sites are regularly audited to ensure these standards are being met.
 
 ### Equality Act 2010
 
-There is also the broader Equality Act 2010, which superseded (in Great Britain) the earlier Disability Discrimination Act 1995. Wikipedia+3Wikipedia+3Level Access+3 The Equality Act does not explicitly define digital accessibility, but it imposes a duty on organisations (public and private) to make “reasonable adjustments” so as not to discriminate against disabled persons in accessing services. accessibe.com+2Level Access+2
+There is also the broader Equality Act 2010, which replaced the earlier Disability Discrimination Act 1995. The Equality Act does not explicitly define digital accessibility, but it imposes a duty on organisations (public and private) to make “reasonable adjustments” so as not to discriminate against disabled persons in accessing services.
 
 ### WCAG - a very brief overview
 
