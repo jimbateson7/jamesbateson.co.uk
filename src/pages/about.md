@@ -3,7 +3,7 @@ layout: layouts/page.njk
 title: About
 bannerSummary: Hi I'm James — a passionate UI Developer and Digital
   Accessibility Specialist based in the North West
-bannerImage: /images/jim-2.webp
+bannerImage: /images/exp-blog-website-james-bateson-joins-large.jpg
 bannerImageClass: rounded
 permalink: /about/
 metaTitle: ""
