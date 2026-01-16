@@ -12,25 +12,24 @@ socialImage: /images/social-share-default.jpg
 ---
 ## Enjoying
 
-I've recently moved back to my hometown Kirkby Lonsdale. Returning (a lot) older and wiser has given me a new appreciation of how beautiful it is around here. So I'm currently:
+I've recently moved into a flat in Lancaster, still got a few bits to sort, but it's nice to have my own space again. Recently I've been:
 
-* Following a running traning plan
-* Getting out walking
-* Strength training to aid the running
-* Trying out different places to work
-* Starting to write a little more regularly
-* Volunteering with local community groups and charities. So far I've helped out a charity jumble sale, community food bank, and local Parkrun
-* Settling into a [new role at EXP](https://jamesbateson.co.uk/articles/starting-a-new-role/) 🎉
+* Furniture shopping 
+* Building furniture
+* Discovering much loved running and hiking routes from when I previously lived here
+* Volunteering at Parkrun (until fit enough to run it)
+* Joined a running club
+* Joined a gym
 
 ## Learning
 
-Whilst I settle into my new role, I'm not looking to burn out, and concentrating on that.
+I'm currently working on a project that uses Craft CMS which I've not used before, so learning a bit more about that
 
-* Finding my way around tech stacks and ways of working in my new role
+* Putting together a talk at a local SEO event (theme will be around SEO and accessibility complementing each other)
 
 ## Making
 
-* Planning this years Great British Bake Off fan site
+* Deck for SEO x Accessibility talk
 
 ## Reading
 
