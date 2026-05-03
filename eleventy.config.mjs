@@ -1,24 +1,26 @@
-const rssPlugin = require('@11ty/eleventy-plugin-rss');
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const {eleventyImageTransformPlugin} = require('@11ty/eleventy-img');
-const fs = require('fs');
-const markdownIt = require('markdown-it');
-const markdownItAnchor = require('markdown-it-anchor');
+import rssPlugin from '@11ty/eleventy-plugin-rss';
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import {eleventyImageTransformPlugin} from '@11ty/eleventy-img';
+import fs from 'fs';
+import markdownIt from 'markdown-it';
+import markdownItAnchor from 'markdown-it-anchor';
 
 // Import filters
-const dateFilter = require('./src/filters/date-filter.js');
-const secondsFilter = require('./src/filters/seconds-filter.js');
-const metersFilter = require('./src/filters/meters-filter.js');
-const markdownFilter = require('./src/filters/markdown-filter.js');
-const w3DateFilter = require('./src/filters/w3-date-filter.js');
+import dateFilter from './src/filters/date-filter.js';
+import secondsFilter from './src/filters/seconds-filter.js';
+import metersFilter from './src/filters/meters-filter.js';
+import markdownFilter from './src/filters/markdown-filter.js';
+import w3DateFilter from './src/filters/w3-date-filter.js';
 
 // Import transforms
-const parseTransform = require('./src/transforms/parse-transform.js');
+import parseTransform from './src/transforms/parse-transform.js';
 
 // Import data files
+import {createRequire} from 'module';
+const require = createRequire(import.meta.url);
 const site = require('./src/_data/site.json');
 
-module.exports = (config) => {
+export default (config) => {
 	// Plugins
 	config.addPlugin(eleventyImageTransformPlugin);
 	config.addPlugin(rssPlugin);
