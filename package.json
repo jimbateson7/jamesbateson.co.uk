@@ -29,7 +29,7 @@
 		"rollup-plugin-node-builtins": "^1.1.0",
 		"rollup-plugin-node-resolve": "^5.0.3",
 		"sass": "^1.97.3",
-		"stylelint": "^17.10.0",
+		"stylelint": "^17.11.1",
 		"stylelint-order": "^8.1.1",
 		"twitter-avatar-url": "^2.2.0"
 	},
