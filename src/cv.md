@@ -85,7 +85,7 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 * React
 * T﻿ypeScript
 * Git
-* Accessibility - including good knowledge of WCAG 2.1/2.2 standards
+* Accessibility - including strong knowledge of WCAG 2.2 guidelines
 * Performance/site-speed optimisations
 * Problem solving
 * Ability to effectively communicate technical issues and solutions across different disciplines
@@ -93,7 +93,8 @@ I consider myself very much 'front-of-the-front-end' and my passions lie around 
 ### Experience with
 
 * HTML templating languages (Nunjucks, liquid)
-* H﻿eadless CMS (Contentful, DatoCMS)
+* H﻿eadless CMS (Contentful, DatoCMS, WordPress)
+* GraphQL
 * W﻿ordpress
 * U﻿mbraco
 * S﻿hopify
