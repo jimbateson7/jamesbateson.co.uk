@@ -15,7 +15,7 @@ bannerSummary: I'm James — a passionate UI Developer and Digital Accessibility
 
 <div class="cv-heading">
 
-### Front End Developer at ![EXP logo](/images/avatars/twitter/exp.jpg) [EXP Consultancy](https://expconsultancy.com/)
+### Front End Developer at ![EXP logo](/images/avatars/twitter/exp.jpg) [EXP](https://expconsultancy.com/)
 
 #### August 2025 - Present
 
