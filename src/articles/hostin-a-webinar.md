@@ -40,8 +40,6 @@ For this reason, I decided that we would not turn them off by default, but inclu
 
 When sharing the video afterwards, you can add your own closed captions to ensure they are accurate. Could you use the webinar transcript as a starting point for them?
 
-### Motion
-
 ### Attendee participation 
 
 You can also control how attendees can interact with the webinar in general and with each other.
@@ -54,7 +52,7 @@ Another way to encourage feedback, interaction and questions is to use the chat 
 
 Whatever combination of these you go for, I feel it's important to make a distinction to the attendees around the function of both. For example, you might not want people putting questions in the chat and the QA; this could make it difficult for moderators to find popular/commonly themed questions, and important things could get missed.
 
-In my housekeeping slide I mentioned posting questions in the QA during the presentation of content, any interaction content, for example, asking people to guess a percentage, I made sure to ask people to post these in the chat, not QA.
+In my housekeeping slide, I mentioned posting questions in the QA during the presentation of content, any interaction content, for example, asking people to guess a percentage. I made sure to ask people to post these in the chat, not QA.
 
 ### Content sharing
 
