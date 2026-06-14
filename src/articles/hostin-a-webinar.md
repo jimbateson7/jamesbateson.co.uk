@@ -18,4 +18,14 @@ As we use Microsoft Teams internally for communications and many of our clients 
 
 **Note**: the examples and screenshots I'm going to be using are creating and setting up a Teams webinar event through the Outlook calendar using the Mac OS app. [Microsoft have detailed guides on event setup and considerations](https://support.microsoft.com/en-us/teams/meetings/get-started-with-microsoft-teams-webinars) that may be easier to follow if using a different operating system or the web version.
 
+## Meeting options
+
 ### Green room
+
+Found under "Production tools", this seems to be checked by default when creating a new webinar event, but if not is a useful feature that allows organisers, moderators and presenters to test video, audio and content sharing before any attendees are admitted. As you're in this space, you'll see people joining the webinar, and you can admit them into a lobby whilst you do your final checks. Only when you start the meeting from the green room will the webinar start.
+
+### Recording and transcription
+
+By default, this is turned on by default, but you can set it to either or turn them both off. We left them on, as it allows you to share the webinar with people who registered but may not have been able to attend the event live. Transcription also allows you to have another format for the spoken content of the event that you can distribute or refer to should people need a different way to consume the content.\
+\
+**Note**: It's important to ensure people are aware that a session is being recorded. You could do this in the even details when advertising it, and also mention it during your "housekeeping" slide. This gives people the chance to turn cameras off (if they are enabled) and such.
