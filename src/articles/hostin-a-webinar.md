@@ -64,4 +64,6 @@ The presentation I had was put together in Microsoft PowerPoint and featured a f
 
 To get around this, I decided to [present in Teams via PowerPoint live](https://support.microsoft.com/en-gb/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad). This has better support for embedded videos in a Teams live event, and also is actually a much nicer UI from a presenting point of view. It puts your content and speaker notes side-by-side, alongside giving you all the meeting room UI on one screen. I was only using one screen during the event, so I found this so much better than having to share my full screen with no easy access to the meeting UI without stopping the full-screen presentation.
 
+**Note**: When sharing via PowerPoint live, you get some extra presentation controls, such as arrow navigation through slides, the ability to annotate content, change contrast modes of the content, and even fully translate slide content. You may not want to give your attendees the ability to be able to use any of these. For example, I restricted access to navigation of the slides, so people couldn't jump ahead/back and removed the ability to annotate slides; the others I was happy with from a preference point of view.
+
 ## Before the event
