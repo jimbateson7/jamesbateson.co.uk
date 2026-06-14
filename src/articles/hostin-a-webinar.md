@@ -64,4 +64,22 @@ To get around this, I decided to [present in Teams via PowerPoint live](https://
 
 **Note**: When sharing via PowerPoint live, you get some extra presentation controls, such as arrow navigation through slides, the ability to annotate content, change contrast modes of the content, and even fully translate slide content. You may not want to give your attendees the ability to be able to use any of these. For example, I restricted access to navigation of the slides, so people couldn't jump ahead/back and removed the ability to annotate slides; the others I was happy with from a preference point of view.
 
+#### Motion
+
+As mentioned briefly, I had some motion on some slides in my presentation. I feel it's important to make people aware of the extent of this before/at the start of the presentation. Just as on the web, autoplaying, looping content that has animated elements in it can be a trigger for people with vestibular conditions such as motion sickness, or it could cause a distraction from content for people.
+
+Ideally, motion/any video media would not autoplay, and if needed to autoplay (such as slide/content transitions, a short GIF) for the effect to work, it should be short, muted, and not loop.
+
+To be honest, the animations on my slides did loop, which I flagged in my "housekeeping" slide at the very start of the webinar, just to let people know. This is something that I could have done better, I feel, whether that be reducing some of the motion or ensuring it didn't loop. Another strategy would have been to add a little visual indicator on the slide before one that featured motion, allowing me to remind people that the next slide would have motion.
+
+### Content accessibility
+
+I'm not just adding this in as my webinar topic was accessibility-related; no matter the subject, it's important to make sure the content you present is accessible. Check your slides' colour contrast, add alt text to your images, and describe any images on your slides to attendees, add captions to any embedded video that has spoken audio and structure your content properly (slide titles, etc). Not only will this benefit people watching your presentation, but it'll also set you up well for ensuring that when you share your content after the event, you're sharing an accessible digital document.
+
 ## Before the event
+
+When advertising/marketing the event, be as upfront as possible about what people might expect, also provide a way/give people the option to get in touch about any content allowances they might require, or ask about the delivery and ways it could be adapted.
+
+As mentioned previously, also flag if the session will be recorded and the deck shared. I've heard people have avoided this at times, due to it increasing drop-offs for the live event as people know they will be able to catch it afterwards, but time doesn't always pan out, things come up for people that prevents them from attending, so I think it's nice to show that they won't be excluded from watching the event if that happens and they can go through things in their own time.
+
+## Wrapping up
