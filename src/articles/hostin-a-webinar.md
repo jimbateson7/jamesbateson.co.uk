@@ -50,7 +50,7 @@ When setting the webinar up, the meeting options give you the option to allow at
 
 Another way to encourage feedback, interaction and questions is to use the chat and QA functionality Teams offers. You can set the chat to be live during the meeting only, so the conversation can continue afterwards or turn it off. The QA panel is a great space that can be dedicated to questions/comments directly related to the content. It can lead to excellent discussions and further the content during the time for questions.
 
-Whatever combination of these you go for, I feel it's important to make a distinction to the attendees around the function of both. For example, you might not want people putting questions in the chat and the QA, this could make it difficult for moderators to find popular/commonnly themed questions, and important things could get missed.
+Whatever combination of these you go for, I feel it's important to make a distinction to the attendees around the function of both. For example, you might not want people putting questions in the chat and the QA; this could make it difficult for moderators to find popular/commonly themed questions, and important things could get missed.
 
 In my housekeeping slide I mentioned posting questions in the QA during the presentation of content, any interaction content, for example, asking people to guess a percentage, I made sure to ask people to post these in the chat, not QA.
 
