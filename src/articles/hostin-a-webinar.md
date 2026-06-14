@@ -40,6 +40,8 @@ For this reason, I decided that we would not turn them off by default, but inclu
 
 When sharing the video afterwards, you can add your own closed captions to ensure they are accurate. Could you use the webinar transcript as a starting point for them?
 
+### Motion
+
 ### Attendee participation 
 
 You can also control how attendees can interact with the webinar in general and with each other.
@@ -56,6 +58,10 @@ In my housekeeping slide I mentioned posting questions in the QA during the pres
 
 ### Content sharing
 
-There are a couple of options for sharing content in a Teams webinar.
+There are a couple of options for sharing content in a Teams webinar. You can share your screen, which shows the attendees whatever is on the display you decide to share. This would typically be a view screen version of the presentation in whichever tool you used to create it. You then might have your speaker notes on another display if you need them.
+
+The presentation I had was put together in Microsoft PowerPoint and featured a few slides with animations put together by our talented motion designer at EXP. When doing a practice run sharing content via the screen share within Teams, we quickly realised that it was causing issues with the animations; they were very laggy and distracting from the content.
+
+To get around this, I decided to [present in Teams via PowerPoint live](https://support.microsoft.com/en-gb/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad). This has better support for embedded videos in a Teams live event, and also is actually a much nicer UI from a presenting point of view. It puts your content and speaker notes side-by-side, alongside giving you all the meeting room UI on one screen. I was only using one screen during the event, so I found this so much better than having to share my full screen with no easy access to the meeting UI without stopping the full-screen presentation.
 
 ## Before the event
