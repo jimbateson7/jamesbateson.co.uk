@@ -26,13 +26,17 @@ Found under "Production tools", this seems to be checked by default when creatin
 
 ### Recording and transcription
 
-By default, this is turned on by default, but you can set it to either or turn them both off. We left them on, as it allows you to share the webinar with people who registered but may not have been able to attend the event live. Transcription also allows you to have another format for the spoken content of the event that you can distribute or refer to should people need a different way to consume the content.\
+By default, this is turned on by default, but you can set it to either or turn them both off. We left them on, as it allows you to share the webinar with people who registered but may not have been able to attend the event live. Transcription also allows you to have another format for the spoken content of the event that you can distribute or refer to should people need a different way to consume the content. The recording and transcription start as soon as you start the meeting (doesn't record or transcribe the green room, should you have that).\
 \
 **Note**: It's important to ensure people are aware that a session is being recorded. You could do this in the event details when advertising it, and also mention it during your "housekeeping" slide. This gives people the chance to turn cameras off (if they are enabled) and makes them aware that any questions/conversation would be recorded, an important privacy consideration.
 
 ### Captions
 
-There are a few considerations when it comes to captions. You can enable them by default in the meeting, this way everybody sees them as soon as the meeting starts, you also choose what languages captions are available in
+There are a few considerations when it comes to captions. You can enable them by default in the meeting; this way, everybody sees them as soon as the meeting starts. You also choose what languages the captions are available in.
+
+I tried this for a couple of practices, and I'm unsure if it was my mic or the clarity/speed I was speaking at, but I often observed inaccuracies in the live captions that in some cases, distracted from or misrepresented the content I was delivering.
+
+For this reason, I decided that we would not 
 
 ### Attendee participation 
 
