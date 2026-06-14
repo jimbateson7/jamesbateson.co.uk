@@ -1,14 +1,14 @@
 ---
 layout: layouts/post.njk
 inProgress: true
-title: Hosting a webinar
+title: Hosting a webinar on Microsoft Teams
 metaDesc: To celebrate Global Accessibility Awareness Day 2026, I hosted my
   first webinar, an intro to digital accessibility, why it's important and how
   to get started implementing in an organisation..
 socialImage: /images/social-share-default.jpg
 date: 2026-06-09T08:54:00.000+01:00
 ---
-For this year's Global Accessibility Awareness Day (21st May 2026), I hosted my first webinar. This was organised and supported by EXP (the agency I work for), and I'm massively grateful for them giving me the platform to try this.
+For this year's Global Accessibility Awareness Day (21st May 2026), I hosted my first webinar via Microsoft Teams. This was organised and supported by EXP (the agency I work for), and I'm massively grateful for them giving me the platform to try this.
 
 I'm jotting down some learnings from presenting in this format and how I tried to make the event more inclusive.
 
@@ -55,5 +55,7 @@ Whatever combination of these you go for, I feel it's important to make a distin
 In my housekeeping slide I mentioned posting questions in the QA during the presentation of content, any interaction content, for example, asking people to guess a percentage, I made sure to ask people to post these in the chat, not QA.
 
 ### Content sharing
+
+There are a couple of options for sharing content in a Teams webinar.
 
 ## Before the event
