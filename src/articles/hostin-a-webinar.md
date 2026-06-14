@@ -34,11 +34,25 @@ By default, this is turned on by default, but you can set it to either or turn t
 
 There are a few considerations when it comes to captions. You can enable them by default in the meeting; this way, everybody sees them as soon as the meeting starts. You also choose what languages the captions are available in.
 
-I tried this for a couple of practices, and I'm unsure if it was my mic or the clarity/speed I was speaking at, but I often observed inaccuracies in the live captions that in some cases, distracted from or misrepresented the content I was delivering.
+I tried this for a couple of practices, and I'm unsure if it was my mic or the clarity/speed I was speaking at, but I often observed inaccuracies in the live captions that, in some cases, distracted from or misrepresented the content I was delivering.
 
-For this reason, I decided that we would not 
+For this reason, I decided that we would not turn them off by default, but include information on how to turn them on for attendees on an individual basis. Whilst it did possibly inconvenience people with needing to follow these steps, I felt that it put the choice with the attendee, rather than possibly showing inaccurate captions for everybody. Still unsure if this was the right decision, something to think about for future events.
+
+When sharing the video afterwards, you can add your own closed captions to ensure they are accurate. Could you use the webinar transcript as a starting point for them?
 
 ### Attendee participation 
+
+You can also control how attendees can interact with the webinar in general and with each other.
+
+When setting the webinar up, the meeting options give you the option to allow attendees to use their cameras and mics. If planning interactive sections of the webinar, encouraging feedback and questions, these will be key.
+
+**Note**: I feel that it's important that even if you enable the camera and mic options, people feel comfortable in their preferences, and ensure that people don't feel pressured into having the camera on and needing to speak up if they would prefer not to.
+
+Another way to encourage feedback, interaction and questions is to use the chat and QA functionality Teams offers. You can set the chat to be live during the meeting only, so the conversation can continue afterwards or turn it off. The QA panel is a great space that can be dedicated to questions/comments directly related to the content. It can lead to excellent discussions and further the content during the time for questions.
+
+Whatever combination of these you go for, I feel it's important to make a distinction to the attendees around the function of both. For example, you might not want people putting questions in the chat and the QA, this could make it difficult for moderators to find popular/commonnly themed questions, and important things could get missed.
+
+In my housekeeping slide I mentioned posting questions in the QA during the presentation of content, any interaction content, for example, asking people to guess a percentage, I made sure to ask people to post these in the chat, not QA.
 
 ### Content sharing
 
