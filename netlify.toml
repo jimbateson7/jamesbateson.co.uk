@@ -1,3 +1,8 @@
 [build]
 command = "npm run production"
 publish = "dist"
+
+[[redirects]]
+from = "/articles/hostin-a-webinar/"
+to = "/articles/hosting-a-webinar/"
+status = 301
