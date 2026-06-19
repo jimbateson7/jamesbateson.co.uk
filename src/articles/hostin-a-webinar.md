@@ -10,7 +10,9 @@ date: 2026-06-09T08:54:00.000+01:00
 ---
 For this year's Global Accessibility Awareness Day (21st May 2026), I hosted my first webinar via Microsoft Teams. This was organised and supported by EXP (the agency I work for), and I'm massively grateful for them giving me the platform to try this.
 
-I'm jotting down some learnings from presenting in this format and how I tried to make the event more inclusive.
+Hosting a webinar is very different from presenting to a room in person. You're suddenly responsible not just for your content, but for decisions around recording, captions, audience participation, motion, and how people might consume the content after the event.
+
+As this was my first webinar, I wanted to jot down some of the things I learned along the way and some of the accessibility considerations that shaped how I planned and delivered it.
 
 ## The platform
 
