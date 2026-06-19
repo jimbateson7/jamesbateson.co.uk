@@ -1,5 +1,6 @@
 ---
 layout: layouts/post.njk
+inProgress: false
 title: Scheduled builds using Netlify build hooks and Github actions
 metaTitle: James Bateson | Netlify build hooks and Github actions
 metaDesc: How to set up a simple automated Netlify site build and deploy
@@ -63,12 +64,12 @@ jobs:
 Before we break down a few of these settings, you'll need to change a couple of bits specific to the bits we set up in previous steps.
 
 * **name (and jobs:build:name)** - change these to something that better describes what your build is doing
-* **schedule** - this uses Cron syntax to tell Gtihub when exactly to run the build. This can look confusing, but the basic syntax is minute - hour - day (month) - month - day (week). So my example above runs at 9am every Monday. [This site](https://crontab.guru/) provides a handy visualisation of that syntax.
+* **schedule** - this uses Cron syntax to tell GitHub when exactly to run the build. This can look confusing, but the basic syntax is minute - hour - day (month) - month - day (week). So my example above runs at 9am every Monday. [This site](https://crontab.guru/) provides a handy visualisation of that syntax.
 * **TOKEN** This is where you will need the name of the token you created in the previous step, add that name after the `secrets.` replacing mine. You can then see that this is passed to the curl URL that Netlify gave us for our build hook, rather than putting your full unique ID in there!
 
-It's worth noting that there are more options you can set up in this file. This was just all I needed to trigger a weekly build of a site. [Check out the detailed documentation](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) on the actions workflow, for other bits you can set.
+It's worth noting that there are more options you can set up in this file. This was just all I needed to trigger a weekly build of a site. [Check out the detailed documentation](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions) on the actions workflow. For other bits you can set.
 
-If you now commit this directory to Github and go to the `Actions` menu item (top repo navigation - has a little play icon) you *should* be able to see the action you have set up! When your action runs, it will create a log of whether it was successful or not, how long it took, with some other info as well.
+If you now commit this directory to GitHub and go to the `Actions` menu item (top repo navigation - has a little play icon), you *should* be able to see the action you have set up! When your action runs, it will create a log of whether it was successful or not, how long it took, and some other info as well.
 
 ![Screenshot showing a successful Github action build](/images/screenshot-2020-08-19-at-07.20.03.png)
 
