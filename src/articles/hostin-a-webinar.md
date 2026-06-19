@@ -92,4 +92,12 @@ When advertising/marketing the event, be as upfront as possible about what peopl
 
 As mentioned previously, also flag if the session will be recorded and the deck shared. I've heard people have avoided this at times, due to it increasing drop-offs for the live event as people know they will be able to catch it afterwards, but time doesn't always pan out, things come up for people that prevents them from attending, so I think it's nice to show that they won't be excluded from watching the event if that happens and they can go through things in their own time.
 
+## After the event
+
+Once the event is finished, and depending on whether you recorded and planned to share the content, it can be useful to give yourself a few days or so to review your content, make sure it passed accessibility checks, and add accurate captions to your recording before sharing.
+
 ## Wrapping up
+
+Overall, I'm really happy with how the webinar went and grateful to have had the opportunity to try this format for the first time. There are some things I'd change for future events, such as exploring other hosting platforms and being more proactive in communicating the inclusive features available to attendees, but those are exactly the kinds of lessons that only come from doing it.
+
+One thing this experience reinforced for me is that accessibility shouldn't be based on assumptions about your audience. Even if you think everyone attending will have similar needs, designing an inclusive experience from the outset means nobody is unintentionally excluded. Whether someone is attending live, watching a recording later, or consuming the content in a different format entirely, small decisions made during planning can have a significant impact on how accessible the experience ultimately is.
