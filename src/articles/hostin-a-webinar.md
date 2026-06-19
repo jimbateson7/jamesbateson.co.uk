@@ -14,9 +14,13 @@ I'm jotting down some learnings from presenting in this format and how I tried t
 
 ## The platform
 
-As we use Microsoft Teams internally for communications and many of our clients also use it, we decided to use it to host the webinar. To be honest, the creation of the webinar invite isn't too much different from creating an internal meeting event; however, there are some useful settings you can configure to improve both the moderating/presenting and audience experience.
+As we use Microsoft Teams internally for communication and many of our clients also use it, we decided to host the webinar there. The creation of the webinar invite isn't too much different from creating an internal meeting event; however, there are some useful settings you can configure to improve both the moderating/presenting and audience experience.
 
-**Note**: the examples and screenshots I'm going to be using are creating and setting up a Teams webinar event through the Outlook calendar using the Mac OS app. [Microsoft have detailed guides on event setup and considerations](https://support.microsoft.com/en-us/teams/meetings/get-started-with-microsoft-teams-webinars) that may be easier to follow if using a different operating system or the web version.
+<div class="post-note"><h3 id="intro-further-reading">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3>
+<p>The examples and screenshots I'm going to be using are creating and setting up a Teams webinar event through the Outlook calendar using the Mac OS app. [Microsoft have detailed guides on event setup and considerations](https://support.microsoft.com/en-us/teams/meetings/get-started-with-microsoft-teams-webinars) that may be easier to follow if using a different operating system or the web version.</p>
+</div>
+
+**Note**:
 
 ## Meeting setup options
 
