@@ -17,7 +17,7 @@ I'm jotting down some learnings from presenting in this format and how I tried t
 As we use Microsoft Teams internally for communication and many of our clients also use it, we decided to host the webinar there. The creation of the webinar invite isn't too much different from creating an internal meeting event; however, there are some useful settings you can configure to improve both the moderating/presenting and audience experience.
 
 <div class="post-note"><h3 id="intro-further-reading">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3>
-<p>The examples and screenshots I'm going to be using are creating and setting up a Teams webinar event through the Outlook calendar using the Mac OS app. [Microsoft have detailed guides on event setup and considerations](https://support.microsoft.com/en-us/teams/meetings/get-started-with-microsoft-teams-webinars) that may be easier to follow if using a different operating system or the web version.</p>
+<p>The examples and screenshots I'm going to be using are creating and setting up a Teams webinar event through the Outlook calendar using the Mac OS app. <a href="https://support.microsoft.com/en-us/teams/meetings/get-started-with-microsoft-teams-webinars">Microsoft have detailed guides on event setup and considerations</a> that may be easier to follow if using a different operating system or the web version.</p>
 </div>
 
 **Note**:
@@ -30,9 +30,11 @@ Found under "Production tools", this seems to be checked by default when creatin
 
 ### Recording and transcription
 
-By default, this is turned on by default, but you can set it to either or turn them both off. We left them on, as it allows you to share the webinar with people who registered but may not have been able to attend the event live. Transcription also allows you to have another format for the spoken content of the event that you can distribute or refer to should people need a different way to consume the content. The recording and transcription start as soon as you start the meeting (doesn't record or transcribe the green room, should you have that).\
-\
-**Note**: It's important to ensure people are aware that a session is being recorded. You could do this in the event details when advertising it, and also mention it during your "housekeeping" slide. This gives people the chance to turn cameras off (if they are enabled) and makes them aware that any questions/conversation would be recorded, an important privacy consideration.
+By default, this is turned on by default, but you can set it to either or turn them both off. We left them on, as it allows you to share the webinar with people who registered but may not have been able to attend the event live. Transcription also allows you to have another format for the spoken content of the event that you can distribute or refer to should people need a different way to consume the content. The recording and transcription start as soon as you start the meeting (doesn't record or transcribe the green room, should you have that).
+
+<div class="post-note"><h3 id="recording-transcription-note">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3>
+<p>It's important to ensure people are aware that a session is being recorded. You could do this in the event details when advertising it, and also mention it during your "housekeeping" slide. This gives people the chance to turn cameras off (if they are enabled) and makes them aware that any questions/conversation would be recorded, an important privacy consideration.</p>
+</div>
 
 ### Captions
 
@@ -50,7 +52,9 @@ You can also control how attendees can interact with the webinar in general and 
 
 When setting the webinar up, the meeting options give you the option to allow attendees to use their cameras and mics. If planning interactive sections of the webinar, encouraging feedback and questions, these will be key.
 
-**Note**: I feel that it's important that even if you enable the camera and mic options, people feel comfortable in their preferences, and ensure that people don't feel pressured into having the camera on and needing to speak up if they would prefer not to.
+<div class="post-note"><h3 id="camera-on-note">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3>
+<p>I feel that it's important that even if you enable the camera and mic options, people feel comfortable in their preferences, and ensure that people don't feel pressured into having the camera on and needing to speak up if they would prefer not to.<p>
+</div>
 
 Another way to encourage feedback, interaction and questions is to use the chat and QA functionality Teams offers. You can set the chat to be live during the meeting only, so the conversation can continue afterwards or turn it off. The QA panel is a great space that can be dedicated to questions/comments directly related to the content. It can lead to excellent discussions and further the content during the time for questions.
 
@@ -66,7 +70,9 @@ The presentation I had was put together in Microsoft PowerPoint and featured a f
 
 To get around this, I decided to [present in Teams via PowerPoint live](https://support.microsoft.com/en-gb/office/present-from-powerpoint-live-in-microsoft-teams-28b20e74-7165-499c-9bd4-0ad975d448ad). This has better support for embedded videos in a Teams live event, and also is actually a much nicer UI from a presenting point of view. It puts your content and speaker notes side-by-side, alongside giving you all the meeting room UI on one screen. I was only using one screen during the event, so I found this so much better than having to share my full screen with no easy access to the meeting UI without stopping the full-screen presentation.
 
-**Note**: When sharing via PowerPoint live, you get some extra presentation controls, such as arrow navigation through slides, the ability to annotate content, change contrast modes of the content, and even fully translate slide content. You may not want to give your attendees the ability to be able to use any of these. For example, I restricted access to navigation of the slides, so people couldn't jump ahead/back and removed the ability to annotate slides; the others I was happy with from a preference point of view.
+<div class="post-note"><h3 id="powerpoint-live-note">Note<a href="#heading-note" class="heading-permalink"><span class="visually-hidden"> permalink</span></a></h3>
+<p>When sharing via PowerPoint live, you get some extra presentation controls, such as arrow navigation through slides, the ability to annotate content, change contrast modes of the content, and even fully translate slide content. You may not want to give your attendees the ability to be able to use any of these. For example, I restricted access to navigation of the slides, so people couldn't jump ahead/back and removed the ability to annotate slides; the others I was happy with from a preference point of view.</p>
+</div>
 
 #### Motion
 
