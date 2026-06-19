@@ -1,6 +1,6 @@
 ---
 layout: layouts/post.njk
-inProgress: true
+inProgress: false
 title: Hosting a webinar on Microsoft Teams
 metaDesc: To celebrate Global Accessibility Awareness Day 2026, I hosted my
   first webinar, an intro to digital accessibility, why it's important and how
