@@ -12,24 +12,19 @@ socialImage: /images/social-share-default.jpg
 ---
 ## Enjoying
 
-I've recently moved into a flat in Lancaster, still got a few bits to sort, but it's nice to have my own space again. I fell out of running again and felt a little low again towards the end of last year, so currently building things back up as well as sorting the flat. Recently, I've been:
-
-* Furniture shopping 
-* Building furniture
-* Re-discovering much loved running and hiking routes from when I previously lived here
-* Volunteering at Parkrun (until fit enough to run it)
-* Joined a running club
-* Joined a gym
+* A gym/nutrition routine
+* Red Dead Redemption 2
+* Found a good combination of knee supports that's allowing me to get out for 5k or so a couple of times a week (plodding, but slow motion is better than no motion)
 
 ## Learning
 
-* I'm currently working on a project that uses Craft CMS which I've not used before, so learning a bit more about that
-
-* Putting together a talk at a local SEO event (theme will be around SEO and accessibility complementing each other)
+* More about JSON-LD and schema and how it can be used to provide better signals to AEO
+* Working my way through the [Whimsical Animations](https://whimsy.joshwcomeau.com/) course from [Josh W. Comeau](https://www.joshwcomeau.com/)
 
 ## Making
 
-* Deck for SEO x Accessibility talk
+* Speedlify 2 instance
+* GBBO 2026 fan site
 
 ## Reading
 
